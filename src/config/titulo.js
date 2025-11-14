@@ -1,1 +1,1 @@
-module.exports = 'ECOBASE_SENA'
+module.exports = 'Fundamentos de la Vigilancia Basada en Comunidad'
