@@ -87,7 +87,7 @@
 
 .tarjeta
   &--BGC01
-    background-color: #FEEADD
+    background-color: #F4E9E7
   &--BGC02
     background-color: #FFDD8B
   &--BGC03
@@ -115,6 +115,8 @@
     border-radius: 20px
   &-6
     background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(254, 242, 229, 1) 20%, rgba(242, 249, 247, 1) 80%, rgba(255, 255, 255, 1) 100%)
+  &-7
+    background-color: #FEEADD
 
 .bg
   &-c1 
@@ -149,6 +151,11 @@
     padding: 1.5rem
 
 .cajon.cajon.color-secundario 
+  background-color: #FDD5BA
+  &::before
+    background-color: #FA9757
+
+.cajon.cajon.color-secundario-medio
   background-color: #FEEADD
   &::before
     background-color: #FA9757
@@ -164,18 +171,23 @@
   .linea-tiempo-d__item--selected
     .linea-tiempo-d__item__content
       background-color: #F4E9E7 !important 
+    .tarjeta.tarjeta--gris
+      background-color: #CED5F9
+      color: #000 !important
   .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
     background-color: #FFDD8B
+.tarjeta.tarjeta--gris
+  background-color: #0B2FE1
 
-.tarjeta--gris
-  background-color: #CED5F9
-
-.tarjeta--gris > span
-  color: #ffff !important
+.tarjeta.tarjeta--gris > span
+  color: #fff !important
 
 .espacio___movil_1
   @media screen and (max-width: 1200px)
     margin-top: 2rem !important
+
+.tarjeta.tarjeta--gris2
+  background-color: #CED5F9
 
 .tarjeta-avatar-b__img
   min-width: 15%
@@ -470,3 +482,58 @@
 
 .tarjeta-numerada.color-adicional-4 .tarjeta-numerada__numero
   background-color: #FDD5BA
+
+.fondo2-t2
+  background-image: url(../assets/curso/temas/tema1/img-83.svg) !important
+  margin-inline: -3rem
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+  @media screen and (max-width: $bp-max-sm)
+    margin-inline: -1.5rem
+
+.fondo3-t3
+  background-image: url(../assets/curso/temas/introduccion/fondo-2.svg) !important
+  margin-inline: -3rem
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+  @media screen and (max-width: $bp-max-sm)
+    margin-inline: -1.5rem
+
+.bloque-texto-c.color-primario-medio
+  background-color: #E5EAFF !important
+
+.bloque-texto-c.color-secundario
+  background-color: #FFF3D3
+
+.imagen-01
+  background-color: #FDD5BA
+  padding: 1rem
+  display: flex
+  align-items: center
+  justify-content: center
+  width: flex
+
+.imagen-02
+  background-color: #A8B8FF
+  padding: 1rem
+  display: flex
+  align-items: center
+  justify-content: center
+  width: flex
+
+.contenido-tarjeta 
+  flex: 1
+  background-color: #E5EAFF
+
+.tarjeta01
+  display: flex
+  overflow: hidden
+  background-color: #E5EAFF
+  flex-direction: row
+  @media (max-width: 768px) 
+    flex-direction: column  
+
+.cajon-b.color-primario:before
+  background-color: #F9DBC7

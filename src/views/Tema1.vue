@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/img-01.png', alt='Imagen decorativa')
       .col-lg-7       
-        .row.justify-content-center.align-items-center.mb-3
+        .row.justify-content-center.mb-3
           .col-lg-2.d-none.d-lg-block(data-aos="zoom-in")
             figure
               img(src='@/assets/curso/temas/tema1/img-02.svg', alt='Imagen decorativa')
@@ -26,11 +26,11 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.1. Condiciones sociodemográficas 
 
-    .row.mb-4
-      .col-lg-3.order-lg-2.mb-3.mb-lg-0
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-3.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4
         figure
           img(src="@/assets/curso/temas/tema1/img-03.png", data-aos="zoom-in")
-      .col-lg-9.order-lg-1
+      .col-lg-9.order-lg-1.order-2.mb-lg-0.mb-4
         p Las condiciones sociodemográficas son el conjunto de características sociales y demográficas que definen y describen a una población o grupo humano. Comprenden los rasgos sociales y demográficos que permiten caracterizar a grupos de personas. Estas condiciones influyen directamente en la calidad de vida, el acceso a servicios y las oportunidades de desarrollo de los individuos (Peñuela Rodríguez & Córdoba Torres, 2020; Cedeño Velásquez et al., 2019, p. 3)
         p Las principales variables sociodemográficas son: 
         .bg-color-2.mb-3(data-aos="fade-up")
@@ -39,7 +39,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img-04.svg', alt='')
             .col-lg
-              .p-4
+              .p-2
                 ul.lista-ul--color
                   li.d-flex
                     i.fas.fa-user.bg-color-3
@@ -56,6 +56,21 @@
                   li.d-flex
                     i.fas.fa-user.bg-color-3
                     p.mb-0 Ocupación y situación laboral.
+            .col-lg
+              .p-2
+                ul.lista-ul--color
+                  li.d-flex
+                    i.fas.fa-user.bg-color-3
+                    p.mb-0 Nivel socioeconómico e ingresos.
+                  li.d-flex
+                    i.fas.fa-user.bg-color-3
+                    p.mb-0 Composición y tamaño familiar.
+                  li.d-flex
+                    i.fas.fa-user.bg-color-3
+                    p.mb-0 Nacionalidad y lugar de residencia.
+                  li.d-flex
+                    i.fas.fa-user.bg-color-3
+                    p.mb-0 Religión y pertenencia étnica.
 
     p.mb-4.text-center Algunos ejemplos de las condiciones sociodemográficas pueden ser: 
 
@@ -81,17 +96,17 @@
 
     p.mb-4 Los estudios demográficos permiten: describir, analizar y comparar distintas poblaciones con el fin de identificar vulnerabilidades, necesidades y desigualdades sociales. Además, son centrales en el diseño de políticas públicas, estrategia de salud, programas sociales, estudios de mercado, entre otros.
 
-    .row.mb-4.align-items-center
-      .col-lg-5.mb-3.mb-lg-0
+    .row.justify-content-center.mb-4(data-aos="fade-right")
+      .col-lg-10.col-12
         .bg-color-1.tarjeta.py-3.px-4.h-100
           p.mb-0 Por esto, las condiciones sociodemográficas constituyen la base indispensable para comprender la dinámica social y demográfica de un territorio o grupo poblacional, porque actúan como un espejo multifacético que refleja tanto la composición intrínseca de la comunidad como los factores externos que moldean su existencia. Al analizar elementos como la edad, el sexo, la distribución geográfica, los niveles educativos, la ocupación y el estado socioeconómico, se puede trazar un perfil exhaustivo que va más allá de los números. 
-      .col-lg-2.mb-3.mb-lg-0
+    
+    .row.justify-content-center.mb-4
+      .col-1.d-none.d-lg-block
         figure
-          img(src="@/assets/curso/temas/tema1/img-05.svg")
-      .col-lg-5.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/temas/tema1/img-06.svg", style="max-width: 80px")
-        p Esta información no solo indica "quiénes son", sino que también permite inferir "cómo viven", "qué necesidades tienen" y "a qué riesgos están expuestos". Es a partir de este conocimiento fundamental que se pueden diseñar intervenciones pertinentes y equitativas, ya que se basan en una comprensión profunda de las realidades estructurales y contextuales de la población. (Peñuela Rodríguez & Córdoba Torres, 2020; Cedeño Velásquez et al., 2019).
+          img(src='@/assets/curso/temas/tema1/img-84.svg', alt='Imagen decorativa')
+      .col-9
+        p.mb-0(data-aos="fade-left") Esta información no solo indica "quiénes son", sino que también permite inferir "cómo viven", "qué necesidades tienen" y "a qué riesgos están expuestos". Es a partir de este conocimiento fundamental que se pueden diseñar intervenciones pertinentes y equitativas, ya que se basan en una comprensión profunda de las realidades estructurales y contextuales de la población. (Peñuela Rodríguez & Córdoba Torres, 2020; Cedeño Velásquez et al., 2019).
 
     .row.mb-4.ms-0
       .col-auto.bg-c1(data-aos="fade-left")
@@ -110,17 +125,17 @@
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema1/img-10-01.svg', alt='Imagen decorativa')
-          .tarjeta.tarjeta--blanca.p-3(x="5%" y="33.5%" numero="+")(style="background-color:#FDD5BA")
+          .tarjeta.tarjeta--blanca.p-3(x="5%" y="33.5%" numero="+")(style="background-color:#FFFFFF")
             p Considerada desde la gestación hasta los 5 años, marcada por el rápido crecimiento físico y desarrollo cognitivo.
-          .tarjeta.tarjeta--blanca.p-3(x="27%" y="20%" numero="+")(style="background-color:#FDD5BA")
+          .tarjeta.tarjeta--blanca.p-3(x="27%" y="20%" numero="+")(style="background-color:#FFFFFF")
             p De 12 a 17 años, caracterizada por cambios puberales, búsqueda de identidad y autonomía.
-          .tarjeta.tarjeta--blanca.p-3(x="17.5%" y="89.5%" numero="+")(style="background-color:#FDD5BA")
+          .tarjeta.tarjeta--blanca.p-3(x="17.5%" y="89.5%" numero="+")(style="background-color:#FFFFFF")
             p De 6 a 11 años, asociada a la socialización escolar y desarrollo emocional.
-          .tarjeta.tarjeta--blanca.p-3(x="40%" y="89.5%" numero="+")(style="background-color:#FDD5BA")
+          .tarjeta.tarjeta--blanca.p-3(x="40%" y="89.5%" numero="+")(style="background-color:#FFFFFF")
             p De 18 a 28 años, donde se consolida el desarrollo personal, educativo y laboral.
-          .tarjeta.tarjeta--blanca.p-3(x="63.5%" y="10.5%" numero="+")(style="background-color:#FDD5BA")
+          .tarjeta.tarjeta--blanca.p-3(x="63.5%" y="10.5%" numero="+")(style="background-color:#FFFFFF")
             p De 29 a 59 años, etapa de mayor productividad, consolidación familiar y profesional.
-          .tarjeta.tarjeta--blanca.p-3(x="78%" y="86.7%" numero="+")(style="background-color:#FDD5BA")
+          .tarjeta.tarjeta--blanca.p-3(x="78%" y="86.7%" numero="+")(style="background-color:#FFFFFF")
             p Desde los 60 años y más, donde aumentan retos de salud y adaptación social (Ministerio de Salud y Protección Social, 2016).
         figure.movil
           img(src='@/assets/curso/temas/tema1/img-10-02.svg', alt='Imagen decorativa')
@@ -146,34 +161,32 @@
           img.icon-inline.d-none.d-lg-block.me-3(src='@/assets/curso/temas/tema1/img-12.svg' alt="Imagen decorativa")
         p.mb-0 Las etapas del ciclo de vida son así herramienta fundamental para organizar el estudio de poblaciones y planificar acciones de salud pública eficaces y adaptadas, asimismo, estas etapas permiten organizar la atención integral en salud reconociendo las características y necesidades específicas de cada momento vital a lo largo del curso de vida (Ministerio de Salud y Protección Social, 2016).
 
-    .bg-full-width.bg-fondo-1
-      .px-4.px-md-5
-        .row.justify-content-center.align-items-center
-          .col-lg-2.col-sm-7.col-10.mb-4(data-aos="flip-up")
-            figure
-              img(src='@/assets/curso/temas/tema1/img-13.svg', alt='Imagen decorativa')
-          .col-lg-8(data-aos="fade-left")
-            p Por su parte, las RIAS (Rutas Integrales de Atención en Salud) constituyen paquetes organizados de acciones para la atención, prevención y promoción en salud, diseñadas específicamente para las necesidades particulares de cada etapa del ciclo de vida, por esto, cada momento de los mencionados tiene una o varias RIAS asociadas que determinan los protocolos y servicios específicos para atender las particularidades en salud de ese grupo de edad (Ministerio de Salud y Protección Social, 2016).
-            p Un ejemplo de ello es:  
+    .fondo2-t2.px-md-5.px-4.py-4
+      .row.justify-content-center
+        .col-lg-2.col-sm-7.col-10.mb-4(data-aos="flip-up")
+          figure
+            img(src='@/assets/curso/temas/tema1/img-13.svg', alt='Imagen decorativa')
+        .col-lg-8(data-aos="fade-left")
+          p Por su parte, las RIAS (Rutas Integrales de Atención en Salud) constituyen paquetes organizados de acciones para la atención, prevención y promoción en salud, diseñadas específicamente para las necesidades particulares de cada etapa del ciclo de vida, por esto, cada momento de los mencionados tiene una o varias RIAS asociadas que determinan los protocolos y servicios específicos para atender las particularidades en salud de ese grupo de edad (Ministerio de Salud y Protección Social, 2016).
+          p Un ejemplo de ello es:  
 
-    .row.justify-content-center.ali(data-aos="fade-left")
-      .col-lg-10(data-aos="fade-down")
-        .tarjeta--container.row.mb-4
-          .col-xl.col-md-6.tarjeta.color-primario.p-5(style="background-color:#FFC025")
-            .row.justify-content-center.mb-3
-              .col-lg-4.col-6
-                figure
-                  img(src='@/assets/curso/temas/tema1/img-14.svg', alt='Imagen decorativa')
-            h4.text-center.mb-5 Primera infancia
-            p.mb-0 Las RIAS para primera infancia incluyen intervenciones en vacunación y nutrición dirigidas a niños de 0 a 5 años.
-          .col-xl.col-md-6.tarjeta.color-secundario.p-5(style="background-color:#FA9757")
-            .row.justify-content-center.mb-3
-              .col-lg-4.col-6
-                figure
-                  img(src='@/assets/curso/temas/tema1/img-15.svg', alt='Imagen decorativa')
-            h4.text-center.mb-5 Vejez
-            p.mb-0 Las RIAS para vejez priorizan prevención de enfermedades crónicas, rehabilitación y paliación. 
-        p Las RIAS usan las etapas del ciclo de vida como referencia para adaptar las acciones de salud pública y clínica, asegurando pertinencia y eficiencia en la atención (Ministerio de Salud y Protección Social, 2016).
+        .col-lg-10(data-aos="fade-down")
+          .tarjeta--container.row.mb-4
+            .col-xl.col-md-6.tarjeta.color-primario.p-5(style="background-color:#FFC025")
+              .row.justify-content-center.mb-3
+                .col-lg-4.col-6
+                  figure
+                    img(src='@/assets/curso/temas/tema1/img-14.svg', alt='Imagen decorativa')
+              h4.text-center.mb-4 Primera infancia
+              p.mb-0 Las RIAS para primera infancia incluyen intervenciones en vacunación y nutrición dirigidas a niños de 0 a 5 años.
+            .col-xl.col-md-6.tarjeta.color-secundario.p-5(style="background-color:#FA9757")
+              .row.justify-content-center.mb-3
+                .col-lg-4.col-6
+                  figure
+                    img(src='@/assets/curso/temas/tema1/img-15.svg', alt='Imagen decorativa')
+              h4.text-center.mb-4 Vejez
+              p.mb-0 Las RIAS para vejez priorizan prevención de enfermedades crónicas, rehabilitación y paliación. 
+          p Las RIAS usan las etapas del ciclo de vida como referencia para adaptar las acciones de salud pública y clínica, asegurando pertinencia y eficiencia en la atención (Ministerio de Salud y Protección Social, 2016).
     
     Separador
 
@@ -189,7 +202,7 @@
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p.mb-0 En salud pública las condiciones socioambientales se valoran como determinantes porque influencian la aparición y frecuencia de enfermedades, así como la calidad de vida de la población. La contaminación atmosférica, la segregación residencial, el acceso desigual a servicios y el cambio climático son factores socioambientales que pueden generar disparidades en salud, especialmente en grupos vulnerables como niños y adultos mayores (Watson Lewis et al., s.f.).
 
-    p.text-center Para complementar lo anterior, a continuación, se relacionan algunas condiciones ambientales y la consecuencia presentada por cada una: 
+    p.mb-4.text-center Para complementar lo anterior, a continuación, se relacionan algunas condiciones ambientales y la consecuencia presentada por cada una: 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       SlyderF.color-acento-botones(columnas="col-lg-6 col-xl-4")
@@ -238,7 +251,7 @@
 
     .row.justify-content-center(data-aos="fade-right")
       .col-lg-10.col-12
-        .cajon.cajon.color-secundario.p-4
+        .cajon.cajon.color-secundario-medio.p-4
           p.mb-0 Las condiciones socioambientales reflejan la manera en que la organización social y el entorno físico pueden proteger o perjudicar la salud; además, son objeto central de políticas públicas orientadas a la equidad, la prevención y la promoción de la vida saludable (Departamento Nacional de Planeación, 2008).
 
     Separador
@@ -304,42 +317,41 @@
       h2 1.4. Identificación de líderes en la comunidad
 
     p La identificación de líderes, las formas de organización y las características de las organizaciones de base comunitaria, junto con los espacios de integración, son aspectos esenciales para el desarrollo comunitario y la participación social. De acuerdo con el Secretaría de Integración Social (2016), se tienen diversas formas de identificar liderazgos: se basa en analizar las concepciones y los métodos que un líder utiliza. 
-    p.mb-4 Los estilos de liderazgo se clasifican en función de su nivel de control y participación. Por un lado, se encuentran los estilos más tradicionales, encontrando:    
+    p.mb-4 Los estilos de liderazgo se clasifican en #[b función de su nivel de control y participación.] Por un lado, se encuentran los estilos más tradicionales, encontrando:    
 
     .bg-full-width.bg-color-6
       .px-4.px-md-5
-        .row.mb-5(data-aos="flip-up")
+        .row.mb-4(data-aos="flip-up")
           .col-md-6.col-xl.mb-4.mb-xl-0
             .tarjeta-numerada.color-primario.p-5.h-100
               .tarjeta-numerada__numero
                 .h2 1
               h4.text-center 
                 b El autocrático
-              p El líder ejerce un control total y toma decisiones unilaterales.
+              p.text-center El líder ejerce un control total y toma decisiones unilaterales.
           .col-md-6.col-xl.mb-4.mb-xl-0
             .tarjeta-numerada.color-secundario.p-5.h-100
               .tarjeta-numerada__numero
                 .h2 2
               h4.text-center 
                 b El administrativo
-              p Se enfoca en mantener la operación sin problemas.
+              p.text-center Se enfoca en mantener la operación sin problemas.
           .col-md-6.col-xl.mb-4.mb-xl-0
             .tarjeta-numerada.color-acento-contenido.p-5.h-100
               .tarjeta-numerada__numero
                 .h2 3
               h4.text-center 
                 b El democrático
-              p Consulta a otros, pero retiene la autoridad final.
-
+              p.text-center Consulta a otros, pero retiene la autoridad final.
           .col-md-6.col-xl.mb-4.mb-xl-0
             .tarjeta-numerada.color-adicional-4.p-5.h-100
               .tarjeta-numerada__numero
                 .h2 4
               h4.text-center 
                 b El colaborativo
-              p Donde el liderazgo y las decisiones importantes se comparten equitativamente entre los miembros. 
+              p.text-center Donde el liderazgo y las decisiones importantes se comparten equitativamente entre los miembros. 
 
-        .row.justify-content-center
+        .row.justify-content-center.mb-4
           .col-xl-10
             .cajon.cajon.color-secundario.row.align-items-center.m-0.style___box_1.p-4.mb-4(data-aos="zoom-in").espacio___movil_1
               .col-xl-auto(data-aos="fade-right")
@@ -348,7 +360,7 @@
               .col-xl
                 p.mb-0 Estos estilos se distinguen por la dinámica de poder y la distribución de responsabilidades en el grupo (Secretaría de Integración Social, 2016)
 
-            p Además de estas categorías, existe una segunda clasificación de tipos de liderazgo que se centra en la naturaleza del intercambio entre el líder y los seguidores. Estos liderazgos se dividen en los siguientes:   
+            p Además de estas categorías, existe una segunda clasificación de tipos de liderazgo que se centra en #[b la naturaleza del intercambio entre el líder y los seguidores.] Estos liderazgos se dividen en los siguientes:   
 
         .row.justify-content-center.mb-4(data-aos="flip-up")
           .col-lg-6.mb-3
@@ -368,26 +380,38 @@
                   h4 Liderazgo transformacional
                   p Se enfoca en inspirar a las personas a seguir una visión compartida que se alinea con sus aspiraciones, con el objetivo de lograr un cambio real y significativo.
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.mb-4(data-aos="flip-up")
+      .col-lg-10.col-12
+        .d-flex.flex-wrap.align-items-center.tarjeta01
+          .imagen-02
+            figure.mb-0
+              img(src='@/assets/curso/temas/tema1/img-85.svg' alt='Servidor' class='img-fluid')
+          
+          .contenido-tarjeta.p-4
+            p.mb-0(data-aos="fade-down") En esencia, para identificar un estilo de liderazgo, es necesario observar si el líder se guía por la supervisión, el empoderamiento, la provisión de una visión o el uso del poder. 
+
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-5.col-md-6.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema1/img-34.png', alt='Imagen decorativa')
-      .col-lg-7.mb-lg-0.mb-4(data-aos="fade-left")
+      .col-lg-7.mb-lg-0(data-aos="fade-left")
         p De acuerdo con estos planteamientos, del desarrollo de liderazgo se obtienen múltiples beneficios que fortalecen la capacidad de una comunidad para generar y sostener el cambio. Uno de los resultados principales es la activación de los individuos y las organizaciones comunitarias, lo que fomenta su participación y compromiso en las acciones futuras. Además, permite aumentar el acceso y la representación de grupos en estado de vulnerabilidad, excluidos o estigmatizados, dándoles una voz para definir y abordar problemas importantes.
         p El desarrollo de liderazgo también ayuda a cultivar un sentido de pertenencia comunitaria y una responsabilidad compartida, lo que a su vez fortalece la cohesión del grupo. Esta práctica es fundamental para que las iniciativas de cambio sean representativas de la comunidad y para diversificar el equipo de liderazgo con una variedad de habilidades y perspectivas.   
 
-    .row.mb-4
+    .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-1.d-none.d-lg-block
         figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema1/img-35.svg', alt='Imagen decorativa')
-      .col-11
+      .col-9
         p.mb-0(data-aos="fade-right") Además de los beneficios internos, el desarrollo de liderazgo incrementa el alcance y la penetración de las intervenciones. Al conectar a más personas con los programas, se logra un mayor impacto a nivel de la población, ya que se aprovechan las redes sociales existentes. Esto también ayuda a mantener las tasas de cambio comunitario a largo plazo, ya que el nuevo liderazgo con fuertes lazos sociales con la comunidad puede sostener los esfuerzos en el tiempo.
 
     .row.justify-content-center.mb-4
-      .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
+      .col-lg-5.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4
+        img(src='@/assets/curso/temas/tema1/img-36.png' alt="Imagen decorativa")
+      .col-lg-7.order-lg-1.order-2.mb-lg-0.mb-4
         p(style="color:#000") Finalmente, la implementación de métodos democráticos y consensuados para la toma de decisiones, que son una parte inherente del desarrollo de liderazgo, contribuye a aumentar la satisfacción de los miembros y a mejorar el funcionamiento general de cualquier iniciativa 
         p(style="color:#000") De esta forma, la identificación se realiza al observar quién motiva, moviliza, representa y promueve el bienestar colectivo, algunos ejemplos son:
-        .tarjeta.tarjeta--BGC03.p-4.mb-4
+        .tarjeta.tarjeta--BGC03.p-4
           .col
             ul.lista-ul--color
               li.d-flex.align-items-start
@@ -402,9 +426,7 @@
               li.d-flex.align-items-start
                 i.fas.fa-user
                 | Miembros reconocidos por su integridad, capacidad de escucha, compromiso y empatía.
-      .col-lg-5.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema1/img-36.png' alt="Imagen decorativa")
-
+      
     p.mb-4 Algunas de las organizaciones comunitarias son estructuras de acción colectiva para atender necesidades comunes y promover derechos. Algunas de estas son: 
 
     .row.justify-content-center.mb-3(data-aos="flip-up")
@@ -414,45 +436,51 @@
             figure
               img(src="@/assets/curso/temas/tema1/img-37.svg", alt="alt").img90.m-auto
           h4.text-center Juntas de acción comunal
-          p.text-center.mb-0 Gestionan infraestructura y servicios para el barrio o vereda. 
+          p.mb-0 Gestionan infraestructura y servicios para el barrio o vereda. 
       .col-xl-3.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad(data-aos="flip-left")
           .bottomCircle.mb-5
             figure
               img(src="@/assets/curso/temas/tema1/img-38.svg", alt="alt").img90.m-auto
           h4.text-center Asociaciones de vecinos
-          p.text-center.mb-0 Resuelven problemáticas territoriales, promueven el desarrollo y representan a la colectividad. 
+          p.mb-0 Resuelven problemáticas territoriales, promueven el desarrollo y representan a la colectividad. 
       .col-xl-3.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad(data-aos="flip-left")
           .bottomCircle.mb-5
             figure
               img(src="@/assets/curso/temas/tema1/img-39.svg", alt="alt").img90.m-auto
           h4.text-center Comités temáticos
-          p.text-center.mb-0 Agrupaciones por interés (ambiental, educación, cultura, salud). 
+          p.mb-0 Agrupaciones por interés (ambiental, educación, cultura, salud). 
       .col-xl-3.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad(data-aos="flip-left")
           .bottomCircle.mb-5
             figure
               img(src="@/assets/curso/temas/tema1/img-40.svg", alt="alt").img90.m-auto
           h4.text-center Clubes
-          p.text-center.mb-0 Encontrando juveniles, deportivos, culturales o centros de madres que abordan necesidades específicas del grupo.
+          p.mb-0 Encontrando juveniles, deportivos, culturales o centros de madres que abordan necesidades específicas del grupo.
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(style="background-color:#FFF3D3")
+    .row.mb-4.ms-0
+      .col-auto.bg-c1(data-aos="fade-left")
+        .row.align-items-center
+          .col-auto.px-0
+            figure
+              img(src='@/assets/curso/temas/ico.svg', alt='', style='width: 40px')
+          .col
+            h3.mb-0 Características de organizaciones de base comunitaria
+    
+    p.mb-4 Las organizaciones de base comunitaria se caracterizan por su naturaleza profundamente local y su enfoque en las necesidades y problemas específicos de un área geográfica, como una vereda, un barrio o una ciudad. Estas organizaciones operan bajo un modelo de liderazgo comunitario, donde son los propios liderazgos locales quienes toman las riendas de la organización y dirigen las actividades.
+
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4(style="background-color:#FFF3D3")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-41.png')})`}" data-aos="fade-right"
       )
       .bloque-texto-g__texto.p-4(data-aos="fade-left") 
-        p.mb-0 Las organizaciones de base comunitaria se caracterizan por su naturaleza profundamente local y su enfoque en las necesidades y problemas específicos de un área geográfica, como una vereda, un barrio o una ciudad. Estas organizaciones operan bajo un modelo de liderazgo comunitario, donde son los propios liderazgos locales quienes toman las riendas de la organización y dirigen las actividades.
+        p.mb-0 Este enfoque fomenta la participación, el empoderamiento y la movilización de los miembros de la comunidad, animándolos a involucrarse directamente en la búsqueda de soluciones y en la implementación de proyectos que los beneficien. Además de su base local, estas iniciativas son predominantemente sin fines de lucro, lo que significa que todos sus recursos y esfuerzos se reinvierten directamente en la comunidad que sirven. Su propósito principal es mejorar el bienestar social y el funcionamiento general del grupo.
 
-    .row.mb-4
-      .col-1.d-none.d-lg-block
-        figure(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema1/img-42.svg', alt='Imagen decorativa')
-      .col-11
-        p.mb-0(data-aos="fade-right") Este enfoque fomenta la participación, el empoderamiento y la movilización de los miembros de la comunidad, animándolos a involucrarse directamente en la búsqueda de soluciones y en la implementación de proyectos que los beneficien. Además de su base local, estas iniciativas son predominantemente sin fines de lucro, lo que significa que todos sus recursos y esfuerzos se reinvierten directamente en la comunidad que sirven. Su propósito principal es mejorar el bienestar social y el funcionamiento general del grupo.
-
-    p Por ello, su trabajo se orienta a desarrollar soluciones que promuevan la salud, el progreso y la calidad de vida de sus miembros. Todo esto garantiza que las iniciativas comunitarias se mantengan fieles a su misión de servir y empoderar a las comunidades en los territorios (Secretaría de Integración Social, 2016). 
-    p.mb-4 Dentro de los ejemplos estas organizaciones están:
+    .row.justify-content-center(data-aos="fade-right")
+      .col-lg-10.col-12
+        p Por ello, su trabajo se orienta a desarrollar soluciones que promuevan la salud, el progreso y la calidad de vida de sus miembros. Todo esto garantiza que las iniciativas comunitarias se mantengan fieles a su misión de servir y empoderar a las comunidades en los territorios (Secretaría de Integración Social, 2016). 
+        p Dentro de los ejemplos estas organizaciones están:
 
     .row.mb-5(data-aos="fade-down")
       .col-md-6.col-lg.tarjeta--tabla.p-4(style="background-color:#FFF3D3")
@@ -505,24 +533,24 @@
 
     p.mb-4 Las soluciones a los problemas de salud en una comunidad son intervenciones estructuradas y acciones colectivas diseñadas para mejorar el bienestar de la población. Estas iniciativas abordan directamente los factores que causan enfermedad y malestar, promoviendo una participación activa de los miembros de la comunidad. Son esfuerzos coordinados, a menudo en colaboración con instituciones y equipos multidisciplinarios, que buscan resolver las principales necesidades sanitarias de una población, reducir las inequidades y mejorar su calidad de vida. Un aspecto fundamental de estas soluciones es que consideran la realidad local, los factores sociales, ambientales, económicos y la cultura en la toma de decisiones, asegurando así una pertinencia y un impacto mayores.
 
-    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
+    .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-9.order-2
         .tarjeta.tarjeta--BGC01.p-4.mb-4
           p.mb-0 En el ámbito de la salud pública, estas soluciones se manifiestan a través de una serie de estrategias integrales. Se favorecen los modelos de trabajo que abarcan un abordaje multisectorial, lo que significa que la salud no se ve como una responsabilidad exclusiva del sector médico, sino que involucra a la educación, el urbanismo, el medio ambiente y otros campos. La participación comunitaria y el trabajo en red, a través de alianzas locales e intersectoriales, son cruciales. Este enfoque colaborativo garantiza que la planificación, ejecución y evaluación de las acciones respondan de manera efectiva a las necesidades únicas de cada territorio, promoviendo la prevención, el acceso equitativo a servicios y una mejora sostenible de la calidad de vida. 
-        p Una de las soluciones más comunes y efectivas en salud pública son las campañas de vacunación. Su objetivo principal es reducir la incidencia de enfermedades prevenibles por inmunización, protegiendo a individuos y a la comunidad en general. Complementariamente, se implementan programas de educación para la salud, los cuales incluyen talleres sobre nutrición, salud sexual, prevención de adicciones y otras enfermedades en distintos entornos, como instituciones educativas para niños y centros de atención para adultos mayores.
-      .col-lg-3.col-md-6.col-8.order-1.mb-lg-0
+        p Una de las soluciones más comunes y efectivas en salud pública son las #[b campañas de vacunación.] Su objetivo principal es reducir la incidencia de enfermedades prevenibles por inmunización, protegiendo a individuos y a la comunidad en general. Complementariamente, se implementan #[b programas de educación para la salud], los cuales incluyen talleres sobre nutrición, salud sexual, prevención de adicciones y otras enfermedades en distintos entornos, como instituciones educativas para niños y centros de atención para adultos mayores.
+      .col-lg-3.col-md-6.col-8.order-1.mb-lg-0.mb-4
         figure
           img(src='@/assets/curso/temas/tema1/img-47.svg', alt='Imagen decorativa')
 
     .row.justify-content-center.mb-4
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
-        p(style="color:#000") El trabajo colaborativo va más allá de los programas educativos. Se organizan mesas de trabajo que reúnen a líderes institucionales y comunitarios, desde el orden nacional hasta el municipal. Estos espacios de concertación son fundamentales para identificar situaciones de interés en salud y para coordinar respuestas efectivas. Además, se desarrollan proyectos de infraestructura que impactan directamente en la salud, como la creación de "caminos escolares seguros" para reducir accidentes, mejorar la infraestructura urbana y fomentar hábitos saludables en la población escolar y joven. 
+        p(style="color:#000") El trabajo colaborativo va más allá de los programas educativos. Se organizan #[b mesas de trabajo] que reúnen a líderes institucionales y comunitarios, desde el orden nacional hasta el municipal. Estos espacios de concertación son fundamentales para identificar situaciones de interés en salud y para coordinar respuestas efectivas. Además, se desarrollan #[b proyectos de infraestructura] que impactan directamente en la salud, como la creación de "caminos escolares seguros" para reducir accidentes, mejorar la infraestructura urbana y fomentar hábitos saludables en la población escolar y joven. 
         .cajon.cajon.color-primario.p-4
-          p.mb-0 La promoción de estilos de vida saludables es otra solución prioritaria. Esto abarca un amplio espectro de acciones, que van desde fomentar la alimentación y nutrición sana y promover el ejercicio físico hasta trabajar en la disminución de conductas no saludables, como el consumo de cigarrillo, alcohol y sustancias psicoactivas. Estas iniciativas se centran en el empoderamiento individual y colectivo para tomar decisiones que mejoren el bienestar a largo plazo. 
+          p.mb-0 La promoción de estilos de vida saludables es otra solución prioritaria. Esto abarca un amplio espectro de acciones, que van desde fomentar la #[b alimentación y nutrición sana] y promover el #[b ejercicio físico] hasta trabajar en la #[b disminución de conductas no saludables,] como el consumo de cigarrillo, alcohol y sustancias psicoactivas. Estas iniciativas se centran en el empoderamiento individual y colectivo para tomar decisiones que mejoren el bienestar a largo plazo. 
       .col-lg-5.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema1/img-48.png' alt="Imagen decorativa")
 
-    p Por último, es indispensable garantizar el acceso a servicios médicos de forma oportuna y eficaz. Esto requiere una infraestructura adecuada, como centros de salud bien equipados y con personal idóneo. En zonas remotas de difícil acceso, las brigadas de salud y la telemedicina se han consolidado como herramientas esenciales para brindar atención. Adicionalmente, las intervenciones ambientales son cruciales, con mejoras en los sistemas de agua potable, saneamiento básico, gestión de residuos sólidos y control de vectores. Todas estas soluciones tienen un mayor impacto cuando no son exclusivas de unos pocos actores, sino que integran la voz y la participación de la comunidad en todas sus fases, desde el diagnóstico hasta la evaluación de los resultados.
+    p Por último, es indispensable garantizar el #[b acceso a servicios médicos de forma oportuna y eficaz.] Esto requiere una infraestructura adecuada, como centros de salud bien equipados y con personal idóneo. En zonas remotas de difícil acceso, las #[b brigadas de salud y la telemedicina] se han consolidado como herramientas esenciales para brindar atención. Adicionalmente, las #[b intervenciones ambientales] son cruciales, con mejoras en los sistemas de agua potable, saneamiento básico, gestión de residuos sólidos y control de vectores. Todas estas soluciones tienen un mayor impacto cuando no son exclusivas de unos pocos actores, sino que integran la voz y la participación de la comunidad en todas sus fases, desde el diagnóstico hasta la evaluación de los resultados.
 
     Separador
 
@@ -531,7 +559,14 @@
 
     p.mb-4 El diagnóstico participativo es una metodología comunitaria que involucra activamente a los miembros de la comunidad para analizar su realidad, identificar necesidades, recursos y oportunidades, así como decidir colectivamente sobre los problemas prioritarios y sus posibles soluciones. Se trata de una construcción colectiva que promueve la reflexión, la apropiación y el desarrollo de capacidades dentro de la comunidad. (Gobierno Federal, s.f.; Gomà, 2007).
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(style="background-color:#FFC025")
+    .row.justify-content-center.mb-4(data-aos="fade-right")
+      .col-1.d-none.d-lg-block
+        figure
+          img(src='@/assets/curso/temas/tema1/img-86.svg', alt='Imagen decorativa')
+      .col-9
+        p Este proceso se aplica con frecuencia en proyectos comunitarios para garantizar una planeación social que oriente intervenciones en sectores como la salud, la educación, la gestión de recursos o cualquier ámbito que requiera comprender la realidad desde la perspectiva de quienes la viven.
+
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4(style="background-color:#FFC025")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-49.png')})`}" data-aos="fade-right"
       )
@@ -604,7 +639,47 @@
 
     p.mb-4 Dentro de las herramientas participativas están: 
 
-    p Cualquiera que sea usada con la comunidad debe considerar la cultura y la dinámica de las comunidades, lo que implica un conocimiento previo de sus formas de organización, horarios y espacios de reunión, para asegurar una planificación efectiva y culturalmente respetuosa. 
+    .tarjeta--BG03.align-items-center.pt-3.mb-5
+      .col-lg-12.col-12.py-lg-0.py-4
+        .row.justify-content-center.align-items-center
+          .col-md-6.col-lg-4.mb-4.mb-md-0.d-lg-flex.d-none.order-lg-2.order-2(data-aos="fade-right")
+            img(src='@/assets/curso/temas/tema1/img-87.png', alt='Imagen decorativa')
+          .col-md-8.col-lg-8.mb-4.mb-md-0(data-aos="fade-left")
+            SlyderF.custom.color-acento-botones.order-lg-1.order-2(columnas="col-lg-4 col-xl-4")
+              .tarjeta.bgslyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-7
+                    img(src="@/assets/curso/temas/tema1/img-88.svg", alt="alt")
+                h4.text-center Mapeo comunitario
+              .tarjeta.bgslyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-7
+                    img(src="@/assets/curso/temas/tema1/img-89.svg", alt="alt")
+                h4.text-center Matrices de problemas / soluciones
+              .tarjeta.bgslyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-7
+                    img(src="@/assets/curso/temas/tema1/img-90.svg", alt="alt")
+                h4.text-center Grupos focales
+              .tarjeta.bgslyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-7
+                    img(src="@/assets/curso/temas/tema1/img-91.svg", alt="alt")
+                h4.text-center Lluvia o tormenta de ideas
+              .tarjeta.bgslyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-7
+                    img(src="@/assets/curso/temas/tema1/img-92.svg", alt="alt")
+                h4.text-center Dinámicas lúdicas y visuales
+              .tarjeta.bgslyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-7
+                    img(src="@/assets/curso/temas/tema1/img-93.svg", alt="alt")
+                h4.text-center Encuestas participativas
+          
+    .row.justify-content-center.mb-0
+      .col-lg-10.col-12
+        p Cualquiera que sea usada con la comunidad debe considerar la cultura y la dinámica de las comunidades, lo que implica un conocimiento previo de sus formas de organización, horarios y espacios de reunión, para asegurar una planificación efectiva y culturalmente respetuosa. 
 
     Separador
 
@@ -732,19 +807,22 @@
             figure.movil
               img(src='@/assets/curso/temas/tema1/figura-2-2v.svg', alt='Descripción: La ilustración presenta a una persona pensativa rodeada de burbujas de diálogo con preguntas relacionadas con las acciones de personas con discapacidad. La escena se compone de una figura central, una persona con cabello rojizo y vestimenta verde, situada en el centro de la imagen. Alrededor de ella, se dispersan tres burbujas de diálogo que contienen preguntas relacionadas con la manera en cómo se hace referencia a las personas con discapacidad. La composición está equilibrada, guiando la vista del espectador a través de las preguntas y hacia la persona central, quien parece estar reflexionando sobre ellas, señalada por los signos de interrogación sobre su cabeza. La disposición de las burbujas de diálogo y su tamaño varían, creando un ritmo visual y enfatizando la importancia de cada cuestión. El sujeto principal es una persona joven, con cabello rojizo largo y una expresión de preocupación, con las manos entrelazadas bajo la barbilla. La vestimenta de la persona consiste en una blusa verde oscura. Los signos de interrogación sobre su cabeza indican incertidumbre o reflexión. El estilo de la imagen es simple y directo, con líneas limpias y colores planos, lo que sugiere una ilustración didáctica o explicativa. La técnica empleada parece ser digital, con contornos definidos y un diseño gráfico. El uso de burbujas de diálogo es característico de las ilustraciones que buscan comunicar información de manera clara y concisa. La paleta de colores es limitada, con tonos suaves y agradables, lo que contribuye a la legibilidad y facilita la comprensión de la información. El fondo es blanco, lo que centra la atención en la persona y las preguntas. La iluminación es uniforme, sin sombras ni efectos especiales, lo que enfatiza la claridad y la simplicidad de la comunicación visual. La ausencia de elementos decorativos en el fondo refuerza el propósito didáctico de la imagen. El ambiente general es neutro, propicio para la reflexión sobre el tema del apoyo y la inclusión, sin distracciones visuales que desvíen la atención del mensaje principal.', style="width: 1043px").m-auto
 
-    p De acuerdo con lo establecido por el Consorcio Coopi-Care (2015), en el mapeo comunitario se combina el uso de instrumentos gráficos y geográficos, además de herramientas de desarrollo comunitario que permiten a los agentes comunitarios analizar su entorno, visualizar los cambios, proponer alternativas de solución a los problemas encontrados y elaborar planes para mejorar sus condiciones de vida.
-    p Entre los usos del mapeo comunitario se pueden mencionar, la elaboración de diagnósticos, planificación de actividades, monitoreo y evaluación e intercambio de información; puntos importantes que permiten contribuir en el desarrollo de las comunidades.
-    p.mb-4 Lo siguientes son los pasos para la elaboración del mapeo comunitario: 
+    .row.justify-content-center.mb-4(data-aos="fade-right")
+      .col-lg-10.col-12
+        p De acuerdo con lo establecido por el Consorcio Coopi-Care (2015), en el mapeo comunitario se combina el uso de instrumentos gráficos y geográficos, además de herramientas de desarrollo comunitario que permiten a los agentes comunitarios analizar su entorno, visualizar los cambios, proponer alternativas de solución a los problemas encontrados y elaborar planes para mejorar sus condiciones de vida.
+        .cajon.cajon.color-secundario-medio.p-4
+          p Entre los usos del mapeo comunitario se pueden mencionar, la elaboración de diagnósticos, planificación de actividades, monitoreo y evaluación e intercambio de información; puntos importantes que permiten contribuir en el desarrollo de las comunidades.
+          p.mb-0 Lo siguientes son los pasos para la elaboración del mapeo comunitario: 
 
     .titulo2.mb-4(data-aos="fade-left")
       h5.mb-0 Paso 1. Definición del propósito
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-5.col-10.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema1/img-69.png', alt='Imagen decorativa')
       .col-lg-7       
-        .row.justify-content-center.align-items-center.mb-3
+        .row.justify-content-center.mb-3
           .col-lg-2.d-none.d-lg-block(data-aos="zoom-in")
             figure
               img(src='@/assets/curso/temas/tema1/img-70.svg', alt='Imagen decorativa')
@@ -898,15 +976,15 @@
         i.fas.fa-user
         | La simbología debe ser discreta e intuitiva. Los símbolos que se elijan para representar la información en la imagen digital deben ser cuidadosamente seleccionados.
 
-    .tarjeta.tarjeta--gris.p-3.mb-4
-      .row.justify-content-around.align-items-center
+    .tarjeta.tarjeta--gris2.p-3.mb-4
+      .row.justify-content-around
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/temas/tema1/img-82.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3.mb-1 Símbología MPC
-              p.text-small Es importante que acceda al siguiente documento elaborado por el Consorcio Coopi-Care (2015), para que conozca todo lo relacionado con la simbología para elaborar el mapa comunitario.
+              h3.mb-1(style="color:#583F00") Símbología MPC
+              p Es importante que acceda al siguiente documento elaborado por el Consorcio Coopi-Care (2015), para que conozca todo lo relacionado con la simbología para elaborar el mapa comunitario.
             .col-sm-auto
               a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Simbologia_mapeo_comunitario.pdf')" target="_blank")
                 span Descargar
@@ -978,38 +1056,46 @@
           table
             thead
               tr
-                th(data-aos="fade-down")(style= "background-color: #E0F6E1; width: 15%") Problema
+                th(data-aos="fade-down")(style= "background-color: #E0F6E1; width: 25%") Problema
                 th(data-aos="fade-down")(style= "background-color: #E0F6E1; width: 25%") No agua potable
                 th(data-aos="fade-down")(style= "background-color: #E0F6E1; width: 25%") Desnutrición
                 th(data-aos="fade-down")(style= "background-color: #E0F6E1; width: 25%") Enfermedad diarreica
             tbody
               tr(data-aos="fade-right")
                 td Solución
-                ul.lista-ul
-                  li(data-aos="fade-right")
-                    ul
-                      li(data-aos="fade-right") 
-                        i.lista-ul__vineta
-                        | Filtros de agua.
-                      li(data-aos="fade-right") 
-                        i.lista-ul__vineta
-                        | Tratamiento del agua. 
-                      li(data-aos="fade-right") 
-                        i.lista-ul__vineta
-                        | Municipio garantiza el tratamiento del agua.
-                td Solución
-                ul.lista-ul
-                  li(data-aos="fade-right")
-                    ul
-                      li(data-aos="fade-right") 
-                        i.lista-ul__vineta
-                        | Filtros de agua.
-                      li(data-aos="fade-right") 
-                        i.lista-ul__vineta
-                        | Tratamiento del agua. 
-                      li(data-aos="fade-right") 
-                        i.lista-ul__vineta
-                        | Municipio garantiza el tratamiento del agua.
+                td 
+                  ul.lista-ul
+                    li(data-aos="fade-right")
+                      ul
+                        li(data-aos="fade-right") 
+                          i.lista-ul__vineta
+                          | Filtros de agua.
+                        li(data-aos="fade-right") 
+                          i.lista-ul__vineta
+                          | Tratamiento del agua. 
+                        li(data-aos="fade-right") 
+                          i.lista-ul__vineta
+                          | Municipio garantiza el tratamiento del agua.
+                td
+                  ul.lista-ul
+                    li(data-aos="fade-right")
+                      ul
+                        li(data-aos="fade-right") 
+                          i.lista-ul__vineta
+                          | Preparación inocua de los alimentos.
+                        li(data-aos="fade-right") 
+                          i.lista-ul__vineta
+                          | Patrones de cuidado.
+                td
+                  ul.lista-ul
+                    li(data-aos="fade-right")
+                      ul
+                        li(data-aos="fade-right") 
+                          i.lista-ul__vineta
+                          | Consumo de agua potable.
+                        li(data-aos="fade-right") 
+                          i.lista-ul__vineta
+                          | Patrones de cuidado.
 
     .row.mb-4.ms-0
       .col-auto.bg-c1(data-aos="fade-left")

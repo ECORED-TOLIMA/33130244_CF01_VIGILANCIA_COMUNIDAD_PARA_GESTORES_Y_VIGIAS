@@ -21,15 +21,15 @@
 
     AcordionA.mb-4(tipo="a" clase-tarjeta="tarjeta tarjeta--C01" data-aos="zoom-in")
       .row.justify-content-center(titulo="Vigías comunitarios")
-        .col-lg-6.order-lg-1.order-2
+        .col-lg-5.order-lg-1.order-2
           p.mb-0 Miembros de la comunidad que no tienen un antecedente reconocido de trabajo comunitario y que son designados por la comunidad para representarlos en la estrategia de vigilancia basada en comunidad. Estos vigías emergen en comunidades no organizadas o muy aisladas o cuyos líderes o lideresas comunitarios consideran a una persona específica para este proceso.
-        .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+        .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
             img(src='@/assets/curso/temas/tema5/img-03.png', alt="Imagen decorativa")
       .row.justify-content-center(titulo="Gestores comunitarios")
-        .col-lg-6.order-lg-1.order-2
+        .col-lg-5.order-lg-1.order-2
           p.mb-0 Personas de o que en la comunidad tienen o desarrollan trabajo comunitario en su territorio y que como actividad complementaria o central desarrollan o podrían realizar la vigilancia basada en comunidad.
-        .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+        .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
             img(src='@/assets/curso/temas/tema5/img-04.png', alt="Imagen decorativa")
 

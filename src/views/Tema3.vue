@@ -16,8 +16,9 @@
     
     .row.justify-content-center.mb-4
       .col-lg-10.col-12
-        p Cuando la comunidad se involucra en el proceso de vigilancia son parte de la toma de decisiones y ejecución de acciones, lo que fomenta la pertenencia y el compromiso colectivo en favor de la salud del territorio que se habita, facilitando la detección temprana y la movilización frente a los riesgos que se presentan (Subsecretaría de Prevención y Participación Ciudadana Dirección General de Prevención del Delito y Participación Ciudadana, 2011).
-        p La construcción del tejido social requiere: 
+        .cajon-b.color-primario.p-3(data-aos="fade-right")
+          p Cuando la comunidad se involucra en el proceso de vigilancia son parte de la toma de decisiones y ejecución de acciones, lo que fomenta la pertenencia y el compromiso colectivo en favor de la salud del territorio que se habita, facilitando la detección temprana y la movilización frente a los riesgos que se presentan (Subsecretaría de Prevención y Participación Ciudadana Dirección General de Prevención del Delito y Participación Ciudadana, 2011).
+          p La construcción del tejido social requiere: 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       SlyderF.color-acento-botones(columnas="col-lg-6 col-xl-4")
@@ -55,7 +56,12 @@
     .row.justify-content-center
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
         p(style="color:#000") Con base en lo expuesto, la construcción del tejido social favorece la transformación positiva y el desarrollo de comunidades más justas, resilientes y solidarias, capaces de enfrentar los desafíos presentes y lo que acontecerá en el futuro (Garcés, 2023). Cuando existe un tejido social fuerte la comunidad gana una mayor capacidad de resiliencia ante crisis y conflictos, facilitando la reconstrucción del bienestar colectivo. Asimismo, promueve el sentido de pertenencia, la participación ciudadana y la colaboración en la toma de decisiones que afectan a todos. Por otra parte, es fundamental para consolidar comunidades sostenibles, igualitarias y democráticas, así como para el desarrollo humano integral lo que permite generar confianza en las instituciones y mayor apoyo entre los integrantes del grupo, optimizando la resolución de problemas y la construcción de proyectos comunes.
-        p(style="color:#000") La participación de agentes comunitarios en la Vigilancia Basada en Comunidad, puede ser considera una apuesta para la construcción de tejido social, ya que, desde la participación social en salud, se fomenta abordar espacios que permitan a las comunidades aportar en la transformación de las necesidades que identifican y ponen en conocimiento a nivel sectorial (salud) e intersectorial. .
+        .row
+          .col-auto.d-none.d-lg-block.order-lg-1.order-2.mb-lg-0
+            figure
+              img(src='@/assets/curso/temas/tema3/img-15.svg' alt="Imagen decorativa")
+          .col-lg-10.col-12.mb-3.order-lg-2.order-2.mb-lg-0
+            p(style="color:#000") La participación de agentes comunitarios en la Vigilancia Basada en Comunidad, puede ser considera una apuesta para la construcción de tejido social, ya que, desde la participación social en salud, se fomenta abordar espacios que permitan a las comunidades aportar en la transformación de las necesidades que identifican y ponen en conocimiento a nivel sectorial (salud) e intersectorial. 
       .col-lg-4.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema3/img-07.png' alt="Imagen decorativa")
 
@@ -70,52 +76,52 @@
       .tarjeta.tarjeta--FBG01.p-4.my-4(data-aos="fade-left")
         PasosB.color-acento-botones
           .row
-            .col-lg-6.order-2.order-lg-1
+            .col-lg-5.order-2.order-lg-1
               h4(style="color:#000 !important") Facilitar la participación activa
               p.mb-0(style="color:#000 !important") Crear espacios donde los miembros de la comunidad puedan dialogar, deliberar y tomar decisiones conjuntas, como asambleas, consejos comunitarios o mesas de trabajo. Es esencial fomentar el liderazgo y el empoderamiento de las personas, especialmente de aquellos grupos históricamente menos representados. 
-            .col-lg-6.col-10.order-1.order-lg-2.mb-4  
+            .col-lg-7.col-10.order-1.order-lg-2.mb-4  
               figure
                 img(src='@/assets/curso/temas/tema3/img-08.png', alt='Imagen decorativa')
           .row
-            .col-lg-6.order-2.order-lg-1
+            .col-lg-5.order-2.order-lg-1
               h4(style="color:#000 !important") Impulsar diálogo y respeto
               p.mb-0(style="color:#000 !important") Promover la escucha activa, la mediación y la resolución de conflictos a través del diálogo, el reconocimiento de las diferencias y la construcción de acuerdos para la convivencia y el buen vivir.
-            .col-lg-6.col-10.order-1.order-lg-2.mb-4
+            .col-lg-7.col-10.order-1.order-lg-2.mb-4
               figure
                 img(src='@/assets/curso/temas/tema3/img-09.png', alt='Imagen decorativa')
           .row
-            .col-lg-6.order-2.order-lg-1
+            .col-lg-5.order-2.order-lg-1
               h4(style="color:#000 !important") Desarrollar proyectos colectivos
               p.mb-0(style="color:#000 !important") Favorecer el trabajo en equipo en iniciativas sociales, culturales, educativas o ambientales, como el emprendimiento comunitario, la recuperación de espacios públicos y la organización de actividades participativas. Estos proyectos brindan un sentido de pertenencia y cohesión interna.
-            .col-lg-6.col-10.order-1.order-lg-2.mb-4
+            .col-lg-7.col-10.order-1.order-lg-2.mb-4
               figure
                 img(src='@/assets/curso/temas/tema3/img-10.png', alt='Imagen decorativa')
           .row
-            .col-lg-6.order-2.order-lg-1
+            .col-lg-5.order-2.order-lg-1
               h4(style="color:#000 !important") Educación y formación para la convivencia
               p.mb-0(style="color:#000 !important") Implementar programas formativos y talleres sobre habilidades blandas, participación ciudadana, liderazgo, cultura de paz y derechos humanos, para fortalecer la conciencia cívica y la corresponsabilidad social.
-            .col-lg-6.col-10.order-1.order-lg-2.mb-4
+            .col-lg-7.col-10.order-1.order-lg-2.mb-4
               figure
                 img(src='@/assets/curso/temas/tema3/img-11.png', alt='Imagen decorativa')
           .row
-            .col-lg-6.order-2.order-lg-1
+            .col-lg-5.order-2.order-lg-1
               h4(style="color:#000 !important") Fomentar la comunicación y transparencia
               p.mb-0(style="color:#000 !important") Construir canales de comunicación claros, abiertos y honestos entre los distintos actores del territorio, tanto formales como informales, fortaleciendo la confianza y el conocimiento mutuo. 
-            .col-lg-6.col-10.order-1.order-lg-2.mb-4
+            .col-lg-7.col-10.order-1.order-lg-2.mb-4
               figure
                 img(src='@/assets/curso/temas/tema3/img-12.png', alt='Imagen decorativa')
           .row
-            .col-lg-6.order-2.order-lg-1
+            .col-lg-5.order-2.order-lg-1
               h4(style="color:#000 !important") Promover la inclusión y la equidad
               p.mb-0(style="color:#000 !important") Garantizar que todas las voces sean escuchadas y que los procesos estén orientados a la integración de todos los sectores sociales respetando las diferencias culturales, étnicas y generacionales.
-            .col-lg-6.col-10.order-1.order-lg-2.mb-4
+            .col-lg-7.col-10.order-1.order-lg-2.mb-4
               figure
                 img(src='@/assets/curso/temas/tema3/img-13.png', alt='Imagen decorativa')
           .row
-            .col-lg-6.order-2.order-lg-1
+            .col-lg-5.order-2.order-lg-1
               h4(style="color:#000 !important") Desarrollar resiliencia y redes de apoyo
               p.mb-0(style="color:#000 !important") Fortalecer el tejido social implica prepararse para enfrentar desafíos, por lo que es importante establecer redes de apoyo y mecanismos para la gestión colectiva de dificultades, promoviendo la solidaridad ante crisis y emergencias.
-            .col-lg-6.col-10.order-1.order-lg-2.mb-4
+            .col-lg-7.col-10.order-1.order-lg-2.mb-4
               figure
                 img(src='@/assets/curso/temas/tema3/img-14.png', alt='Imagen decorativa')
         
