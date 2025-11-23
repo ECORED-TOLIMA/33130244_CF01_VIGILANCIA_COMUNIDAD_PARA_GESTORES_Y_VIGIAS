@@ -18,7 +18,7 @@
               img(src='@/assets/curso/temas/tema1/img-02.svg', alt='Imagen decorativa')
           .col-lg-10
             p.mb-0(data-aos="fade-left") El análisis participativo se define como los métodos y técnicas que facilitan la participación de las comunidades en el diagnóstico, la planificación y la evaluación de proyectos y acciones locales, permitiendo recoger información, analizar problemáticas y consensuar soluciones de manera colaborativa (Geilfus, 2002).
-        .bloque-texto-c.color-secundario.p-3(style="background-color:#F4E9E7")
+        .bloque-texto-c.color-secundario.p-3(style="background-color:#FEEADD")
           p.mb-0 Se entiende por análisis participativo al enfoque metodológico donde las personas involucradas—como comunidades, grupos sociales o territorios—expresan sus percepciones, conocimientos y opiniones para intervenir sobre situaciones que los afectan directamente. El objetivo es empoderar a los participantes a través de su involucramiento en la identificación de necesidades, la deliberación de causas y la construcción de soluciones colectivas (ACNUR, 2024).
 
     Separador
@@ -42,34 +42,34 @@
               .p-2
                 ul.lista-ul--color
                   li.d-flex
-                    i.fas.fa-user.bg-color-3
+                    <i class="fa-solid fa-circle-user bg-color-3"></i>
                     p.mb-0 Edad.
                   li.d-flex
-                    i.fas.fa-user.bg-color-3
+                    <i class="fa-solid fa-circle-user bg-color-3"></i>
                     p.mb-0 Sexo o género.
                   li.d-flex
-                    i.fas.fa-user.bg-color-3
+                    <i class="fa-solid fa-circle-user bg-color-3"></i>
                     p.mb-0 Estado civil.
                   li.d-flex
-                    i.fas.fa-user.bg-color-3
+                    <i class="fa-solid fa-circle-user bg-color-3"></i>
                     p.mb-0 Nivel educativo.
                   li.d-flex
-                    i.fas.fa-user.bg-color-3
+                    <i class="fa-solid fa-circle-user bg-color-3"></i>
                     p.mb-0 Ocupación y situación laboral.
             .col-lg
               .p-2
                 ul.lista-ul--color
                   li.d-flex
-                    i.fas.fa-user.bg-color-3
+                    <i class="fa-solid fa-circle-user bg-color-3"></i>
                     p.mb-0 Nivel socioeconómico e ingresos.
                   li.d-flex
-                    i.fas.fa-user.bg-color-3
+                    <i class="fa-solid fa-circle-user bg-color-3"></i>
                     p.mb-0 Composición y tamaño familiar.
                   li.d-flex
-                    i.fas.fa-user.bg-color-3
+                    <i class="fa-solid fa-circle-user bg-color-3"></i>
                     p.mb-0 Nacionalidad y lugar de residencia.
                   li.d-flex
-                    i.fas.fa-user.bg-color-3
+                    <i class="fa-solid fa-circle-user bg-color-3"></i>
                     p.mb-0 Religión y pertenencia étnica.
 
     p.mb-4.text-center Algunos ejemplos de las condiciones sociodemográficas pueden ser: 
@@ -415,16 +415,16 @@
           .col
             ul.lista-ul--color
               li.d-flex.align-items-start
-                i.fas.fa-user
+                <i class="fa-solid fa-circle-user bg-color-3"></i>
                 | Quienes coordinan comités vecinales o promueven la participación ciudadana. 
               li.d-flex.align-items-start
-                i.fas.fa-user
+                <i class="fa-solid fa-circle-user bg-color-3"></i>
                 | Personas a las que la comunidad consulta para resolver conflictos. 
               li.d-flex.align-items-start
-                i.fas.fa-user
+                <i class="fa-solid fa-circle-user bg-color-3"></i>
                 | Individuos líderes en proyectos sociales, jornadas de limpieza o actividades educativas. 
               li.d-flex.align-items-start
-                i.fas.fa-user
+                <i class="fa-solid fa-circle-user bg-color-3"></i>
                 | Miembros reconocidos por su integridad, capacidad de escucha, compromiso y empatía.
       
     p.mb-4 Algunas de las organizaciones comunitarias son estructuras de acción colectiva para atender necesidades comunes y promover derechos. Algunas de estas son: 
@@ -639,7 +639,7 @@
 
     p.mb-4 Dentro de las herramientas participativas están: 
 
-    .tarjeta--BG03.align-items-center.pt-3.mb-5
+    .tarjeta--BG03.px-md-5.p-lg-0.p-4.mb-5
       .col-lg-12.col-12.py-lg-0.py-4
         .row.justify-content-center.align-items-center
           .col-md-6.col-lg-4.mb-4.mb-md-0.d-lg-flex.d-none.order-lg-2.order-2(data-aos="fade-right")
@@ -822,22 +822,17 @@
         figure
           img(src='@/assets/curso/temas/tema1/img-69.png', alt='Imagen decorativa')
       .col-lg-7       
-        .row.justify-content-center.mb-3
-          .col-lg-2.d-none.d-lg-block(data-aos="zoom-in")
-            figure
-              img(src='@/assets/curso/temas/tema1/img-70.svg', alt='Imagen decorativa')
-          .col-lg-10
-            p.mb-0(data-aos="fade-left") El mapeo comunitario es una herramienta versátil y puede servir para muchos propósitos diferentes.
+        p El mapeo comunitario es una herramienta versátil y puede servir para muchos propósitos diferentes.
         p El primer paso para la realización del mapeo comunitario es la definición del propósito. Para ello, se deben contestar las siguientes preguntas: 
         ul.lista-ul--color
           li.d-flex.align-items-start
-            i.fas.fa-user
+            <i class="fa-solid fa-circle-user bg-color-3"></i>
             | ¿Cuál es el propósito de llevar a cabo el ejercicio de mapeo comunitario?  
           li.d-flex.align-items-start
-            i.fas.fa-user
+            <i class="fa-solid fa-circle-user bg-color-3"></i>
             | ¿Qué tipos de datos son necesarios para alcanzar este objetivo?
           li.d-flex.align-items-start
-            i.fas.fa-user
+            <i class="fa-solid fa-circle-user bg-color-3"></i>
             | ¿Cómo se utilizará la información recopilada?
 
     p.mb-4 La siguiente tabla, explica los aspectos a tener en cuenta en este primer paso:
@@ -951,29 +946,29 @@
             .col-lg-10.col-12
               ul.lista-ul--color
                 li.d-flex.align-items-start
-                  i.fas.fa-user
+                  <i class="fa-solid fa-circle-user bg-color-3"></i>
                   | Seleccionar el área a ser mapeada. Puede ser una comunidad, dos comunidades, una cuenca, etc.
                 li.d-flex.align-items-start
-                  i.fas.fa-user
+                  <i class="fa-solid fa-circle-user bg-color-3"></i>
                   | Consultar información existente del área a ser mapeada. 
                 li.d-flex.align-items-start
-                  i.fas.fa-user
+                  <i class="fa-solid fa-circle-user bg-color-3"></i>
                   | Elaborar la imagen del mapa de forma manual o digital. Para ser impreso, este deberá tener un tamaño adecuado, la escala correcta y buena resolución. Adicionalmente, debe tener los elementos básicos de un mapa.
 
     p.mb-4 En cuanto a las dimensiones:
 
     ul.lista-ul--color
       li.d-flex.align-items-start
-        i.fas.fa-user
+        <i class="fa-solid fa-circle-user bg-color-3"></i>
         | El mapa debe tener por lo menos 1.50 por 1.50 metros. Esto permitirá que un número suficiente de personas puedan participar activamente en el ejercicio de mapeo.
       li.d-flex.align-items-start
-        i.fas.fa-user
+        <i class="fa-solid fa-circle-user bg-color-3"></i>
         | El área de interés debe ocupar la mayor superficie de la imagen del mapa, la zona de enfoque debe abarcar la mayor superficie posible de la imagen del mapa. 
       li.d-flex.align-items-start
-        i.fas.fa-user
+        <i class="fa-solid fa-circle-user bg-color-3"></i>
         | La escala debe permitir la visibilidad de las casas y lugares pequeños.
       li.d-flex.align-items-start
-        i.fas.fa-user
+        <i class="fa-solid fa-circle-user bg-color-3"></i>
         | La simbología debe ser discreta e intuitiva. Los símbolos que se elijan para representar la información en la imagen digital deben ser cuidadosamente seleccionados.
 
     .tarjeta.tarjeta--gris2.p-3.mb-4
@@ -999,28 +994,28 @@
       .col-lg-5       
         ul.lista-ul--color
           li.d-flex.align-items-start
-            i.fas.fa-user
+            <i class="fa-solid fa-circle-user bg-color-3"></i>
             | Identificar los recursos naturales, y recursos de la comunidad.
           li.d-flex.align-items-start
-            i.fas.fa-user
+            <i class="fa-solid fa-circle-user bg-color-3"></i>
             | Identificar los problemas, riesgos, vulnerabilidades y amenazas. 
           li.d-flex.align-items-start
-            i.fas.fa-user
+            <i class="fa-solid fa-circle-user bg-color-3"></i>
             | Determinar la ubicación de la infraestructura existente. 
           li.d-flex.align-items-start
-            i.fas.fa-user
+            <i class="fa-solid fa-circle-user bg-color-3"></i>
             | Intercambiar información entre técnicos y comunitarios. 
           li.d-flex.align-items-start
-            i.fas.fa-user
+            <i class="fa-solid fa-circle-user bg-color-3"></i>
             | Verificar la información.  
           li.d-flex.align-items-start
-            i.fas.fa-user
+            <i class="fa-solid fa-circle-user bg-color-3"></i>
             | Identificar las necesidades.
           li.d-flex.align-items-start
-            i.fas.fa-user
+            <i class="fa-solid fa-circle-user bg-color-3"></i>
             | Identificar la existencia de lugares de intervenciones.
           li.d-flex.align-items-start
-            i.fas.fa-user
+            <i class="fa-solid fa-circle-user bg-color-3"></i>
             | Realizar el seguimiento de acciones realizadas.
 
     .row.mb-4.ms-0
@@ -1169,28 +1164,18 @@
                 p Con los problemas priorizados, la comunidad, con el apoyo de los facilitadores, diseña un plan de acción concreto. Se definen objetivos claros, se asignan roles y responsabilidades; además, se establecen los plazos. Este plan no es un documento estático, sino un compromiso vivo y flexible. En esta etapa, el análisis se convierte en el motor para la movilización social, donde la comunidad se organiza para implementar las soluciones que ha cocreado, ya sea a través de proyectos de autogestión, campañas de incidencia o la colaboración con otras instituciones.
               .col-lg-5.col-12.order-lg-2.order-1.mb-lg-0.mb-4
                 figure
-                  img(src='@/assets/curso/temas/tema1/img-79.png' style="width: 500px" ,alt='').m-auto
+                  img(src='@/assets/curso/temas/tema1/img-80.png' style="width: 500px" ,alt='').m-auto
             .row.justify-content-center
               .col-lg-7.order-lg-1.order-2
                 h4 Evaluación y la reflexión
                 p Una vez que las acciones están en marcha, la comunidad evalúa los resultados de forma participativa. Se discute qué funcionó, qué no y por qué. Este proceso de retroalimentación es vital para ajustar las estrategias y asegurar la sostenibilidad del proyecto a largo plazo. La evaluación no solo mide el éxito, sino que también fortalece la capacidad de la comunidad para aprender de sus propias experiencias, convirtiéndose en un agente de cambio continuo y autónomo.  
               .col-lg-5.col-12.order-lg-2.order-1.mb-lg-0.mb-4
                 figure
-                  img(src='@/assets/curso/temas/tema1/img-79.png' style="width: 500px" ,alt='').m-auto
+                  img(src='@/assets/curso/temas/tema1/img-81.png' style="width: 500px" ,alt='').m-auto
 
       .row.justify-content-center.mb-4(data-aos="flip-up")
         .col-lg-12.col-12
           p El análisis participativo es una herramienta fundamental en el proceso de la Vigilancia Basada en Comunidad. Este proceso es realizado por los miembros de la comunidad, agentes comunitarios y personal de salud e instituciones que son parte de un territorio, con el fin de cooperar con la identificación, análisis y movilización social, frente a las situaciones de interés en salud pública que se presentan en estos (Geilfus, 2002). Para esto, la comunidad se vale de las Redes de Vigilancia Epidemiológica Basada en Comunidad (REVCOM), siendo esta la encargada de emitir las señales al Sistema de Alerta Temprana (SAT), para iniciar la gestión del riesgo colectivo e individual de estas. Con la participación activa de la comunidad se favorece la protección de la salud, así como, influir en la toma de decisiones y ejercer control social de las acciones que se desarrollan en los territorios. Estas acciones pueden realizarse en espacios como COVECOM, comités locales, mesas de trabajo, en los que se comparte la presentación de las situaciones de salud, las actividades realizadas con la comunidad, así como la respuesta institucional a estas. 
-
-
-
-
-
-
-
-
-
-
 
 
 </template>

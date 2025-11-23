@@ -214,21 +214,21 @@ export default {
     {
       tema: '1.7.	Herramientas de diagnóstico participativo',
       referencia:
-        'Consorcio Coopi-Care (2015). Mapeo Participativo Comunitario -MPC-. Una experiencia aplicada en el noveno plan de acción 2014-2015. https://dipecholac.net/docs/files/1037-mpc-dipecho-2014-2015.pdf',
+        '<em>Consorcio Coopi-Care (2015). Mapeo Participativo Comunitario -MPC-. Una experiencia aplicada en el noveno plan de acción 2014-2015.</em> https://dipecholac.net/docs/files/1037-mpc-dipecho-2014-2015.pdf',
       tipo: 'Documento',
       link: 'https://dipecholac.net/docs/files/1037-mpc-dipecho-2014-2015.pdf',
     },
     {
       tema: '3. Construcción de tejido social',
       referencia:
-        'Instituto Nacional de Salud. (2025). ReVcom. https://www.ins.gov.co/Noticias/Paginas/ReVCom.aspx',
+        'Instituto Nacional de Salud. (2025). <em>ReVcom.</em> https://www.ins.gov.co/Noticias/Paginas/ReVCom.aspx',
       tipo: 'Manual',
       link: 'https://www.ins.gov.co/Noticias/Paginas/ReVCom.aspx',
     },
     {
       tema: '4. Vigilancia en salud pública',
       referencia:
-        'Instituto Nacional de Salud. (2025). Lineamientos para la Vigilancia Basada en la Comunidad.',
+        'Instituto Nacional de Salud. (2025). <em>Lineamientos para la Vigilancia Basada en la Comunidad.</em> ',
       tipo: 'Documento',
       link:
         'https://www.ins.gov.co/Noticias/ReVCom/Lineamientos%20para%20la%20Vigilancia%20Basada%20en%20Comunidad%202025.pdf',
@@ -422,8 +422,6 @@ export default {
     {
       referencia:
         'Subsecretaría de Prevención y Participación Ciudadana Dirección General de Prevención del Delito y Participación Ciudadana. (2011). <em>El Tejido Social y su Fortalecimiento.</em>',
-      link:
-        'http://ssp.gob.mx/portalWebApp/ShowBinary?nodeId=%2FBEA+Repository%2F1214181%2F%2Farchivo',
     },
     {
       referencia:
@@ -513,7 +511,12 @@ export default {
         },
         {
           nombre: 'José Jaime Luis Tang Pinzón',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñador <em>web</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Jose Yobani Penagos Mora',
+          cargo: 'Diseñador <em>web</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {

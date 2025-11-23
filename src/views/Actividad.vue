@@ -232,8 +232,17 @@ export default {
                 'Mapas comunitarios, árbol de problemas y soluciones, matrices de priorización, grupos focales, historias de vida, diagramas de Venn, caminatas, calendarios estacionales y líneas de tiempo, para comprender necesidades y buscar solucione.',
               esCorrecta: true,
             },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'd', texto: 'opcion_4', esCorrecta: false },
+            {
+              id: 'c',
+              texto:
+                'La observación directa sin participación de la comunidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El uso exclusivo de encuestas digitales.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento del componente.',

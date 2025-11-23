@@ -23,40 +23,40 @@
         .col-lg-8.mb-lg-0.mb-4(data-aos="fade-left")
           ul.lista-ul--color
             li.d-flex
-              i.fas.fa-user.bg-color-3
+              <i class="fa-solid fa-circle-user bg-color-3"></i>
               p.mb-0 Ministerio de Salud y Protección Social (MSPS).
             li.d-flex
-              i.fas.fa-user.bg-color-3
+              <i class="fa-solid fa-circle-user bg-color-3"></i>
               p.mb-0 Instituto Nacional de Salud (INS).
             li.d-flex
-              i.fas.fa-user.bg-color-3
+              <i class="fa-solid fa-circle-user bg-color-3"></i>
               p.mb-0 Entidades territoriales, se entiende por cada departamento, distrito y municipio que conforman el país.
             li.d-flex
-              i.fas.fa-user.bg-color-3
+              <i class="fa-solid fa-circle-user bg-color-3"></i>
               p.mb-0 Instituciones Prestadoras de Servicios de Salud (IPS).
             li.d-flex
-              i.fas.fa-user.bg-color-3
+              <i class="fa-solid fa-circle-user bg-color-3"></i>
               p.mb-0 Entidades Administradoras de Planes de Beneficios (EAPB).
             li.d-flex
-              i.fas.fa-user.bg-color-3
+              <i class="fa-solid fa-circle-user bg-color-3"></i>
               p.mb-0 Superintendencia Nacional de Salud.
             li.d-flex
-              i.fas.fa-user.bg-color-3
+              <i class="fa-solid fa-circle-user bg-color-3"></i>
               p.mb-0 Instituto Nacional de Vigilancia de Medicamentos y Alimentos (INVIMA).
             li.d-flex
-              i.fas.fa-user.bg-color-3
+              <i class="fa-solid fa-circle-user bg-color-3"></i>
               p.mb-0 Autoridades locales.
             li.d-flex
-              i.fas.fa-user.bg-color-3
+              <i class="fa-solid fa-circle-user bg-color-3"></i>
               p.mb-0 Laboratorios de salud pública y laboratorios privados.
             li.d-flex
-              i.fas.fa-user.bg-color-3
+              <i class="fa-solid fa-circle-user bg-color-3"></i>
               p.mb-0 Profesionales de la salud.
             li.d-flex
-              i.fas.fa-user.bg-color-3
+              <i class="fa-solid fa-circle-user bg-color-3"></i>
               p.mb-0 Redes de atención.
             li.d-flex
-              i.fas.fa-user.bg-color-3
+              <i class="fa-solid fa-circle-user bg-color-3"></i>
               p.mb-0 Comunidades.
 
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5
@@ -257,37 +257,37 @@
               .p-2
                 ul.lista-ul--color
                   li.d-flex
-                    i.fas.fa-user.bg-color-3
+                    <i class="fa-solid fa-circle-user bg-color-3"></i>
                     p.mb-0 Desnutrición.
                   li.d-flex
-                    i.fas.fa-user.bg-color-3
+                    <i class="fa-solid fa-circle-user bg-color-3"></i>
                     p.mb-0 Enfermedad diarreica aguda.
                   li.d-flex
-                    i.fas.fa-user.bg-color-3
+                    <i class="fa-solid fa-circle-user bg-color-3"></i>
                     p.mb-0 Enfermedad respiratoria aguda.
                   li.d-flex
-                    i.fas.fa-user.bg-color-3
+                    <i class="fa-solid fa-circle-user bg-color-3"></i>
                     p.mb-0 Accidentes ofídicos.
                   li.d-flex
-                    i.fas.fa-user.bg-color-3
+                    <i class="fa-solid fa-circle-user bg-color-3"></i>
                     p.mb-0 Malaria.
             .col-lg
               .p-2
                 ul.lista-ul--color
                   li.d-flex
-                    i.fas.fa-user.bg-color-3
+                    <i class="fa-solid fa-circle-user bg-color-3"></i>
                     p.mb-0 Dengue.
                   li.d-flex
-                    i.fas.fa-user.bg-color-3
+                    <i class="fa-solid fa-circle-user bg-color-3"></i>
                     p.mb-0 Chikunguña.
                   li.d-flex
-                    i.fas.fa-user.bg-color-3
+                    <i class="fa-solid fa-circle-user bg-color-3"></i>
                     p.mb-0 Sífilis gestacional.
                   li.d-flex
-                    i.fas.fa-user.bg-color-3
+                    <i class="fa-solid fa-circle-user bg-color-3"></i>
                     p.mb-0 Sarampión.
                   li.d-flex
-                    i.fas.fa-user.bg-color-3
+                    <i class="fa-solid fa-circle-user bg-color-3"></i>
                     p.mb-0 Entre otros.
 
     .row.mb-4.ms-0
@@ -318,7 +318,7 @@
           span <em>Modelo de gestión del riesgo de eventos de interés en salud pública, brotes y epidemias</em>  
 
         .row.bg-color-5.justify-content-center.align-items-center.p-4
-          .col-lg-10
+          .col-lg-12
             figure.desktop
               img(src='@/assets/curso/temas/tema4/figura-1-1.svg', alt='Figura 4 que relaciona la estructura de cómo se compone un modelo de gestión de riesgos, el cual se específica en los eventos de interés en salud pública, brotes y epidemias. En este modelo, se establece un contexto y a partir de él, de identifica, analiza, evalúa, modifica y comunica el riesgo presente.', style="width: 1043px").m-auto
             figure.movil
@@ -406,7 +406,7 @@
               img(src='@/assets/curso/temas/tema4/img-20.png', alt="Imagen decorativa")          
             .col-lg-8(data-aos="fade-down")
               h4 Vigilancia mediante sensores
-              p.mb-0 Utiliza sensores, dispositivos digitales o tecnología de monitoreo (como plataformas web, redes sociales, aplicaciones móviles o dispositivos con conexión internet) para captar datos sobre aparición de síntomas, exposiciones o movimientos poblacionales en tiempo real.
+              p.mb-0 Utiliza sensores, dispositivos digitales o tecnología de monitoreo (como plataformas #[em web], redes sociales, aplicaciones móviles o dispositivos con conexión internet) para captar datos sobre aparición de síntomas, exposiciones o movimientos poblacionales en tiempo real.
           .row.justify-content-center
             .col-lg-8.order-lg-1.order-2(data-aos="fade-down")
               h4 Vigilancia centinela

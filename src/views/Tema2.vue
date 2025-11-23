@@ -69,24 +69,24 @@
 
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--C01" data-aos="zoom-in")
       .row.justify-content-center(titulo="Capacitación continua")
-        .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+        .col-lg-7.col-10.order-lg-1.order-1.mb-lg-0.mb-4
           figure
             img(src='@/assets/curso/temas/tema2/img-08.png', alt="Imagen decorativa")
-        .col-lg-6.order-lg-1.order-2
+        .col-lg-5.order-lg-2.order-2
           p.mb-0 En los espacios de participación, se debe realizar sensibilización o capacitaciones a los agentes comunitarios en temas relacionados con la salud, la vigilancia epidemiológica y la gestión comunitaria de situaciones de interés en salud pública. También en habilidades de comunicación, liderazgo, resolución de conflictos, inteligencia emocional, etc. En el marco de la Vigilancia Basada en Comunidad, esta es una exigencia que los departamentos, distritos y municipios deben desarrollar a partir de su lineamiento nacional.
       .row.justify-content-center(titulo="Delegación de responsabilidades")
-        .col-lg-6.order-lg-1.order-2
-          p.mb-0 Se debe otorgar a la comunidad responsabilidades específicas dentro del proceso de VBC, fomentando su autonomía.
-        .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+        .col-lg-7.col-10.order-lg-1.order-1.mb-lg-0.mb-4
           figure
             img(src='@/assets/curso/temas/tema2/img-09.png', alt="Imagen decorativa")
+        .col-lg-5.order-lg-2.order-2
+          p.mb-0 Se debe otorgar a la comunidad responsabilidades específicas dentro del proceso de VBC, fomentando su autonomía.
       .row.justify-content-center(titulo="Creación de espacios de decisión")
-        .col-lg-6.order-lg-1.order-2
-          p.mb-0 Es necesario incluir a la comunidad en la toma de decisiones sobre las acciones a implementar. Se debe promover su participación en los espacios de rendición de cuentas y aquellos que involucren a la REVCOM como COVECOM. 
-        .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+        .col-lg-7.col-10.order-lg-1.order-1.mb-lg-0.mb-4
           figure
             img(src='@/assets/curso/temas/tema2/img-10.png', alt="Imagen decorativa")
-
+        .col-lg-5.order-lg-2.order-2
+          p.mb-0 Es necesario incluir a la comunidad en la toma de decisiones sobre las acciones a implementar. Se debe promover su participación en los espacios de rendición de cuentas y aquellos que involucren a la REVCOM como COVECOM. 
+        
     Separador
 
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
@@ -103,7 +103,7 @@
           .tarjeta.tarjeta--blanca.p-3(x="43.5%" y="19%" numero="+")(style="background-color:#FFFFFF")
             p Durante este proceso, pueden presentarse ruidos (cualquier interferencia que distorsione el mensaje) y todo ocurre dentro de un contexto específico que influye en la interpretación. 
           .tarjeta.tarjeta--blanca.p-3(x="61.5%" y="19%" numero="+")(style="background-color:#FFFFFF")
-            p Finalmente, el receptor envía una retroalimentación o feedback al emisor, confirmando la recepción y comprensión del mensaje y cerrando el ciclo comunicativo.
+            p Finalmente, el receptor envía una retroalimentación o #[em feedback] al emisor, confirmando la recepción y comprensión del mensaje y cerrando el ciclo comunicativo.
           .tarjeta.tarjeta--blanca.p-3(x="54%" y="41%" numero="+")(style="background-color:#FFFFFF")
             p Este mensaje codificado viaja a través de un canal (el medio por el cual se transmite, como el habla, la escritura o un gesto) hacia un receptor, quien lo decodifica (interpreta las señales para entender el mensaje). 
           .tarjeta.tarjeta--blanca.p-3(x="22.5%" y="87%" numero="+")(style="background-color:#FFFFFF")

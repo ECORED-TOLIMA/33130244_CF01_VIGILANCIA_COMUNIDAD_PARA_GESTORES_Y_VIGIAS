@@ -24,19 +24,19 @@
           
         ul.lista-ul--color.mb-5
           li.d-flex
-            i.fas.fa-user.bg-color-3
+            <i class="fa-solid fa-circle-user bg-color-3"></i>
             p.mb-0 Fortalecer la vigilancia comunitaria mediante la participación directa de líderes, familias y organizaciones locales.
           li.d-flex
-            i.fas.fa-user.bg-color-3
+            <i class="fa-solid fa-circle-user bg-color-3"></i>
             p.mb-0 Detectar de manera temprana eventos o situaciones que puedan afectar la salud colectiva, como brotes, enfermedades transmisibles, desastres o factores ambientales.
           li.d-flex
-            i.fas.fa-user.bg-color-3
+            <i class="fa-solid fa-circle-user bg-color-3"></i>
             p.mb-0 Establecer canales de comunicación efectivos entre la comunidad y las entidades de salud para mejorar la respuesta frente a emergencias sanitarias.
           li.d-flex
-            i.fas.fa-user.bg-color-3
+            <i class="fa-solid fa-circle-user bg-color-3"></i>
             p.mb-0 Fomentar el empoderamiento social, impulsando la corresponsabilidad en la prevención y el cuidado de la salud.
           li.d-flex
-            i.fas.fa-user.bg-color-3
+            <i class="fa-solid fa-circle-user bg-color-3"></i>
             p.mb-0 Consolidar redes locales de apoyo que favorezcan la cooperación entre instituciones, organizaciones y la ciudadanía.
 
     .row.justify-content-center.mb-4(data-aos="fade-right")
