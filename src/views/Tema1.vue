@@ -811,7 +811,7 @@
       .col-lg-10.col-12
         p De acuerdo con lo establecido por el Consorcio Coopi-Care (2015), en el mapeo comunitario se combina el uso de instrumentos gráficos y geográficos, además de herramientas de desarrollo comunitario que permiten a los agentes comunitarios analizar su entorno, visualizar los cambios, proponer alternativas de solución a los problemas encontrados y elaborar planes para mejorar sus condiciones de vida.
         .cajon.cajon.color-secundario-medio.p-4
-          p Entre los usos del mapeo comunitario se pueden mencionar, la elaboración de diagnósticos, planificación de actividades, monitoreo y evaluación e intercambio de información; puntos importantes que permiten contribuir en el desarrollo de las comunidades.
+          p Entre los usos del mapeo comunitario se pueden mencionar la elaboración de diagnósticos, planificación de actividades, monitoreo y evaluación e intercambio de información; puntos importantes que permiten contribuir en el desarrollo de las comunidades.
           p.mb-0 Lo siguientes son los pasos para la elaboración del mapeo comunitario: 
 
     .titulo2.mb-4(data-aos="fade-left")
@@ -1154,7 +1154,7 @@
             .row.justify-content-center
               .col-lg-7.order-lg-1.order-2
                 h4 Análisis y priorización
-                p La información recopilada en el diagnóstico se analiza de manera colectiva. Los participantes discuten y debaten sobre las relaciones de causa y efecto, las dinámicas de poder y los factores que influyen en sus situaciones. Este análisis profundo y compartido permite a la comunidad ir más allá de los síntomas para abordar las raíces de los problemas. Debe hacerse de manera integral, profundizando en el porqué del comportamiento de los reportes y no únicamente en si estos se confirmaron o descartaron, además, en el uso de datos generados desde el comportamiento epidemiológico territorial con el fin de generar acciones individuales y colectivas, activando la autogestión y movilización social. (Gomà, 2007). Por esto, no se debe desconocer las formas de organización existentes en la comunidad, siendo estas las posibles redes a consolidar. 
+                p La información recopilada en el diagnóstico se analiza de manera colectiva. Los participantes discuten y debaten sobre las relaciones de causa y efecto, las dinámicas de poder y los factores que influyen en sus situaciones. Este análisis profundo y compartido permite a la comunidad ir más allá de los síntomas para abordar las raíces de los problemas. Debe hacerse de manera integral, profundizando en él porqué del comportamiento de los reportes y no únicamente en sí, estos se confirmaron o descartaron, además, en el uso de datos generados desde el comportamiento epidemiológico territorial con el fin de generar acciones individuales y colectivas, activando la autogestión y movilización social. (Gomà, 2007). Por esto, no se debe desconocer las formas de organización existentes en la comunidad, siendo estas las posibles redes a consolidar. 
               .col-lg-5.col-12.order-lg-2.order-1.mb-lg-0.mb-4
                 figure
                   img(src='@/assets/curso/temas/tema1/img-79.png' style="width: 500px" ,alt='').m-auto
