@@ -94,7 +94,7 @@
             h4.text-center.mt-5(style="color:#12263F") Ocupación laboral
             p.text-center.mb-0(style="color:#12263F") Trabajadores con diferentes rangos de edad, escolaridad y ocupación en una empresa.
 
-    p.mb-4 Los estudios demográficos permiten: describir, analizar y comparar distintas poblaciones con el fin de identificar vulnerabilidades, necesidades y desigualdades sociales. Además, son centrales en el diseño de políticas públicas, estrategia de salud, programas sociales, estudios de mercado, entre otros.
+    p.mb-4 Los estudios demográficos permiten describir, analizar y comparar distintas poblaciones con el fin de identificar vulnerabilidades, necesidades y desigualdades sociales. Además, son centrales en el diseño de políticas públicas, estrategia de salud, programas sociales, estudios de mercado, entre otros.
 
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-10.col-12
@@ -117,7 +117,7 @@
           .col
             h3.mb-0 Etapas de ciclos de vida 
 
-    p.mb-4 Las etapas del ciclo de vida son los grandes periodos de desarrollo que atraviesa una persona desde la concepción hasta la muerte y constituyen el eje central para los estudios, De acuerdo con la Resolución 3202 de 2016 en Colombia, las etapas del ciclo de vida establecidas son las siguientes: 
+    p.mb-4 Las etapas del ciclo de vida son los grandes periodos de desarrollo que atraviesa una persona desde la concepción hasta la muerte y constituyen el eje central para los estudios. De acuerdo con la Resolución 3202 de 2016 en Colombia, las etapas del ciclo de vida establecidas son las siguientes: 
 
     .row.justify-content-center.mb-4
       .col-lg-10(data-aos="fade-right")
@@ -159,7 +159,7 @@
       .col-xl.px-0
         .d-flex.align-items-start
           img.icon-inline.d-none.d-lg-block.me-3(src='@/assets/curso/temas/tema1/img-12.svg' alt="Imagen decorativa")
-        p.mb-0 Las etapas del ciclo de vida son así herramienta fundamental para organizar el estudio de poblaciones y planificar acciones de salud pública eficaces y adaptadas, asimismo, estas etapas permiten organizar la atención integral en salud reconociendo las características y necesidades específicas de cada momento vital a lo largo del curso de vida (Ministerio de Salud y Protección Social, 2016).
+        p.mb-0 Las etapas del ciclo de vida son una herramienta fundamental para organizar el estudio de poblaciones y planificar acciones de salud pública eficaces y adaptadas, asimismo, estas etapas permiten organizar la atención integral en salud reconociendo las características y necesidades específicas de cada momento vital a lo largo del curso de vida (Ministerio de Salud y Protección Social, 2016).
 
     .fondo2-t2.px-md-5.px-4.py-4
       .row.justify-content-center
@@ -247,7 +247,7 @@
             .col-lg-5.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema1/img-23.svg' alt='AvatarTop')
           h4.text-center Ausencia de espacios verdes y recreativos
-          p.mb-0 Limita el ejercicio físico y la interacción social, aumentando el riesgo de enfermedades cardiovasculares y problemas de salud mental
+          p.mb-0 Limita el ejercicio físico y la interacción social, aumentando el riesgo de enfermedades cardiovasculares y problemas de salud mental.
 
     .row.justify-content-center(data-aos="fade-right")
       .col-lg-10.col-12
@@ -278,8 +278,8 @@
                 img(src='@/assets/curso/temas/tema1/img-25.png', alt='Imagen decorativa')
           .row.mb-0(numero="3" titulo="Diversidad de prácticas y saberes")
             .col-12
-              p En Colombia, la diversidad es enorme. Los afrocolombianos, los Arhuacos y los pueblos andinos cuentan con sanadores tradicionales, celebraciones, rituales agrarios y conocimientos que han pasado de generación en generación. Prácticas como el “buen vivir” (sumak kawsay) muestran cómo la salud surge de armonizar relaciones humanas, naturaleza y costumbres ancestrales. Aunque existen similitudes, cada grupo establece sus propias normas sobre género, comida, la vida, la muerte y la forma de ver el territorio (López, et al, 2018)
-              p Armonizar estas dimensiones permite adaptar la prevención, la promoción y la atención, garantizando el bienestar integral según las realidades de cada pueblo o comunidad. Pese a las similitudes, se pude decir que cada uno define normas respecto al género, la edad, la alimentación, la muerte, la espiritualidad y el uso del territorio acorde a ellos. Las prácticas de cuidado y sanación no solo buscan curar síntomas físicos, sino restablecer el equilibrio espiritual, económico, familiar, ambiental y social, recurriendo a disimiles rituales tales como plantas medicinales, curanderos, limpias, baños, agradecimientos y mediaciones con los ancestros. 
+              p En Colombia, la diversidad es enorme. Los afrocolombianos, los Arhuacos y los pueblos andinos cuentan con sanadores tradicionales, celebraciones, rituales agrarios y conocimientos que han pasado de generación en generación. Prácticas como el “buen vivir” (sumak kawsay) muestran cómo la salud surge de armonizar relaciones humanas, naturaleza y costumbres ancestrales. Aunque existen similitudes, cada grupo establece sus propias normas sobre género, comida, la vida, la muerte y la forma de ver el territorio (López, et al, 2018).
+              p Armonizar estas dimensiones permite adaptar la prevención, la promoción y la atención, garantizando el bienestar integral según las realidades de cada pueblo o comunidad. Pese a las similitudes, se puede decir que cada uno define normas respecto al género, la edad, la alimentación, la muerte, la espiritualidad y el uso del territorio acorde a ellos. Las prácticas de cuidado y sanación no solo buscan curar síntomas físicos, sino restablecer el equilibrio espiritual, económico, familiar, ambiental y social, recurriendo a disimiles rituales tales como plantas medicinales, curanderos, limpias, baños, agradecimientos y mediaciones con los ancestros. 
               p Comprender y respetar la cosmogonía permite diseñar intervenciones de salud pública pertinentes, incorporar promotores culturales, fortalecer el trabajo participativo y dialogar con las prácticas de autocuidado y sanación colectiva, promoviendo una perspectiva intercultural y el reconocimiento de la autonomía de los pueblos.
             .col-12.mb-0
               figure
@@ -292,7 +292,7 @@
                 img(src='@/assets/curso/temas/tema1/img-27.png', alt='Imagen decorativa')
           .row.mb-0(numero="5" titulo="Competencia cultural y enfoque intercultural")
             .col-12
-              p Atender la salud no solo es tratar enfermedades: exige reconocer la diversidad y la cultura de cada persona. Por eso, quienes desarrollan acciones en salud deben aprender y practicar competencia cultural—una capacidad que se construye con conciencia, conocimientos y habilidades para entender y respetar creencias y comportamientos diferentes. Ignorar la cultura es ignorar a la persona misma y eso puede dificultar cualquier proceso de cuidado o sanación.
+              p Atender la salud no solo es tratar enfermedades, exige reconocer la diversidad y la cultura de cada persona. Por eso, quienes desarrollan acciones en salud deben aprender y practicar competencia cultural una capacidad que se construye con conciencia, conocimientos y habilidades para entender y respetar creencias y comportamientos diferentes. Ignorar la cultura es ignorar a la persona misma y eso puede dificultar cualquier proceso de cuidado o sanación.
             .col-12.mb-0
               figure
                 img(src='@/assets/curso/temas/tema1/img-28.png', alt='Imagen decorativa')
@@ -358,7 +358,7 @@
                 figure.d-none.d-xl-block
                   img(src='@/assets/curso/temas/tema1/img-31.svg', alt='').m-auto
               .col-xl
-                p.mb-0 Estos estilos se distinguen por la dinámica de poder y la distribución de responsabilidades en el grupo (Secretaría de Integración Social, 2016)
+                p.mb-0 Estos estilos se distinguen por la dinámica de poder y la distribución de responsabilidades en el grupo (Secretaría de Integración Social, 2016).
 
             p Además de estas categorías, existe una segunda clasificación de tipos de liderazgo que se centra en #[b la naturaleza del intercambio entre el líder y los seguidores.] Estos liderazgos se dividen en los siguientes:   
 
@@ -457,7 +457,7 @@
             figure
               img(src="@/assets/curso/temas/tema1/img-40.svg", alt="alt").img90.m-auto
           h4.text-center Clubes
-          p.mb-0 Encontrando juveniles, deportivos, culturales o centros de madres que abordan necesidades específicas del grupo.
+          p.mb-0 Encuentros juveniles, deportivos, culturales o centros de madres que abordan necesidades específicas del grupo.
 
     .row.mb-4.ms-0
       .col-auto.bg-c1(data-aos="fade-left")
@@ -523,8 +523,8 @@
               figure(data-aos="fade-down")
                 img(src='@/assets/curso/temas/tema1/img-71.svg', alt='Imagen decorativa')
             .col-lg-10.col-12
-              p.mb-0(data-aos="fade-down") Son ámbitos donde se reúnen los miembros para fortalecer vínculos, discutir problemas, acordar acciones y celebrar logros. Particularmente en el contexto colombiano existen espacios como asambleas y reuniones periódicas de asociaciones vecinales; ferias, mercados campesinos, ferias artesanales o eventos deportivos; centros comunitarios, bibliotecas, grupos de lectura o culturales, comités, parques urbanos y espacios de aprendizaje compartido; talleres participativos, jornadas de limpieza, noches de cine al aire libre y fiestas tradicionales. Estos elementos son fundamentales para el desarrollo sostenible y la cohesión social en cualquier comunidad.
-        p Puntualmente, para el caso de la estrategia de vigilancia basada en comunidad este espacio corresponde al Comité Epidemiológico de Vigilancia Comunitaria (COVECOM) u otros en los que se ponen en discusión los temas que afecta la salud de la comunidad.
+              p.mb-0(data-aos="fade-down") Son ámbitos donde se reúnen los miembros para fortalecer vínculos, discutir problemas, acordar acciones y celebrar logros. Particularmente en el contexto colombiano existen espacios como asambleas y reuniones periódicas de asociaciones vecinales, ferias, mercados campesinos, ferias artesanales o eventos deportivos, centros comunitarios, bibliotecas, grupos de lectura o culturales, comités, parques urbanos y espacios de aprendizaje compartido, talleres participativos, jornadas de limpieza, noches de cine al aire libre y fiestas tradicionales. Estos elementos son fundamentales para el desarrollo sostenible y la cohesión social en cualquier comunidad.
+        p Puntualmente, para el caso de la estrategia de vigilancia basada en comunidad este espacio corresponde al Comité Epidemiológico de Vigilancia Comunitaria (COVECOM) u otros en los que se ponen en discusión los temas que afectan la salud de la comunidad.
 
     Separador
 
@@ -571,7 +571,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-49.png')})`}" data-aos="fade-right"
       )
       .bloque-texto-g__texto.p-4(data-aos="fade-left") 
-        p.mb-0 Esta metodología permite a la comunidad ser la protagonista en la identificación, comprensión y priorización de sus propios problemas y fortalezas. A diferencia de los diagnósticos tradicionales que son realizados por expertos externos, este enfoque busca que la comunidad se apropie del conocimiento sobre su realidad, permitiéndole no solo reconocer sus desafíos, sino también sus propios recursos y capacidades para resolverlos. El proceso fortalece el capital social y genera propuestas de solución que son legítimas y viables porque surgen del consenso y la experiencia de quienes viven la situación. (Gomà, 2007) 
+        p.mb-0 Esta metodología permite a la comunidad ser la protagonista en la identificación, comprensión y priorización de sus propios problemas y fortalezas. A diferencia de los diagnósticos tradicionales que son realizados por expertos externos, este enfoque busca que la comunidad se apropie del conocimiento sobre su realidad, permitiéndole no solo reconocer sus desafíos, sino también sus propios recursos y capacidades para resolverlos. El proceso fortalece el capital social y genera propuestas de solución que son legítimas y viables porque surgen del consenso y la experiencia de quienes viven la situación. (Gomà, 2007).
     
     p.mb-4 El diagnóstico participativo genera una visión compartida de la situación comunitaria, fortalece la organización local y legitima las decisiones colectivas. Basado en Gomà (2007), sus principales resultados son: 
 

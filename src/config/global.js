@@ -253,7 +253,7 @@ export default {
     {
       termino: 'EAPB',
       significado:
-        'la empresa administradora de planes de beneficios es la entidad encargada de administrar los planes de salud que incluye las entidades promotoras de salud, subsidiado, empresas solidarias de salud y asociaciones mutuales. Estas entidades son las encargadas de gestionar recursos para la sostenibilidad del sistema en el que se asegure el acceso a los servicios y la calidad de estos.',
+        'la Empresa Administradora de Planes de Beneficios es la entidad encargada de administrar los planes de salud que incluye las entidades promotoras de salud, subsidiado, empresas solidarias de salud y asociaciones mutuales. Estas entidades son las encargadas de gestionar recursos para la sostenibilidad del sistema en el que se asegure el acceso a los servicios y la calidad de estos.',
     },
     {
       termino: 'Eventos de interés en salud pública',
@@ -496,7 +496,7 @@ export default {
         },
         {
           nombre: 'Andrés Felipe Velandia Espitia',
-          cargo: 'Evaluador instruccional ',
+          cargo: 'Evaluador instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
