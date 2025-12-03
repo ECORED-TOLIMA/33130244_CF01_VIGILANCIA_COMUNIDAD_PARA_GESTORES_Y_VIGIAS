@@ -480,7 +480,7 @@
     .row.justify-content-center(data-aos="fade-right")
       .col-lg-10.col-12
         p Por ello, su trabajo se orienta a desarrollar soluciones que promuevan la salud, el progreso y la calidad de vida de sus miembros. Todo esto garantiza que las iniciativas comunitarias se mantengan fieles a su misión de servir y empoderar a las comunidades en los territorios (Secretaría de Integración Social, 2016). 
-        p Dentro de los ejemplos estas organizaciones están:
+        p Dentro de los ejemplos de estas organizaciones están:
 
     .row.mb-5(data-aos="fade-down")
       .col-md-6.col-lg.tarjeta--tabla.p-4(style="background-color:#FFF3D3")
@@ -1027,7 +1027,7 @@
           .col
             h3.mb-0 B. Matriz de problemas / soluciones 
     
-    p Es una herramienta participativa que busca identificar, analizar, priorizar y vincular los principales problemas de una comunidad con posibles alternativas de solución, facilitando el consenso y la toma de decisiones colectiva (Tabla 2). 
+    p Es una herramienta participativa que busca identificar, analizar, priorizar y vincular los principales problemas de una comunidad con posibles alternativas de solución, facilitando el consenso y la toma de decisiones colectivas (Tabla 2). 
     p.mb-4 Se trata de un instrumento que organiza en filas y columnas los problemas identificados y las soluciones propuestas, ayudando a visualizar causas, efectos y criterios de priorización. Es fundamental para la planificación estratégica local y para transformar los diagnósticos comunitarios en planes de acción concretos. 
 
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5
