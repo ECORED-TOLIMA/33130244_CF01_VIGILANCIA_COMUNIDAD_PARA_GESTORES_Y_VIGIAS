@@ -770,6 +770,14 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img-68.png', alt='Imagen decorativa')
 
+    p.mb-4 Basado en lo descrito de las anteriores herramientas, a continuación, encontrará un video explicativo que aborda la importancia del diagnóstico participativo y presenta las principales herramientas para el análisis participativo. Además, se destaca el papel fundamental de la cosmogonía y las prácticas culturales en el trabajo de salud comunitaria:  
+
+    .row.justify-content-center.align-items-center.mb-4           
+      .col-lg-12
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/boCSv-WP7Vc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
     p.mb-4 Conociendo ya las principales herramientas de diagnóstico participativo, es importante ahondar un poco y ejemplificar las siguientes:
 
     .row.mb-4.ms-0
@@ -1018,6 +1026,14 @@
             <i class="fa-solid fa-circle-user bg-color-3"></i>
             | Realizar el seguimiento de acciones realizadas.
 
+    p.mb-4 Para finalizar esta temática y tener mayor claridad al respecto, en el siguiente video se presenta el mapeo comunitario como una herramienta participativa que permite a las comunidades representar gráficamente su territorio, identificando desigualdades, riesgos, recursos y dinámicas espaciales. Asimismo, se explica el proceso para elaborar el mapa comunitario, sus características y principales usos:  
+    
+    .row.justify-content-center.align-items-center.mb-4           
+      .col-lg-12
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/Nmv2aqzRuxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
     .row.mb-4.ms-0
       .col-auto.bg-c1(data-aos="fade-left")
         .row.align-items-center

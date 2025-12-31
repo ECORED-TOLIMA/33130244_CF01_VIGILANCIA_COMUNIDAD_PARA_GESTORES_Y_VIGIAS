@@ -37,7 +37,7 @@
       .col-lg-10.col-12
         p.mb-0 El ciclo de un agente comunitario podría resumirse como:
 
-    .row.justify-content-center.mb-0
+    .row.justify-content-center.mb-4
       .col-lg-4.col-10.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema5/img-05.png', alt='Imagen decorativa')
@@ -86,6 +86,26 @@
             .lista-ol--cuadro__vineta
               span 10
             | Promover la autogestión, la movilización social y el análisis comunitario.
+
+    p.mb-4 En esta temática es importante conocer el siguiente pódcast que se explica quién puede desempeñarse como vigía y gestor comunitario en la Vigilancia Basada en Comunidad (VBC), detallando las características de su perfil y las actividades que cada uno realiza. Finalmente, se subraya la relevancia de las habilidades blandas para fortalecer el trabajo en salud comunitaria:  
+
+    .row.mb-4.justify-content-center.align-items-center
+      .col-lg-8
+        .bg-color-8.tarjeta
+          .p-4.p-md-3
+            .row.justify-content-center.align-items-center
+              .col-lg-auto.mb-3.mb-lg-0
+                figure
+                  img(src="@/assets/curso/temas/tema5/img-06.svg", data-aos="zoom-in")
+              .col-lg.mb-3.mb-lg-0
+                h4(data-aos="fade-left").mb-4(style="color:#FF955E") Pódcast
+                p.text-white Lo invitamos a escuchar el siguiente Pódcast:
+        
+                TarjetaAudio.color-secundario.bg-color-white.mb-3(
+                  texto="Entendiendo la discapacidad paso a paso"
+                  tiempo
+                  :audio="require('../assets/curso/podcast/podcast1.mp3')"
+                )
 
 
 </template>
