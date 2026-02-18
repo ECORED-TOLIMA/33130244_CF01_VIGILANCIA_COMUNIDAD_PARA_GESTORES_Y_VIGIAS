@@ -102,7 +102,7 @@
               img(src='@/assets/curso/temas/tema2/figura-1-1.svg', alt='Imagen decorativa')
           .tarjeta.tarjeta--blanca.p-3(x="43.5%" y="19%" numero="+")(style="background-color:#FFFFFF")
             p Durante este proceso, pueden presentarse ruidos (cualquier interferencia que distorsione el mensaje) y todo ocurre dentro de un contexto específico que influye en la interpretación. 
-          .tarjeta.tarjeta--blanca.p-3(x="61.5%" y="19%" numero="+")(style="background-color:#FFFFFF")
+          .tarjeta.tarjeta--blanca.p-3(x="80%" y="19%" numero="+")(style="background-color:#FFFFFF")
             p Finalmente, el receptor envía una retroalimentación o #[em feedback] al emisor, confirmando la recepción y comprensión del mensaje y cerrando el ciclo comunicativo.
           .tarjeta.tarjeta--blanca.p-3(x="54%" y="41%" numero="+")(style="background-color:#FFFFFF")
             p Este mensaje codificado viaja a través de un canal (el medio por el cual se transmite, como el habla, la escritura o un gesto) hacia un receptor, quien lo decodifica (interpreta las señales para entender el mensaje). 

@@ -144,7 +144,7 @@
         LineaTiempoD.color-acento-botones.especial(data-aos="fade-down")
           .row(numero="1" titulo="Identificación y monitoreo")
             .col-12.mb-4.mb-md-0
-              p.mb-0 Recolección constante de información —a través de vigilancia epidemiológica, medios de comunicación, redes sociales, laboratorios y comunidad— para detectar señales o cambios inusuales en la frecuencia de eventos de salud.
+              p.mb-0 Recolección constante de información — a través de vigilancia epidemiológica, medios de comunicación, redes sociales, laboratorios y comunidad — para detectar señales o cambios inusuales en la frecuencia de eventos de salud.
           .row(numero="2" titulo="Análisis y valoración")
             .col-12.mb-4.mb-md-0
               p.mb-0 Evaluación rápida del significado y la importancia de las señales detectadas para confirmar su relevancia y nivel de riesgo.

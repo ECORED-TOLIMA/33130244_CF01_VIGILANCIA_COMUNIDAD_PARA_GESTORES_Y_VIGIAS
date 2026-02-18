@@ -31,7 +31,7 @@
         figure
           img(src="@/assets/curso/temas/tema1/img-03.png", data-aos="zoom-in")
       .col-lg-9.order-lg-1.order-2.mb-lg-0.mb-4
-        p Las condiciones sociodemográficas son el conjunto de características sociales y demográficas que definen y describen a una población o grupo humano. Comprenden los rasgos sociales y demográficos que permiten caracterizar a grupos de personas. Estas condiciones influyen directamente en la calidad de vida, el acceso a servicios y las oportunidades de desarrollo de los individuos (Peñuela Rodríguez & Córdoba Torres, 2020; Cedeño Velásquez et al., 2019, p. 3)
+        p Las condiciones sociodemográficas son el conjunto de características sociales y demográficas que definen y describen a una población o grupo humano. Comprenden los rasgos sociales y demográficos que permiten caracterizar a grupos de personas. Estas condiciones influyen directamente en la calidad de vida, el acceso a servicios y las oportunidades de desarrollo de los individuos (Peñuela Rodríguez & Córdoba Torres, 2020; Cedeño Velásquez et al., 2019, p. 3).
         p Las principales variables sociodemográficas son: 
         .bg-color-2.mb-3(data-aos="fade-up")
           .row.justify-content-center.align-items-center
@@ -94,7 +94,7 @@
             h4.text-center.mt-5(style="color:#12263F") Ocupación laboral
             p.text-center.mb-0(style="color:#12263F") Trabajadores con diferentes rangos de edad, escolaridad y ocupación en una empresa.
 
-    p.mb-4 Los estudios demográficos permiten describir, analizar y comparar distintas poblaciones con el fin de identificar vulnerabilidades, necesidades y desigualdades sociales. Además, son centrales en el diseño de políticas públicas, estrategia de salud, programas sociales, estudios de mercado, entre otros.
+    p.mb-4 Los estudios demográficos permiten: describir, analizar y comparar distintas poblaciones con el fin de identificar vulnerabilidades, necesidades y desigualdades sociales. Además, son centrales en el diseño de políticas públicas, estrategia de salud, programas sociales, estudios de mercado, entre otros.
 
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-10.col-12
@@ -159,7 +159,7 @@
       .col-xl.px-0
         .d-flex.align-items-start
           img.icon-inline.d-none.d-lg-block.me-3(src='@/assets/curso/temas/tema1/img-12.svg' alt="Imagen decorativa")
-        p.mb-0 Las etapas del ciclo de vida son una herramienta fundamental para organizar el estudio de poblaciones y planificar acciones de salud pública eficaces y adaptadas, asimismo, estas etapas permiten organizar la atención integral en salud reconociendo las características y necesidades específicas de cada momento vital a lo largo del curso de vida (Ministerio de Salud y Protección Social, 2016).
+        p.mb-0 Las etapas del ciclo de vida son así herramienta fundamental para organizar el estudio de poblaciones y planificar acciones de salud pública eficaces y adaptadas, asimismo, estas etapas permiten organizar la atención integral en salud reconociendo las características y necesidades específicas de cada momento vital a lo largo del curso de vida (Ministerio de Salud y Protección Social, 2016).
 
     .fondo2-t2.px-md-5.px-4.py-4
       .row.justify-content-center
@@ -388,7 +388,7 @@
               img(src='@/assets/curso/temas/tema1/img-85.svg' alt='Servidor' class='img-fluid')
           
           .contenido-tarjeta.p-4
-            p.mb-0(data-aos="fade-down") En esencia, para identificar un estilo de liderazgo, es necesario observar si el líder se guía por la supervisión, el empoderamiento, la provisión de una visión o el uso del poder. 
+            p.mb-0(data-aos="fade-down") En esencia para identificar un estilo de liderazgo, es necesario observar si el líder se guía por la supervisión, el empoderamiento, la provisión de una visión o el uso del poder. 
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5.col-md-6.col-8.mb-lg-0.mb-4(data-aos="fade-right")
@@ -819,7 +819,7 @@
       .col-lg-10.col-12
         p De acuerdo con lo establecido por el Consorcio Coopi-Care (2015), en el mapeo comunitario se combina el uso de instrumentos gráficos y geográficos, además de herramientas de desarrollo comunitario que permiten a los agentes comunitarios analizar su entorno, visualizar los cambios, proponer alternativas de solución a los problemas encontrados y elaborar planes para mejorar sus condiciones de vida.
         .cajon.cajon.color-secundario-medio.p-4
-          p Entre los usos del mapeo comunitario se pueden mencionar la elaboración de diagnósticos, planificación de actividades, monitoreo y evaluación e intercambio de información; puntos importantes que permiten contribuir en el desarrollo de las comunidades.
+          p Entre los usos del mapeo comunitario se pueden mencionar, la elaboración de diagnósticos, planificación de actividades, monitoreo y evaluación e intercambio de información; puntos importantes que permiten contribuir en el desarrollo de las comunidades.
           p.mb-0 Lo siguientes son los pasos para la elaboración del mapeo comunitario: 
 
     .titulo2.mb-4(data-aos="fade-left")
@@ -1067,44 +1067,44 @@
           table
             thead
               tr
-                th(data-aos="fade-down")(style= "background-color: #E0F6E1; width: 25%") Problema
-                th(data-aos="fade-down")(style= "background-color: #E0F6E1; width: 25%") No agua potable
-                th(data-aos="fade-down")(style= "background-color: #E0F6E1; width: 25%") Desnutrición
-                th(data-aos="fade-down")(style= "background-color: #E0F6E1; width: 25%") Enfermedad diarreica
+                th(style= "background-color: #E0F6E1; width: 25%") Problema
+                th(style= "background-color: #E0F6E1; width: 25%") No agua potable
+                th(style= "background-color: #E0F6E1; width: 25%") Desnutrición
+                th(style= "background-color: #E0F6E1; width: 25%") Enfermedad diarreica
             tbody
-              tr(data-aos="fade-right")
+              tr
                 td Solución
                 td 
                   ul.lista-ul
-                    li(data-aos="fade-right")
+                    li
                       ul
-                        li(data-aos="fade-right") 
+                        li 
                           i.lista-ul__vineta
                           | Filtros de agua.
-                        li(data-aos="fade-right") 
+                        li 
                           i.lista-ul__vineta
                           | Tratamiento del agua. 
-                        li(data-aos="fade-right") 
+                        li 
                           i.lista-ul__vineta
                           | Municipio garantiza el tratamiento del agua.
                 td
                   ul.lista-ul
-                    li(data-aos="fade-right")
+                    li
                       ul
-                        li(data-aos="fade-right") 
+                        li 
                           i.lista-ul__vineta
                           | Preparación inocua de los alimentos.
-                        li(data-aos="fade-right") 
+                        li 
                           i.lista-ul__vineta
                           | Patrones de cuidado.
                 td
                   ul.lista-ul
-                    li(data-aos="fade-right")
+                    li
                       ul
-                        li(data-aos="fade-right") 
+                        li 
                           i.lista-ul__vineta
                           | Consumo de agua potable.
-                        li(data-aos="fade-right") 
+                        li 
                           i.lista-ul__vineta
                           | Patrones de cuidado.
 
