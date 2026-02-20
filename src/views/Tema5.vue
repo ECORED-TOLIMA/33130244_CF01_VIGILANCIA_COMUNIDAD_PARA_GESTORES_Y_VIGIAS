@@ -102,7 +102,7 @@
                 p.text-white Lo invitamos a escuchar el siguiente Pódcast:
         
                 TarjetaAudio.color-secundario.bg-color-white.mb-3(
-                  texto="Entendiendo la discapacidad paso a paso"
+                  texto="Rol del agente comunitario (vigía y gestor)"
                   tiempo
                   :audio="require('../assets/curso/podcast/podcast1.mp3')"
                 )

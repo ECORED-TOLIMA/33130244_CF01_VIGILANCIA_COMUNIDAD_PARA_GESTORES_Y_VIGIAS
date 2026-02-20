@@ -159,8 +159,8 @@
       .col-xl.px-0
         .d-flex.align-items-start
           img.icon-inline.d-none.d-lg-block.me-3(src='@/assets/curso/temas/tema1/img-12.svg' alt="Imagen decorativa")
-        p.mb-0 Las etapas del ciclo de vida son así una herramienta fundamental para organizar el estudio de poblaciones y planificar acciones de salud pública eficaces y adaptadas, asimismo, estas etapas permiten organizar la atención integral en salud reconociendo las características y necesidades específicas de cada momento vital a lo largo del curso de vida (Ministerio de Salud y Protección Social, 2016).
-
+        p.mb-0 Las etapas del ciclo de vida constituyen una herramienta fundamental para organizar el estudio de poblaciones y planificar acciones de salud pública eficaces y adaptadas, asimismo, estas etapas permiten organizar la atención integral en salud reconociendo las características y necesidades específicas de cada momento vital a lo largo del curso de vida (Ministerio de Salud y Protección Social, 2016).
+              
     .fondo2-t2.px-md-5.px-4.py-4
       .row.justify-content-center
         .col-lg-2.col-sm-7.col-10.mb-4(data-aos="flip-up")
@@ -863,7 +863,7 @@
               tr(data-aos="fade-right")  
                 td.text-center #[b Tipo de datos a identificar]
                 td #[b Amenazas:] 
-                  ul.lista-ul
+                  ul.lista-ul.mt-3
                     li(data-aos="fade-right")
                       ul
                         li(data-aos="fade-right") 
@@ -882,7 +882,7 @@
                           i.lista-ul__vineta
                           | Rutas peligrosas.
                   p #[b Vulnerabilidades:] 
-                    ul.lista-ul
+                    ul.lista-ul.mt-3
                       li(data-aos="fade-right")
                         ul
                           li(data-aos="fade-right") 
@@ -903,8 +903,8 @@
                           li(data-aos="fade-right") 
                             i.lista-ul__vineta
                             | Área deforestada.
-                  p Capacidades y recursos: 
-                    ul.lista-ul
+                  p #[b Capacidades y recursos:] 
+                    ul.lista-ul.mt-3
                       li(data-aos="fade-right")
                         ul
                           li(data-aos="fade-right") 
@@ -929,7 +929,7 @@
                             i.lista-ul__vineta
                             | Puentes.
                   p #[b Análisis de riesgos de la comunidad:]
-                    ul.lista-ul
+                    ul.lista-ul.mt-3
                       li(data-aos="fade-right")
                         ul
                           li(data-aos="fade-right") 
