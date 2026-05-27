@@ -40,7 +40,7 @@
     .row.justify-content-center.mb-4
       .col-lg-4.col-10.mb-4.mb-lg-0.d-none.d-lg-block(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/temas/tema5/img-05.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema5/img-05.svg', alt='Imagen decorativa')
       .col-lg-6      
         ol.lista-ol--cuadro
           li(data-aos="flip-up") 

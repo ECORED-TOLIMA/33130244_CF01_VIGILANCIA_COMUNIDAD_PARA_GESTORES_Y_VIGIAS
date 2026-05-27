@@ -205,7 +205,7 @@
     p.mb-4.text-center Para complementar lo anterior, a continuación, se relacionan algunas condiciones ambientales y la consecuencia presentada por cada una: 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-      SlyderF.color-acento-botones(columnas="col-lg-6 col-xl-4")
+      SlyderF.custom-flechas.color-acento-botones(columnas="col-lg-6 col-xl-4")
         .tarjeta.tarjeta--BGC02.p-4
           .row.justify-content-center.mb-4
             .col-lg-5.col-sm-4.col-6
@@ -577,10 +577,10 @@
     p.mb-4 El diagnóstico participativo genera una visión compartida de la situación comunitaria, fortalece la organización local y legitima las decisiones colectivas. Basado en Gomà (2007), sus principales resultados son: 
 
     .tarjeta--BG03.px-md-5.p-lg-0.p-4.mb-5
-      .row.justify-content-center.align-items-center.my-lg-5.my-4
+      .row.justify-content-center.align-items-end.my-0.BG03-row
         .col-lg-4.col-md-8.col-sm-6.mb-md-4.mb-sm-4.desktop
           figure
-            img(src='@/assets/curso/temas/tema1/img-50.png', alt='alt' style='margin-bottom: -23px;')
+            img(src='@/assets/curso/temas/tema1/img-50.png', alt='alt')
         .col-lg-8
           SlyderF.custom.color-acento-botones(columnas="col-lg-4 col-xl-4")
             .tarjeta.bgslyder.p-4
@@ -640,43 +640,42 @@
 
     p.mb-4 Dentro de las herramientas participativas están: 
 
-    .tarjeta--BG03.px-md-5.p-lg-0.p-4.mb-5
-      .col-lg-12.col-12.py-lg-0.py-4
-        .row.justify-content-center.align-items-center
-          .col-md-6.col-lg-4.mb-4.mb-md-0.d-lg-flex.d-none.order-lg-2.order-2(data-aos="fade-right")
-            img(src='@/assets/curso/temas/tema1/img-87.png', alt='')
-          .col-md-8.col-lg-8.mb-4.mb-md-0(data-aos="fade-left")
-            SlyderF.custom.color-acento-botones.order-lg-1.order-2(columnas="col-lg-4 col-xl-4")
-              .tarjeta.bgslyder.p-4
-                .row.justify-content-center.mb-3
-                  .col-7
-                    img(src="@/assets/curso/temas/tema1/img-88.svg", alt="alt")
-                h4.text-center Mapeo comunitario
-              .tarjeta.bgslyder.p-4
-                .row.justify-content-center.mb-3
-                  .col-7
-                    img(src="@/assets/curso/temas/tema1/img-89.svg", alt="alt")
-                h4.text-center Matrices de problemas / soluciones
-              .tarjeta.bgslyder.p-4
-                .row.justify-content-center.mb-3
-                  .col-7
-                    img(src="@/assets/curso/temas/tema1/img-90.svg", alt="alt")
-                h4.text-center Grupos focales
-              .tarjeta.bgslyder.p-4
-                .row.justify-content-center.mb-3
-                  .col-7
-                    img(src="@/assets/curso/temas/tema1/img-91.svg", alt="alt")
-                h4.text-center Lluvia o tormenta de ideas
-              .tarjeta.bgslyder.p-4
-                .row.justify-content-center.mb-3
-                  .col-7
-                    img(src="@/assets/curso/temas/tema1/img-92.svg", alt="alt")
-                h4.text-center Dinámicas lúdicas y visuales
-              .tarjeta.bgslyder.p-4
-                .row.justify-content-center.mb-3
-                  .col-7
-                    img(src="@/assets/curso/temas/tema1/img-93.svg", alt="alt")
-                h4.text-center Encuestas participativas
+    .tarjeta--BG03.tarjeta--BG03-herramientas.px-md-5.p-lg-0.p-4.mb-5
+      .row.justify-content-center.align-items-end.my-0.BG03-row
+        .col-md-6.col-lg-4.mb-4.mb-md-0.d-lg-flex.d-none.order-lg-2.order-2(data-aos="fade-right")
+          img(src='@/assets/curso/temas/tema1/img-87.png', alt='')
+        .col-md-8.col-lg-8.mb-4.mb-md-0(data-aos="fade-left")
+          SlyderF.custom.color-acento-botones.order-lg-1.order-2(columnas="col-lg-4 col-xl-4")
+            .tarjeta.bgslyder.p-4
+              .row.justify-content-center.mb-3
+                .col-7
+                  img(src="@/assets/curso/temas/tema1/img-88.svg", alt="alt")
+              h4.text-center Mapeo comunitario
+            .tarjeta.bgslyder.p-4
+              .row.justify-content-center.mb-3
+                .col-7
+                  img(src="@/assets/curso/temas/tema1/img-89.svg", alt="alt")
+              h4.text-center Matrices de problemas / soluciones
+            .tarjeta.bgslyder.p-4
+              .row.justify-content-center.mb-3
+                .col-7
+                  img(src="@/assets/curso/temas/tema1/img-90.svg", alt="alt")
+              h4.text-center Grupos focales
+            .tarjeta.bgslyder.p-4
+              .row.justify-content-center.mb-3
+                .col-7
+                  img(src="@/assets/curso/temas/tema1/img-91.svg", alt="alt")
+              h4.text-center Lluvia o tormenta de ideas
+            .tarjeta.bgslyder.p-4
+              .row.justify-content-center.mb-3
+                .col-7
+                  img(src="@/assets/curso/temas/tema1/img-92.svg", alt="alt")
+              h4.text-center Dinámicas lúdicas y visuales
+            .tarjeta.bgslyder.p-4
+              .row.justify-content-center.mb-3
+                .col-7
+                  img(src="@/assets/curso/temas/tema1/img-93.svg", alt="alt")
+              h4.text-center Encuestas participativas
           
     .row.justify-content-center.mb-0
       .col-lg-10.col-12
@@ -781,7 +780,7 @@
 
     .row.justify-content-center.mb-4
       .col-lg-10(data-aos="fade-right")
-        .bloque-texto-c.color-primario.tarjeta.p-2
+        .bloque-texto-c.color-primario.tarjeta.p-3
           p.mb-0.text-center Conociendo ya las principales herramientas de diagnóstico participativo, es importante ahondar un poco y ejemplificar las siguientes:
 
     .row.mb-4.ms-0

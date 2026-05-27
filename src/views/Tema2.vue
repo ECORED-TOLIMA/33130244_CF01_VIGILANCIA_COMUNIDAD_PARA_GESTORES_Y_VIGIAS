@@ -127,10 +127,10 @@
     
     .fondo3-t3.px-md-5.px-4.py-4
       .row.justify-content-center
-        .col-lg-4.col-md-6.col-8.mb-lg-0.mb-4.d-none.d-lg-block(data-aos="fade-right")
+        .col-lg-4.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
           figure
             img(src='@/assets/curso/temas/tema2/img-12.png', alt='Imagen decorativa')
-        .col-lg-8.mb-lg-0.mb-4(data-aos="fade-left")
+        .col-lg-8.order-lg-1.order-2.mb-lg-0.mb-4
           p En general, la comunicación es una herramienta que favorece prevenir conflictos, mejora la adherencia a tratamientos y fortalece la alianza entre comunidad y sector salud. Cuando la comunicación es asertiva, es considerada como una habilidad para expresar de manera clara, directa y respetuosa los propios pensamientos, necesidades, sentimientos y opiniones, manteniendo el equilibrio entre defender los propios derechos y respetar los de los demás, sin recurrir a la agresividad ni la sumisión, Por lo anterior, la comunicación se convierte en una habilidad blanda fundamental para el ejercicio del liderazgo en cualquier comunidad. El desarrollo de esta habilidad es crucial para lograr procesos participativos, intervenciones sostenibles y una atención humanizada en contextos comunitarios (Vargas, 2023). No es una competencia técnica que se aprende de memoria, sino un conjunto de destrezas interpersonales que incluyen la escucha activa, la empatía, la claridad verbal y no verbal, la capacidad de persuasión, ser asertivo y la habilidad para interpretar y adaptarse a diferentes contextos sociales y culturales. Estas cualidades son fundamentales para fomentar la cohesión social y la cooperación el cambio social y resolver conflictos, trascendiendo cualquier conocimiento técnico específico y siendo cruciales en cualquier ámbito de la vida personal y profesional.
 
     Separador
@@ -160,22 +160,22 @@
     #t_2_6.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 2.6. Resolución de conflictos
 
-    .row.justify-content-center.mb-4
-      .col-lg-9.order-lg-1.order-2.mb-lg-0.mb-4
-        .bg-color-2.mb-3(data-aos="fade-up")
-          .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0.d-none.d-lg-block
-              figure
-                img(src='@/assets/curso/temas/tema2/img-20.svg', alt='')
-            .col-lg
-              .p-3
-                p La relación entre comunicación y resolución de conflictos es directa e intrínseca: la comunicación es tanto la causa principal de muchos conflictos (por malentendidos o fallas) como la herramienta más esencial para su prevención, gestión y resolución efectiva. Sin una comunicación competente, los conflictos tienden a escalar, persistir o resolverse de manera insatisfactoria para las partes involucradas.
-        p Juntas son consideradas habilidades blandas (Morozova et al., 2022). Directamente ligada a la comunicación, la resolución de conflictos se vuelve crucial en el complejo entramado de la salud comunitaria. Las intervenciones pueden generar tensiones debido a diferencias de cosmovisión, prioridades o intereses entre diversos grupos dentro de la comunidad o entre la comunidad y los profesionales externos. Una comunicación hábil permite identificar tempranamente estos desacuerdos, entender las perspectivas de todas las partes y, a través de la negociación y mediación, encontrar puntos en común y soluciones consensuadas. Abordar los conflictos de manera constructiva, en lugar de evitarlos o imponer soluciones, fortalece los lazos comunitarios y refuerza la confianza en el proceso de salud.
-      .col-lg-3.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
-        figure
-          img(src="@/assets/curso/temas/tema2/img-21.png", data-aos="zoom-in")
+    p.mb-4 La relación entre comunicación y resolución de conflictos es directa e intrínseca: la comunicación es tanto la causa principal de muchos conflictos (por malentendidos o fallas) como la herramienta más esencial para su prevención, gestión y resolución efectiva. Sin una comunicación competente, los conflictos tienden a escalar, persistir o resolverse de manera insatisfactoria para las partes involucradas.
 
-    p.mb-4.text-center La sinergia entre comunicación y resolución de conflictos es lo que dota de resiliencia y sostenibilidad a la salud comunitaria. Por ejemplo: 
+    .bloque-texto-c.color-secundario.tarjeta.mb-4.bloque-conflictos
+      .row.justify-content-center.align-items-center
+        .col-lg-7.order-lg-1.order-2.mb-lg-0
+          .px-4
+            p.mb-0 Juntas son consideradas habilidades blandas (Morozova et al., 2022). Directamente ligada a la comunicación, la resolución de conflictos se vuelve crucial en el complejo entramado de la salud comunitaria. Las intervenciones pueden generar tensiones debido a diferencias de cosmovisión, prioridades o intereses entre diversos grupos dentro de la comunidad o entre la comunidad y los profesionales externos. Una comunicación hábil permite identificar tempranamente estos desacuerdos, entender las perspectivas de todas las partes y, a través de la negociación y mediación, encontrar puntos en común y soluciones consensuadas. Abordar los conflictos de manera constructiva, en lugar de evitarlos o imponer soluciones, fortalece los lazos comunitarios y refuerza la confianza en el proceso de salud.
+
+        .col-lg-5.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
+          figure
+            img(src='@/assets/curso/temas/tema2/img-21.png', alt='Imagen decorativa')
+
+    .row.justify-content-center.mb-4
+      .col-lg-10(data-aos="fade-right")
+        .bloque-texto-c.color-primario2.tarjeta.p-3
+          p.mb-0.text-center.text-white La sinergia entre comunicación y resolución de conflictos es lo que dota de resiliencia y sostenibilidad a la salud comunitaria. Por ejemplo: 
 
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-6.mb-3

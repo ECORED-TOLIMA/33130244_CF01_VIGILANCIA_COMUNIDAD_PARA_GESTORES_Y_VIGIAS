@@ -343,7 +343,7 @@
 
     .row.justify-content-center.mb-4
       .col-lg-10(data-aos="fade-right")
-        .bloque-texto-c.color-primario1.tarjeta.p-2
+        .bloque-texto-c.color-primario1.tarjeta.p-3
           p.mb-0.text-center.text-white Según el Instituto Nacional de Salud (2023), son cinco los principios de la estrategia de vigilancia basada en comunidad: 
 
     .row.justify-content-center.mb-4
@@ -455,10 +455,10 @@
 
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-10.col-12
-        .cajon.cajon.color-primario.p-4
+        .cajon.cajon.color-primario.p-4.mb-4
           p.mb-0 Con base en lo expuesto la vigilancia en salud pública es esencial para anticipar y gestionar riesgos, garantizando la protección de la salud desde el nivel local hasta el nacional (Instituto Nacional de Salud, 2023).
 
-    p.mb-4 Para finalizar esta temática de vigilancia en salud pública y reforzar los conceptos relacionados con la estrategia de Vigilancia Basada en Comunidad (VBC), se plantea el siguiente video. En él se explica la importancia de esta estrategia y cómo se articula con el Sistema Nacional de Vigilancia en Salud Pública, contribuyendo al fortalecimiento de la detección y la respuesta temprana frente a situaciones de interés en salud en los territorios: 
+        p Para finalizar esta temática de vigilancia en salud pública y reforzar los conceptos relacionados con la estrategia de Vigilancia Basada en Comunidad (VBC), se plantea el siguiente video. En él se explica la importancia de esta estrategia y cómo se articula con el Sistema Nacional de Vigilancia en Salud Pública, contribuyendo al fortalecimiento de la detección y la respuesta temprana frente a situaciones de interés en salud en los territorios: 
 
     .row.justify-content-center.align-items-center           
       .col-lg-12
