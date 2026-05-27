@@ -184,7 +184,7 @@ export default {
           id: 6,
           texto:
             '¿Cómo pueden identificarse los líderes y cuáles son los estilos reconocidos?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -218,7 +218,7 @@ export default {
           id: 7,
           texto:
             '¿Cuáles son las principales herramientas diagnósticas participativas y sus objetivos?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -253,7 +253,7 @@ export default {
           id: 8,
           texto:
             '¿Qué elementos caracterizan a las organizaciones de base comunitaria?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -287,7 +287,7 @@ export default {
           id: 9,
           texto:
             '¿Qué importancia tienen las habilidades blandas como comunicación, empoderamiento y resolución de conflictos?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -321,7 +321,7 @@ export default {
           id: 10,
           texto:
             '¿Qué importancia tienen las habilidades blandas como comunicación, empoderamiento y resolución de conflictos?',
-          imagen: require('@/assets/actividad/imagen5.png'),
+          imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -430,7 +430,7 @@ export default {
           id: 16,
           texto:
             'El liderazgo comunitario es importante porque facilita la motivación, la representación y la participación activa de la comunidad en proyectos de salud.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdero', esCorrecta: true },
@@ -445,7 +445,7 @@ export default {
           id: 17,
           texto:
             'La vigilancia en salud pública se realiza únicamente desde las instituciones médicas, sin participación comunitaria.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdero', esCorrecta: false },
@@ -460,7 +460,7 @@ export default {
           id: 18,
           texto:
             'Las habilidades blandas como la comunicación, la empatía y el liderazgo son fundamentales para fortalecer el trabajo comunitario en salud pública.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdero', esCorrecta: true },
@@ -475,7 +475,7 @@ export default {
           id: 19,
           texto:
             'El Sistema de Alerta Temprana (SAT) permite la identificación oportuna de riesgos para la salud y la respuesta inmediata ante emergencias.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdero', esCorrecta: true },
@@ -490,7 +490,7 @@ export default {
           id: 20,
           texto:
             'La estrategia de Vigilancia Basada en Comunidad (VBC) es un proceso aislado del Sistema Nacional de Vigilancia en Salud Pública.',
-          imagen: require('@/assets/actividad/imagen5.png'),
+          imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdero', esCorrecta: false },
