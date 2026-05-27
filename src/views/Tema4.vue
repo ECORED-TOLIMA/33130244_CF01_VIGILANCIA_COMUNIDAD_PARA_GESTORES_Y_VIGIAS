@@ -10,16 +10,16 @@
     .row.justify-content-center.mb-4
       .col-12(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/temas/tema4/img-01.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema4/img-01.png', alt='')
     
     p El Sistema Nacional de Vigilancia en Salud Pública (VSP) es la estructura oficial y operativa en Colombia para identificar, analizar y responder a eventos que afectan o pueden afectar la salud de la población facilitando la toma de decisiones informadas y la gestión oportuna de riesgos. Es un proceso sistemático y constante de recolección, análisis, interpretación y divulgación de datos sobre eventos y condiciones en salud pública (enfermedades, brotes, factores de riesgo) con el fin de orientar políticas, acciones de prevención, control y promoción de la salud en el país (Decreto 3518 de 2006, 2006).
     p.mb-4 De acuerdo al Instituto Nacional de Salud (2023), los actores de la vigilancia en salud pública en Colombia son: 
 
-    .tarjeta--BG02.p-4
+    .tarjeta--BG02.px-md-5.px-4.mb-4
       .row.justify-content-center
-        .col-lg-3.col-md-6.col-8.mb-lg-0.mb-4(data-aos="fade-right")
+        .col-lg-3.col-md-6.col-8.mb-lg-0.mb-4.d-none.d-lg-block(data-aos="fade-right")
           figure
-            img(src='@/assets/curso/temas/tema4/img-02.png', alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema4/img-02.png', alt='')
         .col-lg-8.mb-lg-0.mb-4(data-aos="fade-left")
           ul.lista-ul--color
             li.d-flex
@@ -70,7 +70,7 @@
     p.mb-4 Al respecto, se explica los siguiente:  
 
     .row.justify-content-center.align-items-center(data-aos="fade-right")
-      SlyderF.color-acento-botones(columnas="col-lg-6 col-xl-4")
+      SlyderF.custom-flechas.color-acento-botones(columnas="col-lg-6 col-xl-4")
         .tarjeta.tarjeta--BGC02.p-4
           .row.justify-content-center.mb-4
             .col-lg-5.col-sm-4.col-6
@@ -129,12 +129,12 @@
 
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-10.col-12
-        .d-flex.flex-wrap.align-items-center.tarjeta01
-          .imagen-02
+        .d-flex.flex-wrap.align-items-center.tarjeta02
+          .imagen-03
             figure.mb-0
               img(src='@/assets/curso/temas/tema4/img-25.svg' alt='Servidor' class='img-fluid')
           
-          .contenido-tarjeta.p-2
+          .contenido-tarjeta2.p-2
             p.mb-0(data-aos="fade-down") El Sistema de Alerta Temprana (SAT) es el componente de la gestión del riesgo en salud que busca la identificación oportuna de riesgos, brotes, emergencias o alteraciones en eventos de interés en salud pública para su análisis inmediato y una rápida gestión e intervención.
 
     p.mb-4.text-center De acuerdo al Instituto Nacional de Salud (2023) para realizar este proceso, se deben seguir estos pasos: 
@@ -157,9 +157,9 @@
           .row(numero="5" titulo="Seguimiento y cierre")
             .col-12.mb-4.mb-md-0
               p.mb-0 Monitoreo del evento, evaluación de la intervención y cierre formal de la alerta cuando ya no representa riesgo.
-      .col-lg-4.order-lg-2.order-1.mb-3.col-md-8.col-10
+      .col-lg-4.order-lg-2.order-1.mb-3.col-md-8.col-10.d-none.d-lg-block
         figure(data-aos="fade-down") 
-          img(src='@/assets/curso/temas/tema4/img-12.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema4/img-12.png', alt='')
 
     .row.justify-content-center.mb-4
       .col-xl-10
@@ -181,7 +181,7 @@
             .row.justify-content-center.mb-4
               .col-lg-4.col-6
                 figure
-                  img(src='@/assets/curso/temas/tema4/img-26.svg', alt='Imagen decorativa')
+                  img(src='@/assets/curso/temas/tema4/img-26.svg', alt='')
             h4.text-center.mb-4 Vigilancia basada en indicadores
             ul.lista-ul
               li.mb-0(data-aos="fade-right") 
@@ -210,7 +210,7 @@
             .row.justify-content-center.mb-4
               .col-lg-4.col-6
                 figure
-                  img(src='@/assets/curso/temas/tema4/img-27.svg', alt='Imagen decorativa')
+                  img(src='@/assets/curso/temas/tema4/img-27.svg', alt='')
             h4.text-center.mb-4 Vigilancia basada en eventos y otras fuentes
             ul.lista-ul
               li.mb-0(data-aos="fade-right") 
@@ -250,7 +250,7 @@
       .col-lg-10(data-aos="fade-down")
         .bg-color-2.mb-3(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.d-none.d-lg-block
               figure
                 img(src='@/assets/curso/temas/tema4/img-28.svg', alt='')
             .col-lg
@@ -303,14 +303,14 @@
     p.mb-4 La vigilancia basada en eventos y otras fuentes favorece la oportunidad para detectar casos, síndromes, conglomerados, muertes y otras situaciones de interés en salud pública que requieren de verificación por los servicios de salud y de cumplir la definición de caso, según los protocolos, serían ingresados en el sistema de información basada en indicadores. Esta es la integración ideal de la vigilancia en salud pública, especialmente para escenarios de alta dispersión geográfica, zonas rurales, poblaciones especiales, en las áreas más deprimidas de las zonas urbanas o en grupos con dificultades de acceso a los servicios de salud (Instituto Nacional de Salud, 2023).
 
     .row.no-gutters.align-items-center.style___box_1.m-0.mb-4(data-aos="zoom-in")
-      .col-xl-auto.px-0
-        figure.d-none.d-xl-block
-          img.img-hero(src='@/assets/curso/temas/tema4/img-16.png', alt='').m-auto
       .col-xl.px-0
         .d-flex.align-items-start
-          img.icon-inline.d-none.d-lg-block.me-3(src='@/assets/curso/temas/tema4/img-17.svg' alt="Imagen decorativa")
+          img.icon-inline.d-none.d-lg-block.me-3(src='@/assets/curso/temas/tema4/img-17.svg' alt="")
         p.mb-0 La vigilancia basada en comunidad adopta o adapta los procesos para la identificación del riesgo, utilizando el modelo de gestión del riesgo de EISP, brotes y epidemias, el cual incluye las etapas que permiten, en un contexto determinado, identificar, analizar, valorar y modificar el riesgo, así como comunicarlo y evaluar los procesos de dicha gestión (Figura 4). El conjunto de identificación, análisis y evaluación constituyen la triada de un sistema de alerta temprana. La vigilancia basada en comunidad es la detección sistemática y el reporte de eventos (situaciones) de interés en salud pública en la comunidad, por miembros (agentes) de esta misma (OMS/OPS, 2025). 
-
+      .col-xl-auto.px-0.col-img-box
+        figure.d-none.d-xl-block
+          img.img-hero(src='@/assets/curso/temas/tema4/img-16.png', alt='').m-auto
+      
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3.mt-2
@@ -338,17 +338,20 @@
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
         p(style="color:#000") La vigilancia basada en comunidad identifica señales que requieren ser valoradas y verificadas por un actor de la vigilancia basada en indicadores, de acuerdo con los protocolos vigentes de salud pública y como parte de los sistemas de alerta temprana para la gestión del riesgo. 
         p(style="color:#000") Esta estrategia se basa tanto en indicadores provenientes de fuentes autorizadas, principalmente relacionadas con la salud (OPS/OMS), como en información detectada por la propia comunidad. Así, la Vigilancia Epidemiológica Basada en Comunidad, promueve la participación comunitaria en la salud, articulando a los diferentes actores sociales en acciones de vigilancia epidemiológica y salud pública para fomentar el autocuidado individual y colectivo. Además, asegura la trazabilidad en la gestión de cada señal identificada, desde su detección hasta su cierre, monitoreando todo el proceso de forma sistemática y participativa.
-      .col-lg-4.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema4/img-18.png' alt="Imagen decorativa")
+      .col-lg-4.col-6.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block(data-aos="fade-left")
+        img(src='@/assets/curso/temas/tema4/img-18.png' alt="")
 
-    p.text-center.mb-4 Según el Instituto Nacional de Salud (2023), son cinco los principios de la estrategia de vigilancia basada en comunidad: 
+    .row.justify-content-center.mb-4
+      .col-lg-10(data-aos="fade-right")
+        .bloque-texto-c.color-primario1.tarjeta.p-2
+          p.mb-0.text-center.text-white Según el Instituto Nacional de Salud (2023), son cinco los principios de la estrategia de vigilancia basada en comunidad: 
 
     .row.justify-content-center.mb-4
       .col-lg-10(data-aos="fade-right")
         ImagenInfografica.color-acento-botones.desktop
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema4/figura-3-1.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/tema4/figura-3-1.svg', alt='')
           .tarjeta.tarjeta--blanca.p-3(x="14.5%" y="70.5%" numero="+")(style="background-color:#FFFFFF")
             p La vigilancia basada en comunidad se integra al sistema de vigilancia en salud pública, como un paso previo, simultáneo o complementario a la vigilancia basada en indicadores (instituciones de salud o relacionadas que notifican).
           .tarjeta.tarjeta--blanca.p-3(x="32.3%" y="70.5%" numero="+")(style="background-color:#FFFFFF")
@@ -360,7 +363,7 @@
           .tarjeta.tarjeta--blanca.p-3(x="85.5%" y="70.5%" numero="+")(style="background-color:#FFFFFF")
             p La vigilancia basada en comunidad aporta a la identificación y la modificación, por la comunidad, de las condiciones adversas relacionadas con las diferentes situaciones de interés en salud pública.
         figure.movil
-          img(src='@/assets/curso/temas/tema4/figura-3-2.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema4/figura-3-2.svg', alt='')
 
     p.mb-4 La vigilancia basada en comunidad es un mecanismo de participación comunitaria, como componente esencial de la promoción de la salud y la prevención de la enfermedad. Los objetivos de esta estrategia son: 
 
@@ -383,7 +386,7 @@
                     span 3
                   | Promover la articulación entre los sectores involucrados en la respuesta a situaciones de interés en salud pública, a partir de señales detectadas por la vigilancia basada en comunidad.
 
-    p.mb-4 De conformidad con la estructura del sistema de vigilancia en salud pública, la VBC se desarrolla en el marco de los cinco subsistemas: información, análisis y divulgación, intervención, formación y evaluación.
+    p De conformidad con la estructura del sistema de vigilancia en salud pública, la VBC se desarrolla en el marco de los cinco subsistemas: información, análisis y divulgación, intervención, formación y evaluación.
 
     Separador
 
@@ -392,27 +395,31 @@
 
     p.mb-4 Como se ha comentado, la vigilancia en salud pública se encarga de observar y analizar continuamente los eventos que pueden afectar la salud de la población. Su propósito es detectar a tiempo posibles riesgos, entender cómo se comportan las enfermedades y apoyar la toma de decisiones para proteger a la comunidad. Por ello, existen diferentes tipos de vigilancia que se adaptan a las necesidades y recursos de cada contexto, los cuales permiten obtener información valiosa para prevenir, controlar y responder de manera efectiva ante problemas de salud: 
 
-    .row.justify-content-center
-      .col-lg-10
-        PasosA.color-acento-contenido.mb-4(tipo="n")
-          .row.justify-content-center
-            .col-lg-8.order-lg-1.order-2(data-aos="fade-down")
-              h4 Vigilancia participativa
-              p.mb-0 Involucra a la comunidad, profesionales de la salud y otros actores sociales en la recolección y notificación de información sobre eventos de salud, fortaleciendo la detección temprana y el empoderamiento local. Permite reportes directos desde la población y fomenta la Vigilancia Basada en la Comunidad.
-            .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-down")
-              img(src='@/assets/curso/temas/tema4/img-19.png', alt="Imagen decorativa")          
-          .row.justify-content-center
-            .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-down")
-              img(src='@/assets/curso/temas/tema4/img-20.png', alt="Imagen decorativa")          
-            .col-lg-8(data-aos="fade-down")
-              h4 Vigilancia mediante sensores
-              p.mb-0 Utiliza sensores, dispositivos digitales o tecnología de monitoreo (como plataformas #[em web], redes sociales, aplicaciones móviles o dispositivos con conexión internet) para captar datos sobre aparición de síntomas, exposiciones o movimientos poblacionales en tiempo real.
-          .row.justify-content-center
-            .col-lg-8.order-lg-1.order-2(data-aos="fade-down")
-              h4 Vigilancia centinela
-              p.mb-0 Consiste en seleccionar cuidadosamente ciertas instituciones, laboratorios o unidades de salud (llamadas “centinelas”) para recopilar información de alta calidad y profundidad sobre enfermedades o eventos específicos, que luego se extrapolan para comprender tendencias generales en la población.
-            .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-down")
-              img(src='@/assets/curso/temas/tema4/img-21.png', alt="Imagen decorativa")          
+    .tarjeta--BG05.px-md-5.px-4.mb-4
+      .row.justify-content-center
+        .col-lg-10
+          PasosA.color-acento-contenido.mb-4(tipo="n")
+            .row.justify-content-center
+              .col-lg-8.order-lg-1.order-2(data-aos="fade-down")
+                h4 Vigilancia participativa
+                p.mb-0 Involucra a la comunidad, profesionales de la salud y otros actores sociales en la recolección y notificación de información sobre eventos de salud, fortaleciendo la detección temprana y el empoderamiento local. Permite reportes directos desde la población y fomenta la Vigilancia Basada en la Comunidad.
+              .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-down")
+                img(src='@/assets/curso/temas/tema4/img-19.svg', alt="")          
+            .row.justify-content-center
+              .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-down")
+                img(src='@/assets/curso/temas/tema4/img-20.svg', alt="")          
+              .col-lg-8(data-aos="fade-down")
+                h4 Vigilancia mediante sensores
+                p.mb-0 Utiliza sensores, dispositivos digitales o tecnología de monitoreo (como plataformas #[em web], redes sociales, aplicaciones móviles o dispositivos con conexión internet) para captar datos sobre aparición de síntomas, exposiciones o movimientos poblacionales en tiempo real.
+            .row.justify-content-center
+              .col-lg-8.order-lg-1.order-2(data-aos="fade-down")
+                h4 Vigilancia centinela
+                p.mb-0 Consiste en seleccionar cuidadosamente ciertas instituciones, laboratorios o unidades de salud (llamadas “centinelas”) para recopilar información de alta calidad y profundidad sobre enfermedades o eventos específicos, que luego se extrapolan para comprender tendencias generales en la población.
+              .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-down")
+                img(src='@/assets/curso/temas/tema4/img-21.svg', alt="")    
+
+          figure
+            img(src='@/assets/curso/temas/tema4/img-29.png', alt='')      
     
     Separador
 
@@ -422,7 +429,7 @@
     .row.mb-4
       .col-1.d-none.d-lg-block
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema4/img-22.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema4/img-22.svg', alt='')
       .col-11
         p.mb-0(data-aos="fade-right") Luego de conocer los diferentes tipos de vigilancia en salud pública, es importante comprender las modalidades que orientan la forma en que se lleva a cabo la recolección de información. Estas modalidades determinan si la búsqueda de datos es pasiva o activa; es decir, si se espera la notificación de los casos o si se realiza una búsqueda directa y sistemática de los mismos. Entender cómo funcionan permite mejorar la detección temprana de enfermedades y fortalecer las acciones de control y prevención en la comunidad.
 
@@ -435,14 +442,14 @@
             .row.justify-content-center.mb-3
               .col-lg-4.col-6
                 figure
-                  img(src='@/assets/curso/temas/tema4/img-23.svg', alt='Imagen decorativa')
+                  img(src='@/assets/curso/temas/tema4/img-23.svg', alt='')
             h4.text-center.mb-4 Vigilancia pasiva
             p.mb-0 Depende de la notificación rutinaria y espontánea de casos por parte de los servicios de salud u otras fuentes; no se realiza búsqueda activa, sino que se analizan los datos que llegan al sistema.
           .col-xl.col-md-6.tarjeta.color-secundario.p-5(style="background-color:#FA9757")
             .row.justify-content-center.mb-3
               .col-lg-4.col-6
                 figure
-                  img(src='@/assets/curso/temas/tema4/img-24.svg', alt='Imagen decorativa')
+                  img(src='@/assets/curso/temas/tema4/img-24.svg', alt='')
             h4.text-center.mb-4 Vigilancia activa 
             p.mb-0 El personal de salud realiza una búsqueda intencionada y sistemática de casos, datos o eventos, visitando centros médicos, revisando registros y realizando encuestas o entrevistas. Permite una detección más rápida y precisa de brotes y problemas emergente.
 

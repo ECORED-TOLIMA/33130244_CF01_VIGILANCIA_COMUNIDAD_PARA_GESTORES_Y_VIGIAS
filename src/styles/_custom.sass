@@ -61,18 +61,60 @@
     z-index: -1 !important
 
 .tarjeta--BG02
-  background-image: url("../assets/curso/temas/tema1/fondo-pagina.svg")
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(208,250,231,.40) 25%, rgba(208,250,231,.40) 75%, rgba(255,255,255,1) 100%)
+  background-position: center
   margin-inline: -3rem !important
+
+  @media (min-width: 768px) and (max-width: 991.98px)
+    position: relative
+    z-index: 1
+    margin-inline: 0 !important
+    background: none
+
+    &::before
+      content: ''
+      position: absolute
+      top: 0
+      bottom: 0
+      left: 50%
+      width: 100vw
+      transform: translateX(-50%)
+      background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(208,250,231,.40) 25%, rgba(208,250,231,.40) 75%, rgba(255,255,255,1) 100%)
+      z-index: -1
+
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
-  figure
-    z-index: -1 !important
 
 .tarjeta--BG03
   background-size: cover
   background-repeat: no-repeat
   background-image: url("../assets/curso/temas/tema1/fondo-slyder-BG03.png")
   margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.tarjeta--BG05
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(208,250,231,.40) 25%, rgba(255,243,211,.40) 75%, rgba(255,255,255,1) 100%)
+  background-position: center
+  margin-inline: -3rem !important
+
+  @media (min-width: 768px) and (max-width: 991.98px)
+    position: relative
+    z-index: 1
+    margin-inline: 0 !important
+    background: none
+
+    &::before
+      content: ''
+      position: absolute
+      top: 0
+      bottom: 0
+      left: 50%
+      width: 100vw
+      transform: translateX(-50%)
+      background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(208,250,231,.40) 25%, rgba(255,243,211,.40) 75%, rgba(255,255,255,1) 100%)
+      z-index: -1
+
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
 
@@ -87,11 +129,13 @@
 
 .tarjeta
   &--BGC01
-    background-color: #FEEADD
+    background-color: #F4E9E7
   &--BGC02
     background-color: #FFDD8B
   &--BGC03
     background-color: #D0FAE7
+  &--BGC04
+    background-color: #FEEADD
 
 //////////Background_Color///////////
 .bg-color
@@ -118,7 +162,8 @@
   &-7
     background-color: #FEEADD
   &-8
-    background-color: #001F18
+    background-color: #DEE4F0
+    border-radius: 30px
   &-white
     background-color: #FFEEE9 !important
     border: 1px solid $lightest-gray
@@ -135,14 +180,14 @@
 
 .style___box_1
   background-color: $color-adicional-3
-  padding: 0rem 1rem 0rem 0rem
+  padding: 0rem 0rem 0rem 2rem
+  overflow: hidden
+
   img
-    margin-left: -0.8rem !important
-  @media screen and (max-width: 1200px)
-    padding: 1.5rem
-    
+    margin-left: 0 !important
+
   .img-hero
-    margin-left: -0.8rem !important
+    margin-left: 0 !important
 
   .icon-inline 
     margin-left: 0 !important
@@ -151,9 +196,63 @@
     width: 65px
     height: auto
     margin-bottom: 1rem
-  
+
+  .col-img-box
+    align-self: stretch
+    display: flex
+    align-items: stretch
+
+    figure
+      height: 100%
+      margin: 0 !important
+      display: flex
+
+    img
+      height: 100%
+      width: auto
+      object-fit: cover
+      display: block
+
   @media screen and (max-width: 1200px)
     padding: 1.5rem
+
+.style___box_1--img-left
+  padding: 0 !important
+  overflow: hidden
+
+  .col-img-box-left
+    align-self: stretch
+    display: flex
+    align-items: stretch
+    padding: 0 !important
+
+    figure
+      height: 100%
+      margin: 0 !important
+      display: flex
+
+    img
+      height: 100%
+      width: auto
+      object-fit: cover
+      display: block
+      margin: 0 !important
+      padding: 0 !important
+
+  .col-text-box-right
+    padding: 2rem 2.5rem !important
+
+    .icon-inline
+      margin-left: 0 !important
+      width: 65px
+      height: auto
+      margin-bottom: 1rem
+
+  @media screen and (max-width: 1200px)
+    padding: 1.5rem !important
+
+    .col-text-box-right
+      padding: 0 !important
 
 .cajon.cajon.color-secundario 
   background-color: #FDD5BA
@@ -168,21 +267,39 @@
 .cajon.cajon.color-primario, .cajon.C02
   background-color: #FFF3D3
 
+.cajon.C03
+  background-color: #FEEADD
+
 .cajon.cajon.color-primario 
   &::before
     background-color: #FFC025
+
+.bloque-texto-c.color-secundario
+  background-color: #FFC025
+
+.bg-color
+  &-1
+    background-color: #FFFF !important
+    border-radius: none !important
 
 .linea-tiempo-d.color-acento-botones.especial
   .linea-tiempo-d__item--selected
     .linea-tiempo-d__item__content
       background-color: #F4E9E7 !important 
+
     .tarjeta.tarjeta--gris
       background-color: #CED5F9
       color: #000 !important
+
+      *
+        color: #000 !important
+
   .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
     background-color: #FFDD8B
+
 .tarjeta.tarjeta--gris
   background-color: #0B2FE1
+  color: #000 !important
 
 .tarjeta.tarjeta--gris > span
   color: #fff !important
@@ -449,6 +566,9 @@
 .tabs-c.color-acento-botones .tabs-c__tab--active
   font-weight: 700
 
+.bloque-texto-d
+  border-top: 1px solid #FFF3D3
+
 .bloque-texto-d.color-secundario:before
   background-color: #FFF3D3
 
@@ -512,6 +632,9 @@
 .bloque-texto-c.color-secundario
   background-color: #FFF3D3
 
+.bloque-texto-c.color-primario1
+  background-color: #813504
+
 .imagen-01
   background-color: #FDD5BA
   padding: 1rem
@@ -521,7 +644,15 @@
   width: flex
 
 .imagen-02
-  background-color: #A8B8FF
+  background-color: #FA9757
+  padding: 1rem
+  display: flex
+  align-items: center
+  justify-content: center
+  width: flex
+
+.imagen-03
+  background-color: #30DF8E
   padding: 1rem
   display: flex
   align-items: center
@@ -530,15 +661,27 @@
 
 .contenido-tarjeta 
   flex: 1
-  background-color: #E5EAFF
+  background-color: #FDD5BA
+
+.contenido-tarjeta2 
+  flex: 1
+  background-color: #D0FAE7
 
 .tarjeta01
   display: flex
   overflow: hidden
-  background-color: #E5EAFF
+  background-color: #FDD5BA
   flex-direction: row
   @media (max-width: 768px) 
     flex-direction: column  
+
+.tarjeta02
+  display: flex
+  overflow: hidden
+  background-color: #D0FAE7
+  flex-direction: row
+  @media (max-width: 768px) 
+    flex-direction: column 
 
 .cajon-b.color-primario:before
   background-color: #F9DBC7
@@ -550,3 +693,74 @@
 
 .tarjeta-audio.color-acento-botones
   border-color: #F3BC5B
+
+.text-center img.d-inline-block
+  width: 200px !important
+
+.header__logo
+  width: 130px !important
+  height: auto
+
+@media (max-width: 768px)
+  .header__logo
+    width: 130px !important
+
+.slyder-f.color-acento-botones .slyder-f__btn i
+  color: #7D4A01 !important
+
+.slyder-f.custom-flechas.color-acento-botones .slyder-f__btn i
+  color: #0B2FE1 !important
+
+.audio-custom
+  border: 3px solid #3342A4 !important
+  border-radius: 30px !important
+
+  .tarjeta-audio__btn
+    background-color: #3342A4 !important
+
+    i
+      color: #FFFFFF !important
+  .tarjeta-audio__btn:hover,
+  .tarjeta-audio__boton:hover,
+  .audio__btn:hover,
+  button:hover
+    background-color: #3342A4 !important
+    border-color: #3342A4 !important
+
+    i
+      color: #FFFFFF !important
+
+  input[type="range"]
+    accent-color: #3342A4
+    background: #D8E3EE !important
+
+  input[type="range"]::-webkit-slider-runnable-track
+    background-color: #D8E3EE !important
+    height: 6px
+    border-radius: 10px
+
+  input[type="range"]::-webkit-slider-thumb
+    background-color: #3342A4 !important
+    border: none !important
+
+  input[type="range"]::-moz-range-track
+    background-color: #D8E3EE !important
+    height: 6px
+    border-radius: 10px
+
+  input[type="range"]::-moz-range-thumb
+    background-color: #3342A4 !important
+    border: none !important 
+
+.tarjeta-audio.color-secundario .tarjeta-audio__texto
+  color: #12263F
+
+.tarjeta-audio.color-secundario .tarjeta-audio__tiempo
+  color: #12263F
+
+.bg-color-white
+  background-color: #ffff !important
+
+.audio.color-secundario .audio__btn, .tarjeta-audio.color-secundario .audio__btn, .tarjeta-dialogo.color-secundario .audio__btn
+  background-color: #3342A4
+

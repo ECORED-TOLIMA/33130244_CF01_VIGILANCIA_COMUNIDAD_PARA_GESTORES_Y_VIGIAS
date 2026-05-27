@@ -39,7 +39,7 @@
         p(style="color:#000") Es crucial entender que estas categorías no operan de forma aislada, sino que suelen influirse y complementarse mutuamente. Su relevancia radica en que constituyen un pilar fundamental para el éxito y la evolución tanto en la trayectoria profesional como en la vida cotidiana (De La Ossa, 2022). Las habilidades blandas son capacidades personales y sociales que permiten interactuar de manera efectiva y positiva con otros.  
         .cajon.cajon.color-primario.p-4
           p.mb-0 En salud comunitaria destacan el empoderamiento, liderazgo y comunicación, esenciales para el trabajo colaborativo y la transformación social (Vargas, 2023). Estas son fundamentales para el trabajo con la comunidad, porque posibilitan la comunicación efectiva, la empatía, la resolución positiva de conflictos y la creación de lazos de confianza, lo que convierte los procesos colectivos en espacios colaborativos, inclusivos y sostenibles. 
-      .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+      .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema2/img-05.svg' alt="Imagen decorativa")
 
     Separador
@@ -64,7 +64,7 @@
         .cajon.cajon.color-secundario-medio.p-4.mb-4
           p.mb-0 Es la habilidad para guiar, motivar, inspirar y coordinar a un equipo hacia objetivos comunes, facilitando la toma de decisiones colectivas y el desarrollo de iniciativas. Por ejemplo, un líder comunitario que escucha activamente, negocia ante autoridades y moviliza recursos para mejorar el acceso a servicios de salud. El impacto de esta acción es probable que genera cohesión social, confianza y sentido de propósito en los grupos (Vargas, 2023).
         p(style="color:#000") El liderazgo basado en habilidades blandas, inspira confianza, genera motivación y fomenta la participación colectiva, promoviendo transformaciones sociales más profundas y sostenibles. Líderes comunitarios con estas competencias son capaces de gestionar intereses diversos y de mediar en situaciones difíciles, impulsando soluciones colaborativas e innovadoras, motivando a que exista:  
-      .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+      .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema2/img-07.png' alt="Imagen decorativa")
 
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--C01" data-aos="zoom-in")
@@ -100,15 +100,15 @@
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema2/figura-1-1.svg', alt='Imagen decorativa')
-          .tarjeta.tarjeta--blanca.p-3(x="43.5%" y="19%" numero="+")(style="background-color:#FFFFFF")
+          .tarjeta.tarjeta--blanca.p-3(x="57%" y="10%" numero="+")(style="background-color:#FFFFFF")
             p Durante este proceso, pueden presentarse ruidos (cualquier interferencia que distorsione el mensaje) y todo ocurre dentro de un contexto específico que influye en la interpretación. 
-          .tarjeta.tarjeta--blanca.p-3(x="80%" y="19%" numero="+")(style="background-color:#FFFFFF")
+          .tarjeta.tarjeta--blanca.p-3(x="57%" y="26.5%" numero="+")(style="background-color:#FFFFFF")
             p Finalmente, el receptor envía una retroalimentación o #[em feedback] al emisor, confirmando la recepción y comprensión del mensaje y cerrando el ciclo comunicativo.
-          .tarjeta.tarjeta--blanca.p-3(x="54%" y="41%" numero="+")(style="background-color:#FFFFFF")
+          .tarjeta.tarjeta--blanca.p-3(x="41%" y="26.5%" numero="+")(style="background-color:#FFFFFF")
             p Este mensaje codificado viaja a través de un canal (el medio por el cual se transmite, como el habla, la escritura o un gesto) hacia un receptor, quien lo decodifica (interpreta las señales para entender el mensaje). 
-          .tarjeta.tarjeta--blanca.p-3(x="22.5%" y="87%" numero="+")(style="background-color:#FFFFFF")
+          .tarjeta.tarjeta--blanca.p-3(x="22.5%" y="90%" numero="+")(style="background-color:#FFFFFF")
             p Comienza con un emisor que desea transmitir una idea o mensaje, el cual es codificado (convertido en señales, palabras o gestos).      
-          .tarjeta.tarjeta--blanca.p-3(x="69%" y="87%" numero="+")(style="background-color:#FFFFFF")
+          .tarjeta.tarjeta--blanca.p-3(x="69%" y="90%" numero="+")(style="background-color:#FFFFFF")
             p Luego, el mensaje llega al receptor, quien recibe, interpreta y decodifica el mensaje emitido, interpretando su contenido según el contexto.
         figure.movil
           img(src='@/assets/curso/temas/tema2/figura-2-1.svg', alt='Imagen decorativa')
@@ -119,7 +119,7 @@
       .col-lg-10.col-12
         .cajon.cajon.C01.px-4.py-4.mb-4
           .row.justify-content-center
-            .col-lg-2.col-4.mb-lg-0.mb-4
+            .col-lg-2.col-4.mb-lg-0.mb-4.d-none.d-lg-block
               figure(data-aos="fade-down")
                 img(src='@/assets/curso/temas/tema2/img-11.svg', alt='Imagen decorativa')
             .col-lg-10.col-12
@@ -127,7 +127,7 @@
     
     .fondo3-t3.px-md-5.px-4.py-4
       .row.justify-content-center
-        .col-lg-4.col-md-6.col-8.mb-lg-0.mb-4(data-aos="fade-right")
+        .col-lg-4.col-md-6.col-8.mb-lg-0.mb-4.d-none.d-lg-block(data-aos="fade-right")
           figure
             img(src='@/assets/curso/temas/tema2/img-12.png', alt='Imagen decorativa')
         .col-lg-8.mb-lg-0.mb-4(data-aos="fade-left")
@@ -145,11 +145,11 @@
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 2.5. Fomento del cambio social
 
-    .row.no-gutters.align-items-center.style___box_1.m-0(data-aos="zoom-in")
-      .col-xl-auto.px-0
+    .row.no-gutters.align-items-center.mb-4.style___box_1.style___box_1--img-left.m-0(data-aos="zoom-in")
+      .col-xl-auto.px-0.col-img-box-left
         figure.d-none.d-xl-block
           img.img-hero(src='@/assets/curso/temas/tema2/img-13.png', alt='').m-auto
-      .col-xl.px-0
+      .col-xl.px-0.col-text-box-right
         .d-flex.align-items-start
           img.icon-inline.d-none.d-lg-block.me-3(src='@/assets/curso/temas/tema2/img-14.svg' alt="Imagen decorativa")
         p Un líder comunitario, un profesional de la salud o un activista, busca modificar actitudes, comportamientos, normas o estructuras dentro de un sistema (una comunidad, una organización, la sociedad). Sin una comunicación estratégica y bien ejecutada, la capacidad de estos liderazgos para influir, persuadir y movilizar se vería severamente limitada.
@@ -164,14 +164,14 @@
       .col-lg-9.order-lg-1.order-2.mb-lg-0.mb-4
         .bg-color-2.mb-3(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.d-none.d-lg-block
               figure
                 img(src='@/assets/curso/temas/tema2/img-20.svg', alt='')
             .col-lg
               .p-3
                 p La relación entre comunicación y resolución de conflictos es directa e intrínseca: la comunicación es tanto la causa principal de muchos conflictos (por malentendidos o fallas) como la herramienta más esencial para su prevención, gestión y resolución efectiva. Sin una comunicación competente, los conflictos tienden a escalar, persistir o resolverse de manera insatisfactoria para las partes involucradas.
         p Juntas son consideradas habilidades blandas (Morozova et al., 2022). Directamente ligada a la comunicación, la resolución de conflictos se vuelve crucial en el complejo entramado de la salud comunitaria. Las intervenciones pueden generar tensiones debido a diferencias de cosmovisión, prioridades o intereses entre diversos grupos dentro de la comunidad o entre la comunidad y los profesionales externos. Una comunicación hábil permite identificar tempranamente estos desacuerdos, entender las perspectivas de todas las partes y, a través de la negociación y mediación, encontrar puntos en común y soluciones consensuadas. Abordar los conflictos de manera constructiva, en lugar de evitarlos o imponer soluciones, fortalece los lazos comunitarios y refuerza la confianza en el proceso de salud.
-      .col-lg-3.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4
+      .col-lg-3.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
           img(src="@/assets/curso/temas/tema2/img-21.png", data-aos="zoom-in")
 

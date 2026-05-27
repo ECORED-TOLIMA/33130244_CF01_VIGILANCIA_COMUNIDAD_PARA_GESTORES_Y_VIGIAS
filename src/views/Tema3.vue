@@ -21,7 +21,7 @@
           p La construcción del tejido social requiere: 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-      SlyderF.color-acento-botones(columnas="col-lg-6 col-xl-4")
+      SlyderF.custom-flechas.color-acento-botones(columnas="col-lg-6 col-xl-4")
         .tarjeta.tarjeta--BGC02.p-4
           .row.justify-content-center.mb-4
             .col-lg-5.col-sm-4.col-6
@@ -56,13 +56,8 @@
     .row.justify-content-center
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
         p(style="color:#000") Con base en lo expuesto, la construcción del tejido social favorece la transformación positiva y el desarrollo de comunidades más justas, resilientes y solidarias, capaces de enfrentar los desafíos presentes y lo que acontecerá en el futuro (Garcés, 2023). Cuando existe un tejido social fuerte la comunidad gana una mayor capacidad de resiliencia ante crisis y conflictos, facilitando la reconstrucción del bienestar colectivo. Asimismo, promueve el sentido de pertenencia, la participación ciudadana y la colaboración en la toma de decisiones que afectan a todos. Por otra parte, es fundamental para consolidar comunidades sostenibles, igualitarias y democráticas, así como para el desarrollo humano integral lo que permite generar confianza en las instituciones y mayor apoyo entre los integrantes del grupo, optimizando la resolución de problemas y la construcción de proyectos comunes.
-        .row
-          .col-auto.d-none.d-lg-block.order-lg-1.order-2.mb-lg-0
-            figure
-              img(src='@/assets/curso/temas/tema3/img-15.svg' alt="Imagen decorativa")
-          .col-lg-10.col-12.mb-3.order-lg-2.order-2.mb-lg-0
-            p(style="color:#000") La participación de agentes comunitarios en la Vigilancia Basada en Comunidad, puede ser considera una apuesta para la construcción de tejido social, ya que, desde la participación social en salud, se fomenta abordar espacios que permitan a las comunidades aportar en la transformación de las necesidades que identifican y ponen en conocimiento a nivel sectorial (salud) e intersectorial. 
-      .col-lg-4.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+        p.mb-0(style="color:#000") La participación de agentes comunitarios en la Vigilancia Basada en Comunidad, puede ser considera una apuesta para la construcción de tejido social, ya que, desde la participación social en salud, se fomenta abordar espacios que permitan a las comunidades aportar en la transformación de las necesidades que identifican y ponen en conocimiento a nivel sectorial (salud) e intersectorial. 
+      .col-lg-4.col-6.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema3/img-07.png' alt="Imagen decorativa")
 
     Separador

@@ -7,18 +7,18 @@
         span 1
       h1 Análisis participativo
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center
       .col-lg-5.col-10.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/temas/tema1/img-01.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema1/img-01.png', alt='')
       .col-lg-7       
         .row.justify-content-center.mb-3
           .col-lg-2.d-none.d-lg-block(data-aos="zoom-in")
             figure
-              img(src='@/assets/curso/temas/tema1/img-02.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/tema1/img-02.svg', alt='')
           .col-lg-10
             p.mb-0(data-aos="fade-left") El análisis participativo se define como los métodos y técnicas que facilitan la participación de las comunidades en el diagnóstico, la planificación y la evaluación de proyectos y acciones locales, permitiendo recoger información, analizar problemáticas y consensuar soluciones de manera colaborativa (Geilfus, 2002).
-        .bloque-texto-c.color-secundario.p-3(style="background-color:#FEEADD")
+        .bloque-texto-c.color-secundario.p-3(style="background-color:#F4E9E7")
           p.mb-0 Se entiende por análisis participativo al enfoque metodológico donde las personas involucradas—como comunidades, grupos sociales o territorios—expresan sus percepciones, conocimientos y opiniones para intervenir sobre situaciones que los afectan directamente. El objetivo es empoderar a los participantes a través de su involucramiento en la identificación de necesidades, la deliberación de causas y la construcción de soluciones colectivas (ACNUR, 2024).
 
     Separador
@@ -26,8 +26,8 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.1. Condiciones sociodemográficas 
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-3.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4
+    .row.justify-content-center.mb-4
+      .col-lg-3.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
           img(src="@/assets/curso/temas/tema1/img-03.png", data-aos="zoom-in")
       .col-lg-9.order-lg-1.order-2.mb-lg-0.mb-4
@@ -35,7 +35,7 @@
         p Las principales variables sociodemográficas son: 
         .bg-color-2.mb-3(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.d-none.d-lg-block
               figure
                 img(src='@/assets/curso/temas/tema1/img-04.svg', alt='')
             .col-lg
@@ -77,19 +77,19 @@
     .row.justify-content-center.mb-4
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema1/img-07.svg' alt="Imagen decorativa")
+          img(src='@/assets/curso/temas/tema1/img-07.svg' alt="")
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#FFDD8B;")
             h4.text-center.mt-5(style="color:#12263F") Estudios e ingresos
             p.text-center.mb-0(style="color:#12263F") Una comunidad urbana con alta escolaridad y nivel de ingresos medio.
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-left")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema1/img-08.svg' alt="Imagen decorativa")
+          img(src='@/assets/curso/temas/tema1/img-08.svg' alt="")
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#FFDD8B;")
             h4.text-center.mt-5(style="color:#12263F") Acceso a servicios
             p.text-center.mb-0(style="color:#12263F") Familias mono parentales con bajo acceso a servicios de salud.
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema1/img-09.svg' alt="Imagen decorativa")
+          img(src='@/assets/curso/temas/tema1/img-09.svg' alt="")
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#FFDD8B;")
             h4.text-center.mt-5(style="color:#12263F") Ocupación laboral
             p.text-center.mb-0(style="color:#12263F") Trabajadores con diferentes rangos de edad, escolaridad y ocupación en una empresa.
@@ -98,13 +98,13 @@
 
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-10.col-12
-        .bg-color-1.tarjeta.py-3.px-4.h-100
+        .tarjeta.tarjeta--BGC03.p-4
           p.mb-0 Por esto, las condiciones sociodemográficas constituyen la base indispensable para comprender la dinámica social y demográfica de un territorio o grupo poblacional, porque actúan como un espejo multifacético que refleja tanto la composición intrínseca de la comunidad como los factores externos que moldean su existencia. Al analizar elementos como la edad, el sexo, la distribución geográfica, los niveles educativos, la ocupación y el estado socioeconómico, se puede trazar un perfil exhaustivo que va más allá de los números. 
     
     .row.justify-content-center.mb-4
       .col-1.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/tema1/img-84.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema1/img-84.svg', alt='')
       .col-9
         p.mb-0(data-aos="fade-left") Esta información no solo indica "quiénes son", sino que también permite inferir "cómo viven", "qué necesidades tienen" y "a qué riesgos están expuestos". Es a partir de este conocimiento fundamental que se pueden diseñar intervenciones pertinentes y equitativas, ya que se basan en una comprensión profunda de las realidades estructurales y contextuales de la población. (Peñuela Rodríguez & Córdoba Torres, 2020; Cedeño Velásquez et al., 2019).
 
@@ -124,7 +124,7 @@
         ImagenInfografica.color-acento-botones.desktop
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema1/img-10-01.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/tema1/img-10-01.svg', alt='')
           .tarjeta.tarjeta--blanca.p-3(x="5%" y="33.5%" numero="+")(style="background-color:#FFFFFF")
             p Considerada desde la gestación hasta los 5 años, marcada por el rápido crecimiento físico y desarrollo cognitivo.
           .tarjeta.tarjeta--blanca.p-3(x="27%" y="20%" numero="+")(style="background-color:#FFFFFF")
@@ -138,7 +138,7 @@
           .tarjeta.tarjeta--blanca.p-3(x="78%" y="86.7%" numero="+")(style="background-color:#FFFFFF")
             p Desde los 60 años y más, donde aumentan retos de salud y adaptación social (Ministerio de Salud y Protección Social, 2016).
         figure.movil
-          img(src='@/assets/curso/temas/tema1/img-10-02.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema1/img-10-02.svg', alt='')
 
     .row.mb-4.ms-0
       .col-auto.bg-c1(data-aos="fade-left")
@@ -152,20 +152,20 @@
     p Las etapas del ciclo de vida son los periodos cronológicos en el desarrollo humano (primera infancia, infancia, adolescencia, juventud, adultez, vejez), definidos por rangos de edad, características biológicas, psicológicas y sociales.
     p.mb-4 El ciclo de vida implica que los riesgos y oportunidades para la salud varían según el estadio y se reconoce que las exposiciones tempranas (como la nutrición prenatal y la infancia) pueden tener efectos duraderos. Esto se estudia con el fin de identificar la incidencia y prevalencia de enfermedades y eventos de salud en cada etapa, reconociendo ventanas de oportunidad y momentos críticos para intervenciones públicas.
 
-    .row.no-gutters.align-items-center.mb-4.style___box_1.m-0(data-aos="zoom-in")
-      .col-xl-auto.px-0
+    .row.no-gutters.align-items-center.mb-4.style___box_1.style___box_1--img-left.m-0(data-aos="zoom-in")
+      .col-xl-auto.px-0.col-img-box-left
         figure.d-none.d-xl-block
           img.img-hero(src='@/assets/curso/temas/tema1/img-11.png', alt='').m-auto
-      .col-xl.px-0
+      .col-xl.px-0.col-text-box-right
         .d-flex.align-items-start
-          img.icon-inline.d-none.d-lg-block.me-3(src='@/assets/curso/temas/tema1/img-12.svg' alt="Imagen decorativa")
+          img.icon-inline.d-none.d-lg-block.me-3(src='@/assets/curso/temas/tema1/img-12.svg' alt="")
         p.mb-0 Las etapas del ciclo de vida constituyen una herramienta fundamental para organizar el estudio de poblaciones y planificar acciones de salud pública eficaces y adaptadas, asimismo, estas etapas permiten organizar la atención integral en salud reconociendo las características y necesidades específicas de cada momento vital a lo largo del curso de vida (Ministerio de Salud y Protección Social, 2016).
               
     .fondo2-t2.px-md-5.px-4.py-4
       .row.justify-content-center
         .col-lg-2.col-sm-7.col-10.mb-4(data-aos="flip-up")
           figure
-            img(src='@/assets/curso/temas/tema1/img-13.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema1/img-13.svg', alt='')
         .col-lg-8(data-aos="fade-left")
           p Por su parte, las RIAS (Rutas Integrales de Atención en Salud) constituyen paquetes organizados de acciones para la atención, prevención y promoción en salud, diseñadas específicamente para las necesidades particulares de cada etapa del ciclo de vida, por esto, cada momento de los mencionados tiene una o varias RIAS asociadas que determinan los protocolos y servicios específicos para atender las particularidades en salud de ese grupo de edad (Ministerio de Salud y Protección Social, 2016).
           p Un ejemplo de ello es:  
@@ -176,14 +176,14 @@
               .row.justify-content-center.mb-3
                 .col-lg-4.col-6
                   figure
-                    img(src='@/assets/curso/temas/tema1/img-14.svg', alt='Imagen decorativa')
+                    img(src='@/assets/curso/temas/tema1/img-14.svg', alt='')
               h4.text-center.mb-4 Primera infancia
               p.mb-0 Las RIAS para primera infancia incluyen intervenciones en vacunación y nutrición dirigidas a niños de 0 a 5 años.
             .col-xl.col-md-6.tarjeta.color-secundario.p-5(style="background-color:#FA9757")
               .row.justify-content-center.mb-3
                 .col-lg-4.col-6
                   figure
-                    img(src='@/assets/curso/temas/tema1/img-15.svg', alt='Imagen decorativa')
+                    img(src='@/assets/curso/temas/tema1/img-15.svg', alt='')
               h4.text-center.mb-4 Vejez
               p.mb-0 Las RIAS para vejez priorizan prevención de enfermedades crónicas, rehabilitación y paliación. 
           p Las RIAS usan las etapas del ciclo de vida como referencia para adaptar las acciones de salud pública y clínica, asegurando pertinencia y eficiencia en la atención (Ministerio de Salud y Protección Social, 2016).
@@ -270,37 +270,39 @@
               p En las comunidades indígenas de la Amazonía, por ejemplo, la salud depende del equilibrio entre la persona, la comunidad y la naturaleza. Los rituales, la sanación y las plantas medicinales tienen un papel fundamental. Para los Wayúu de Colombia, la salud está profundamente conectada con la armonía que mantienen con sus antepasados y su entorno. Así, la cosmogonía da sentido no solo a la vida, sino a las formas de cuidado comunitario, pues orienta las normas y creencias sobre el cuerpo, la enfermedad y la relación con lo espiritual y natural.
             .col-12.mb-0
               figure
-                img(src='@/assets/curso/temas/tema1/img-24.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema1/img-24.png', alt='')
           .row.mb-0(numero="2" titulo="Cada comunidad, una visión propia")
             .col-12
               p La cosmogonía no es exclusiva de los pueblos indígenas. Cualquier grupo—urbano, rural o de otra procedencia—tiene sus propias maneras de comprender el mundo. Por eso, las prácticas y conocimientos ligados a la salud deben surgir del respeto y el diálogo entre todas las personas, sin imponer una única forma de ver la vida. Así se fomenta el respeto mutuo, la inclusión y la equidad, haciendo que todos se sientan parte de las decisiones que afectan su bienestar. Así se evitan imposiciones, se favorece el diálogo abierto, la inclusión, el consentimiento y la equidad.  
               figure
-                img(src='@/assets/curso/temas/tema1/img-25.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema1/img-25.png', alt='')
           .row.mb-0(numero="3" titulo="Diversidad de prácticas y saberes")
             .col-12
               p En Colombia, la diversidad es enorme. Los afrocolombianos, los Arhuacos y los pueblos andinos cuentan con sanadores tradicionales, celebraciones, rituales agrarios y conocimientos que han pasado de generación en generación. Prácticas como el “buen vivir” (sumak kawsay) muestran cómo la salud surge de armonizar relaciones humanas, naturaleza y costumbres ancestrales. Aunque existen similitudes, cada grupo establece sus propias normas sobre género, comida, la vida, la muerte y la forma de ver el territorio (López, et al, 2018).
-              p Armonizar estas dimensiones permite adaptar la prevención, la promoción y la atención, garantizando el bienestar integral según las realidades de cada pueblo o comunidad. Pese a las similitudes, se puede decir que cada uno define normas respecto al género, la edad, la alimentación, la muerte, la espiritualidad y el uso del territorio acorde a ellos. Las prácticas de cuidado y sanación no solo buscan curar síntomas físicos, sino restablecer el equilibrio espiritual, económico, familiar, ambiental y social, recurriendo a disimiles rituales tales como plantas medicinales, curanderos, limpias, baños, agradecimientos y mediaciones con los ancestros. 
+              .tarjeta.bg-color-1.p-4.mb-lg-4.mb-0
+                p.mb-0 Armonizar estas dimensiones permite adaptar la prevención, la promoción y la atención, garantizando el bienestar integral según las realidades de cada pueblo o comunidad. Pese a las similitudes, se puede decir que cada uno define normas respecto al género, la edad, la alimentación, la muerte, la espiritualidad y el uso del territorio acorde a ellos. Las prácticas de cuidado y sanación no solo buscan curar síntomas físicos, sino restablecer el equilibrio espiritual, económico, familiar, ambiental y social, recurriendo a disimiles rituales tales como plantas medicinales, curanderos, limpias, baños, agradecimientos y mediaciones con los ancestros. 
               p Comprender y respetar la cosmogonía permite diseñar intervenciones de salud pública pertinentes, incorporar promotores culturales, fortalecer el trabajo participativo y dialogar con las prácticas de autocuidado y sanación colectiva, promoviendo una perspectiva intercultural y el reconocimiento de la autonomía de los pueblos.
             .col-12.mb-0
               figure
-                img(src='@/assets/curso/temas/tema1/img-26.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema1/img-26.png', alt='')
           .row.mb-0(numero="4" titulo="Diálogo entre medicina ancestral y occidental")
             .col-12
               p Las personas sabias, como chamanes, curanderos y parteras, tienen un papel central en la salud comunitaria. Saben cómo usar plantas, símbolos y rituales; además, muchas veces median entre la medicina tradicional y la occidental. Por eso, es importante que los sistemas de salud oficial reconozcan estos saberes y se adapten respetuosamente a cada comunidad. La Organización Panamericana de la Salud, recomienda flexibilidad, diálogo y empatía para que los protocolos médicos sean efectivos y culturalmente pertinentes porque permite interactuar entre la visión occidental, la medicina tradicional y salud comunitaria para lograr un bienestar integral, sostenible e inclusivo (Organización Panamericana de la Salud, 2025).
-              p El enfoque de interculturalidad en salud es un eje transversal que busca potenciar el acceso y la eficacia de las intervenciones, valorando la diversidad y promoviendo la equidad. Para lograrlo, es crucial establecer espacios de comunicación y negociación entre los profesionales de la salud, líderes comunitarios y sabedores ancestrales. Este enfoque implica el reconocimiento de las prácticas, rituales y conocimientos locales como elementos válidos y complementarios a los procesos de atención biomédica, eliminando así juicios etnocentristas.
+              .tarjeta.bg-color-1.p-4.mb-lg-4.mb-0
+                p.mb-0 El enfoque de interculturalidad en salud es un eje transversal que busca potenciar el acceso y la eficacia de las intervenciones, valorando la diversidad y promoviendo la equidad. Para lograrlo, es crucial establecer espacios de comunicación y negociación entre los profesionales de la salud, líderes comunitarios y sabedores ancestrales. Este enfoque implica el reconocimiento de las prácticas, rituales y conocimientos locales como elementos válidos y complementarios a los procesos de atención biomédica, eliminando así juicios etnocentristas.
               figure
-                img(src='@/assets/curso/temas/tema1/img-27.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema1/img-27.png', alt='')
           .row.mb-0(numero="5" titulo="Competencia cultural y enfoque intercultural")
             .col-12
               p Atender la salud no solo es tratar enfermedades, exige reconocer la diversidad y la cultura de cada persona. Por eso, quienes desarrollan acciones en salud deben aprender y practicar competencia cultural una capacidad que se construye con conciencia, conocimientos y habilidades para entender y respetar creencias y comportamientos diferentes. Ignorar la cultura es ignorar a la persona misma y eso puede dificultar cualquier proceso de cuidado o sanación.
             .col-12.mb-0
               figure
-                img(src='@/assets/curso/temas/tema1/img-28.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema1/img-28.png', alt='')
           .row.mb-0(numero="6" titulo="Hacia una salud más inclusiva")
             .col-12
               p El enfoque intercultural busca mejorar la salud y el bienestar sumando conocimientos médicos y saberes ancestrales, eliminando prejuicios y sumando voces, desde las parteras tradicionales hasta los líderes espirituales y comunitarios. De este modo, la prevención, promoción y la atención médica se vuelven más pertinentes y equitativas. Un ejemplo de esto es el parto intercultural, donde se respeta tanto lo médico como lo tradicional o el uso de plantas medicinales avaladas por las costumbres y coordinadas con los profesionales de la salud y las parteras o quienes realizan acciones para la atención del parto desde la comunidad.
               figure
-                img(src='@/assets/curso/temas/tema1/img-29.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema1/img-29.png', alt='')
 
     .row.justify-content-center
       .col-xl-10
@@ -319,66 +321,65 @@
     p La identificación de líderes, las formas de organización y las características de las organizaciones de base comunitaria, junto con los espacios de integración, son aspectos esenciales para el desarrollo comunitario y la participación social. De acuerdo con el Secretaría de Integración Social (2016), se tienen diversas formas de identificar liderazgos: se basa en analizar las concepciones y los métodos que un líder utiliza. 
     p.mb-4 Los estilos de liderazgo se clasifican en #[b función de su nivel de control y participación.] Por un lado, se encuentran los estilos más tradicionales, encontrando:    
 
-    .bg-full-width.bg-color-6
-      .px-4.px-md-5
-        .row.mb-4(data-aos="flip-up")
-          .col-md-6.col-xl.mb-4.mb-xl-0
-            .tarjeta-numerada.color-primario.p-5.h-100
-              .tarjeta-numerada__numero
-                .h2 1
-              h4.text-center 
-                b El autocrático
-              p.text-center El líder ejerce un control total y toma decisiones unilaterales.
-          .col-md-6.col-xl.mb-4.mb-xl-0
-            .tarjeta-numerada.color-secundario.p-5.h-100
-              .tarjeta-numerada__numero
-                .h2 2
-              h4.text-center 
-                b El administrativo
-              p.text-center Se enfoca en mantener la operación sin problemas.
-          .col-md-6.col-xl.mb-4.mb-xl-0
-            .tarjeta-numerada.color-acento-contenido.p-5.h-100
-              .tarjeta-numerada__numero
-                .h2 3
-              h4.text-center 
-                b El democrático
-              p.text-center Consulta a otros, pero retiene la autoridad final.
-          .col-md-6.col-xl.mb-4.mb-xl-0
-            .tarjeta-numerada.color-adicional-4.p-5.h-100
-              .tarjeta-numerada__numero
-                .h2 4
-              h4.text-center 
-                b El colaborativo
-              p.text-center Donde el liderazgo y las decisiones importantes se comparten equitativamente entre los miembros. 
+    .tarjeta--BG02.px-md-5.px-4.mb-4
+      .row.mb-4(data-aos="flip-up")
+        .col-md-6.col-xl.mb-4.mb-xl-0
+          .tarjeta-numerada.color-primario.p-5.h-100
+            .tarjeta-numerada__numero
+              .h2 1
+            h4.text-center 
+              b El autocrático
+            p.text-center El líder ejerce un control total y toma decisiones unilaterales.
+        .col-md-6.col-xl.mb-4.mb-xl-0
+          .tarjeta-numerada.color-secundario.p-5.h-100
+            .tarjeta-numerada__numero
+              .h2 2
+            h4.text-center 
+              b El administrativo
+            p.text-center Se enfoca en mantener la operación sin problemas.
+        .col-md-6.col-xl.mb-4.mb-xl-0
+          .tarjeta-numerada.color-acento-contenido.p-5.h-100
+            .tarjeta-numerada__numero
+              .h2 3
+            h4.text-center 
+              b El democrático
+            p.text-center Consulta a otros, pero retiene la autoridad final.
+        .col-md-6.col-xl.mb-4.mb-xl-0
+          .tarjeta-numerada.color-adicional-4.p-5.h-100
+            .tarjeta-numerada__numero
+              .h2 4
+            h4.text-center 
+              b El colaborativo
+            p.text-center Donde el liderazgo y las decisiones importantes se comparten equitativamente entre los miembros. 
 
-        .row.justify-content-center.mb-4
-          .col-xl-10
-            .cajon.cajon.color-secundario.row.align-items-center.m-0.style___box_1.p-4.mb-4(data-aos="zoom-in").espacio___movil_1
-              .col-xl-auto(data-aos="fade-right")
-                figure.d-none.d-xl-block
-                  img(src='@/assets/curso/temas/tema1/img-31.svg', alt='').m-auto
-              .col-xl
-                p.mb-0 Estos estilos se distinguen por la dinámica de poder y la distribución de responsabilidades en el grupo (Secretaría de Integración Social, 2016).
+      .row.justify-content-center.mb-4
+        .col-xl-10
+          .cajon.cajon.color-secundario.row.align-items-center.m-0.style___box_1.p-4.mb-4(data-aos="zoom-in").espacio___movil_1
+            .col-xl-auto(data-aos="fade-right")
+              figure.d-none.d-xl-block
+                img(src='@/assets/curso/temas/tema1/img-31.svg', alt='').m-auto
+            .col-xl
+              p.mb-0 Estos estilos se distinguen por la dinámica de poder y la distribución de responsabilidades en el grupo (Secretaría de Integración Social, 2016).
 
-            p Además de estas categorías, existe una segunda clasificación de tipos de liderazgo que se centra en #[b la naturaleza del intercambio entre el líder y los seguidores.] Estos liderazgos se dividen en los siguientes:   
+          p Además de estas categorías, existe una segunda clasificación de tipos de liderazgo que se centra en #[b la naturaleza del intercambio entre el líder y los seguidores.] Estos liderazgos se dividen en los siguientes:   
 
-        .row.justify-content-center.mb-4(data-aos="flip-up")
-          .col-lg-6.mb-3
-            .tarjeta-avatar-b.h-100
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/temas/tema1/img-32.svg' alt='AvatarTop')
-              .tarjeta.color1(style= "width: 100%")
-                .p-4 
-                  h4 Liderazgo transaccional
-                  p La relación se basa en un intercambio directo de beneficios, como el pago por un trabajo o el cumplimiento de una tarea. 
-          .col-lg-6.mb-3
-            .tarjeta-avatar-b.h-100
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/temas/tema1/img-33.svg' alt='AvatarTop')
-              .tarjeta.color1(style= "width: 100%")
-                .p-4
-                  h4 Liderazgo transformacional
-                  p Se enfoca en inspirar a las personas a seguir una visión compartida que se alinea con sus aspiraciones, con el objetivo de lograr un cambio real y significativo.
+      .row.justify-content-center.mb-4(data-aos="flip-up")
+        .col-lg-6.mb-3
+          .tarjeta-avatar-b.h-100
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/temas/tema1/img-32.svg' alt='AvatarTop')
+            .tarjeta.color1(style= "width: 100%")
+              .p-4 
+                h4(style="color: #000 !important") Liderazgo transaccional
+                p(style="color: #000 !important") La relación se basa en un intercambio directo de beneficios, como el pago por un trabajo o el cumplimiento de una tarea. 
+        .col-lg-6.mb-3
+          .tarjeta-avatar-b.h-100
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/temas/tema1/img-33.svg' alt='AvatarTop')
+            .tarjeta.color1(style= "width: 100%")
+              .p-4
+                h4(style="color: #000 !important") Liderazgo transformacional
+                p(style="color: #000 !important") Se enfoca en inspirar a las personas a seguir una visión compartida que se alinea con sus aspiraciones, con el objetivo de lograr un cambio real y significativo.
     
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-10.col-12
@@ -388,12 +389,12 @@
               img(src='@/assets/curso/temas/tema1/img-85.svg' alt='Servidor' class='img-fluid')
           
           .contenido-tarjeta.p-4
-            p.mb-0(data-aos="fade-down") En esencia, para identificar un estilo de liderazgo, es necesario observar si el líder se guía por la supervisión, el empoderamiento, la provisión de una visión o el uso del poder. 
+            p.mb-0(data-aos="fade-down")(style="color: #000 !important") En esencia, para identificar un estilo de liderazgo, es necesario observar si el líder se guía por la supervisión, el empoderamiento, la provisión de una visión o el uso del poder. 
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-5.col-md-6.col-8.mb-lg-0.mb-4(data-aos="fade-right")
+    .row.justify-content-center.mb-4
+      .col-lg-5.col-md-6.col-8.mb-lg-0.mb-4.d-none.d-lg-block(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/temas/tema1/img-34.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema1/img-34.png', alt='')
       .col-lg-7.mb-lg-0(data-aos="fade-left")
         p De acuerdo con estos planteamientos, del desarrollo de liderazgo se obtienen múltiples beneficios que fortalecen la capacidad de una comunidad para generar y sostener el cambio. Uno de los resultados principales es la activación de los individuos y las organizaciones comunitarias, lo que fomenta su participación y compromiso en las acciones futuras. Además, permite aumentar el acceso y la representación de grupos en estado de vulnerabilidad, excluidos o estigmatizados, dándoles una voz para definir y abordar problemas importantes.
         p El desarrollo de liderazgo también ayuda a cultivar un sentido de pertenencia comunitaria y una responsabilidad compartida, lo que a su vez fortalece la cohesión del grupo. Esta práctica es fundamental para que las iniciativas de cambio sean representativas de la comunidad y para diversificar el equipo de liderazgo con una variedad de habilidades y perspectivas.   
@@ -401,13 +402,13 @@
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-1.d-none.d-lg-block
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema1/img-35.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema1/img-35.svg', alt='')
       .col-9
         p.mb-0(data-aos="fade-right") Además de los beneficios internos, el desarrollo de liderazgo incrementa el alcance y la penetración de las intervenciones. Al conectar a más personas con los programas, se logra un mayor impacto a nivel de la población, ya que se aprovechan las redes sociales existentes. Esto también ayuda a mantener las tasas de cambio comunitario a largo plazo, ya que el nuevo liderazgo con fuertes lazos sociales con la comunidad puede sostener los esfuerzos en el tiempo.
 
     .row.justify-content-center.mb-4
       .col-lg-5.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-        img(src='@/assets/curso/temas/tema1/img-36.png' alt="Imagen decorativa")
+        img(src='@/assets/curso/temas/tema1/img-36.png' alt="")
       .col-lg-7.order-lg-1.order-2.mb-lg-0.mb-4
         p(style="color:#000") Finalmente, la implementación de métodos democráticos y consensuados para la toma de decisiones, que son una parte inherente del desarrollo de liderazgo, contribuye a aumentar la satisfacción de los miembros y a mejorar el funcionamiento general de cualquier iniciativa 
         p(style="color:#000") De esta forma, la identificación se realiza al observar quién motiva, moviliza, representa y promueve el bienestar colectivo, algunos ejemplos son:
@@ -486,22 +487,22 @@
       .col-md-6.col-lg.tarjeta--tabla.p-4(style="background-color:#FFF3D3")
         .row.justify-content-center.mb-3
           .col-4
-            img(src='@/assets/curso/temas/tema1/img-43.svg' alt="Imagen decorativa")
+            img(src='@/assets/curso/temas/tema1/img-43.svg' alt="")
         p.text-center.text-bold.mb-0 Bancos de alimentos
       .col-md-6.col-lg.tarjeta--tabla.p-4(style="background-color:#FDD5BA")
         .row.justify-content-center.mb-3
           .col-4
-            img(src='@/assets/curso/temas/tema1/img-44.svg' alt="Imagen decorativa")
+            img(src='@/assets/curso/temas/tema1/img-44.svg' alt="")
         p.text-center.text-bold.mb-0 Asociaciones de vecinos
       .col-md-6.col-lg.tarjeta--tabla.p-4(style="background-color:#FFF3D3")
         .row.justify-content-center.mb-3
           .col-4
-            img(src='@/assets/curso/temas/tema1/img-45.svg' alt="Imagen decorativa")
+            img(src='@/assets/curso/temas/tema1/img-45.svg' alt="")
         p.text-center.text-bold.mb-0 Iglesias
       .col-md-6.col-lg.tarjeta--tabla.p-4(style="background-color:#FDD5BA")
         .row.justify-content-center.mb-3
           .col-4
-            img(src='@/assets/curso/temas/tema1/img-46.svg' alt="Imagen decorativa")
+            img(src='@/assets/curso/temas/tema1/img-46.svg' alt="")
         p.text-center.text-bold.mb-0 Centros culturales y deportivos
 
     .row.mb-4.ms-0
@@ -519,9 +520,9 @@
       .col-lg-10.col-12
         .cajon.cajon.C01.px-4.py-4.mb-4
           .row.justify-content-center
-            .col-lg-2.col-4.mb-lg-0.mb-4
+            .col-lg-2.col-4.mb-lg-0.mb-4.d-none.d-lg-block
               figure(data-aos="fade-down")
-                img(src='@/assets/curso/temas/tema1/img-71.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema1/img-71.svg', alt='')
             .col-lg-10.col-12
               p.mb-0(data-aos="fade-down") Son ámbitos donde se reúnen los miembros para fortalecer vínculos, discutir problemas, acordar acciones y celebrar logros. Particularmente en el contexto colombiano existen espacios como asambleas y reuniones periódicas de asociaciones vecinales, ferias, mercados campesinos, ferias artesanales o eventos deportivos, centros comunitarios, bibliotecas, grupos de lectura o culturales, comités, parques urbanos y espacios de aprendizaje compartido, talleres participativos, jornadas de limpieza, noches de cine al aire libre y fiestas tradicionales. Estos elementos son fundamentales para el desarrollo sostenible y la cohesión social en cualquier comunidad.
         p Puntualmente, para el caso de la estrategia de vigilancia basada en comunidad este espacio corresponde al Comité Epidemiológico de Vigilancia Comunitaria (COVECOM) u otros en los que se ponen en discusión los temas que afectan la salud de la comunidad.
@@ -538,17 +539,17 @@
         .tarjeta.tarjeta--BGC01.p-4.mb-4
           p.mb-0 En el ámbito de la salud pública, estas soluciones se manifiestan a través de una serie de estrategias integrales. Se favorecen los modelos de trabajo que abarcan un abordaje multisectorial, lo que significa que la salud no se ve como una responsabilidad exclusiva del sector médico, sino que involucra a la educación, el urbanismo, el medio ambiente y otros campos. La participación comunitaria y el trabajo en red, a través de alianzas locales e intersectoriales, son cruciales. Este enfoque colaborativo garantiza que la planificación, ejecución y evaluación de las acciones respondan de manera efectiva a las necesidades únicas de cada territorio, promoviendo la prevención, el acceso equitativo a servicios y una mejora sostenible de la calidad de vida. 
         p Una de las soluciones más comunes y efectivas en salud pública son las #[b campañas de vacunación.] Su objetivo principal es reducir la incidencia de enfermedades prevenibles por inmunización, protegiendo a individuos y a la comunidad en general. Complementariamente, se implementan #[b programas de educación para la salud], los cuales incluyen talleres sobre nutrición, salud sexual, prevención de adicciones y otras enfermedades en distintos entornos, como instituciones educativas para niños y centros de atención para adultos mayores.
-      .col-lg-3.col-md-6.col-8.order-1.mb-lg-0.mb-4
+      .col-lg-3.col-md-6.col-8.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/tema1/img-47.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema1/img-47.svg', alt='')
 
     .row.justify-content-center.mb-4
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
         p(style="color:#000") El trabajo colaborativo va más allá de los programas educativos. Se organizan #[b mesas de trabajo] que reúnen a líderes institucionales y comunitarios, desde el orden nacional hasta el municipal. Estos espacios de concertación son fundamentales para identificar situaciones de interés en salud y para coordinar respuestas efectivas. Además, se desarrollan #[b proyectos de infraestructura] que impactan directamente en la salud, como la creación de "caminos escolares seguros" para reducir accidentes, mejorar la infraestructura urbana y fomentar hábitos saludables en la población escolar y joven. 
         .cajon.cajon.color-primario.p-4
           p.mb-0 La promoción de estilos de vida saludables es otra solución prioritaria. Esto abarca un amplio espectro de acciones, que van desde fomentar la #[b alimentación y nutrición sana] y promover el #[b ejercicio físico] hasta trabajar en la #[b disminución de conductas no saludables,] como el consumo de cigarrillo, alcohol y sustancias psicoactivas. Estas iniciativas se centran en el empoderamiento individual y colectivo para tomar decisiones que mejoren el bienestar a largo plazo. 
-      .col-lg-5.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema1/img-48.png' alt="Imagen decorativa")
+      .col-lg-5.col-6.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block(data-aos="fade-left")
+        img(src='@/assets/curso/temas/tema1/img-48.png' alt="")
 
     p Por último, es indispensable garantizar el #[b acceso a servicios médicos de forma oportuna y eficaz.] Esto requiere una infraestructura adecuada, como centros de salud bien equipados y con personal idóneo. En zonas remotas de difícil acceso, las #[b brigadas de salud y la telemedicina] se han consolidado como herramientas esenciales para brindar atención. Adicionalmente, las #[b intervenciones ambientales] son cruciales, con mejoras en los sistemas de agua potable, saneamiento básico, gestión de residuos sólidos y control de vectores. Todas estas soluciones tienen un mayor impacto cuando no son exclusivas de unos pocos actores, sino que integran la voz y la participación de la comunidad en todas sus fases, desde el diagnóstico hasta la evaluación de los resultados.
 
@@ -562,7 +563,7 @@
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-1.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/tema1/img-86.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema1/img-86.svg', alt='')
       .col-9
         p Este proceso se aplica con frecuencia en proyectos comunitarios para garantizar una planeación social que oriente intervenciones en sectores como la salud, la educación, la gestión de recursos o cualquier ámbito que requiera comprender la realidad desde la perspectiva de quienes la viven.
 
@@ -643,7 +644,7 @@
       .col-lg-12.col-12.py-lg-0.py-4
         .row.justify-content-center.align-items-center
           .col-md-6.col-lg-4.mb-4.mb-md-0.d-lg-flex.d-none.order-lg-2.order-2(data-aos="fade-right")
-            img(src='@/assets/curso/temas/tema1/img-87.png', alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema1/img-87.png', alt='')
           .col-md-8.col-lg-8.mb-4.mb-md-0(data-aos="fade-left")
             SlyderF.custom.color-acento-botones.order-lg-1.order-2(columnas="col-lg-4 col-xl-4")
               .tarjeta.bgslyder.p-4
@@ -698,77 +699,77 @@
               p.mb-0(style="color:#000 !important") Es una estrategia enriquecedora, su elaboración está inmersa dentro de un proceso de organización y articulación comunitaria; además, consiste en que los propios habitantes dibujen un mapa de su territorio. Así, se ponen de manifiesto las dinámicas espaciales, las desigualdades y los puntos críticos, lo que permite a los participantes reflexionar sobre el impacto de su entorno en el bienestar colectivo. 
             .col-lg-6.col-10.order-1.order-lg-2.mb-4  
               figure
-                img(src='@/assets/curso/temas/tema1/img-58.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema1/img-58.png', alt='')
           .row
             .col-lg-6.order-2.order-lg-1
               h4(style="color:#000 !important") Árbol de problemas y soluciones
               p.mb-0(style="color:#000 !important") Resulta útil para profundizar en las causas y consecuencias de una problemática concreta. El tronco del árbol representa el problema central, las raíces simbolizan las causas subyacentes y las ramas los efectos o repercusiones. Una vez terminado el “árbol de problemas”, se construye el “árbol de soluciones”, donde las causas se transforman en acciones concretas y los efectos negativos en resultados positivos. Esta metodología promueve el pensamiento crítico y estratégico. 
             .col-lg-6.col-10.order-1.order-lg-2.mb-4
               figure
-                img(src='@/assets/curso/temas/tema1/img-59.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema1/img-59.png', alt='')
           .row
             .col-lg-6.order-2.order-lg-1
               h4(style="color:#000 !important") Matrices de priorización
               p.mb-0(style="color:#000 !important") Permiten a la comunidad valorar y clasificar sus problemas según criterios consensuados como la importancia, urgencia o viabilidad de solución. Los participantes votan o asignan puntajes a cada asunto, favoreciendo la toma de decisiones colectiva y legitimando las prioridades de acción. De este modo, los proyectos se enfocan en las necesidades más urgentes del grupo. 
             .col-lg-6.col-10.order-1.order-lg-2.mb-4
               figure
-                img(src='@/assets/curso/temas/tema1/img-60.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema1/img-60.png', alt='')
           .row
             .col-lg-6.order-2.order-lg-1
               h4(style="color:#000 !important") Grupos focales
               p.mb-0(style="color:#000 !important") Son espacios de diálogo guiado donde se reúne a un pequeño grupo de personas con características similares (por ejemplo, jóvenes, mujeres, líderes comunitarios) para profundizar sobre un tema específico. Un facilitador modera la discusión y crea un ambiente de confianza, permitiendo que los participantes compartan sus experiencias, percepciones y opiniones, lo que enriquece la información cualitativa obtenida.
             .col-lg-6.col-10.order-1.order-lg-2.mb-4
               figure
-                img(src='@/assets/curso/temas/tema1/img-61.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema1/img-61.png', alt='')
           .row
             .col-lg-6.order-2.order-lg-1
               h4(style="color:#000 !important") Historias de vida y los relatos comunitarios
               p.mb-0(style="color:#000 !important") Emplean técnicas narrativas que recogen experiencias individuales y la memoria colectiva de la comunidad. Documentar las trayectorias de vida o narrar la historia de algún acontecimiento relevante permite conocer la evolución de los problemas y las soluciones a lo largo del tiempo. Estas historias fortalecen la identidad, la resiliencia y sirven de aprendizaje para las nuevas generaciones. 
             .col-lg-6.col-10.order-1.order-lg-2.mb-4
               figure
-                img(src='@/assets/curso/temas/tema1/img-62.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema1/img-62.png', alt='')
           .row
             .col-lg-6.order-2.order-lg-1
               h4(style="color:#000 !important") El Diagrama de Venn
               p.mb-0(style="color:#000 !important") Es una herramienta ideal para analizar las relaciones entre actores sociales e instituciones presentes en el territorio. Los participantes dibujan círculos que representan grupos, organizaciones e instituciones; el tamaño y la superposición de los círculos indica la importancia y el nivel de interacción entre ellos. Así, se visualizan las redes de poder y colaboración, así como los aliados clave y posibles vacíos en la articulación social. 
             .col-lg-6.col-10.order-1.order-lg-2.mb-4
               figure
-                img(src='@/assets/curso/temas/tema1/img-63.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema1/img-63.png', alt='')
           .row
             .col-lg-6.order-2.order-lg-1
               h4(style="color:#000 !important") Caminatas de observación
               p.mb-0(style="color:#000 !important") Consisten en recorridos guiados por miembros de la comunidad a través de su espacio. Durante la caminata, junto con el facilitador, observan, documentan y dialogan sobre los recursos, problemas y oportunidades que se encuentran. Esta técnica brinda un conocimiento directo y fomenta la reflexión colectiva sobre los aspectos físicos y sociales del entorno. 
             .col-lg-6.col-10.order-1.order-lg-2.mb-4
               figure
-                img(src='@/assets/curso/temas/tema1/img-64.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema1/img-64.png', alt='')
           .row
             .col-lg-6.order-2.order-lg-1
               h4(style="color:#000 !important") Calendario estacional
               p.mb-0(style="color:#000 !important") Es una herramienta que ayuda al grupo a visualizar los cambios en actividades, eventos y problemas a lo largo del año. Se señala en el calendario cuándo ocurren las épocas de siembra y cosecha, las enfermedades más frecuentes, las fiestas tradicionales o los periodos de mayor escasez de alimentos. Esta información resulta esencial para planificar intervenciones ajustadas a las particularidades culturales y temporales de la comunidad. 
             .col-lg-6.col-10.order-1.order-lg-2.mb-4
               figure
-                img(src='@/assets/curso/temas/tema1/img-65.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema1/img-65.png', alt='')
           .row
             .col-lg-6.order-2.order-lg-1
               h4(style="color:#000 !important") Línea de tiempo histórica
               p.mb-0(style="color:#000 !important") Permite reconstruir cronológicamente los eventos más significativos de la comunidad. Se identifican hitos como la llegada de servicios públicos, desastres naturales o el inicio de proyectos colectivos. Este ejercicio no solo ayuda a comprender la evolución de los problemas, sino también a reconocer la resiliencia y la capacidad del grupo para superar desafíos a lo largo de los años.
             .col-lg-6.col-10.order-1.order-lg-2.mb-4
               figure
-                img(src='@/assets/curso/temas/tema1/img-66.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema1/img-66.png', alt='')
           .row
             .col-lg-6.order-2.order-lg-1
               h4(style="color:#000 !important") Lluvias o tormenta de ideas
               p.mb-0(style="color:#000 !important") Consiste en que los participantes sugieren propuestas y soluciones a partir de una problemática común de personas sentadas en círculo alrededor de una hoja grande, escribiendo o dibujando propuestas en papel, colocando notas adhesivas, pequeñas ilustraciones y gráficos que expresan sus aportes de forma colectiva y visual (Geilfus, 2002).
             .col-lg-6.col-10.order-1.order-lg-2.mb-4
               figure
-                img(src='@/assets/curso/temas/tema1/img-67.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema1/img-67.png', alt='')
           .row
             .col-lg-6.order-2.order-lg-1
               h4(style="color:#000 !important") Encuestas participativas
               p.mb-0(style="color:#000 !important") En ellas los participantes responden preguntas abiertas sobre su entorno y necesidades, permitiendo ajustar planes según el contexto local, por medio de una serie de formularios o cuestionarios abiertos con íconos de personas rellenando respuestas en grupo o de manera individual, representando cómo se recogen las opiniones en papel o digitalmente (Geilfus, 2002).
             .col-lg-6.col-10.order-1.order-lg-2.mb-4
               figure
-                img(src='@/assets/curso/temas/tema1/img-68.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema1/img-68.png', alt='')
 
     p.mb-4 Basado en lo descrito de las anteriores herramientas, a continuación, encontrará un video explicativo que aborda la importancia del diagnóstico participativo y presenta las principales herramientas para el análisis participativo. Además, se destaca el papel fundamental de la cosmogonía y las prácticas culturales en el trabajo de salud comunitaria:  
 
@@ -778,7 +779,10 @@
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/boCSv-WP7Vc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    p.mb-4 Conociendo ya las principales herramientas de diagnóstico participativo, es importante ahondar un poco y ejemplificar las siguientes:
+    .row.justify-content-center.mb-4
+      .col-lg-10(data-aos="fade-right")
+        .bloque-texto-c.color-primario.tarjeta.p-2
+          p.mb-0.text-center Conociendo ya las principales herramientas de diagnóstico participativo, es importante ahondar un poco y ejemplificar las siguientes:
 
     .row.mb-4.ms-0
       .col-auto.bg-c1(data-aos="fade-left")
@@ -825,12 +829,17 @@
     .titulo2.mb-4(data-aos="fade-left")
       h5.mb-0 Paso 1. Definición del propósito
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-5.col-10.mb-4.mb-lg-0(data-aos="zoom-in")
+    .row.justify-content-center.mb-4
+      .col-lg-5.col-10.mb-4.mb-lg-0.d-none.d-lg-block(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/temas/tema1/img-69.png', alt='Imagen decorativa')
-      .col-lg-7       
-        p El mapeo comunitario es una herramienta versátil y puede servir para muchos propósitos diferentes.
+          img(src='@/assets/curso/temas/tema1/img-69.png', alt='')
+      .col-lg-7
+        .row.mb-4
+          .col-auto.d-none.d-lg-block(data-aos="fade-left")
+            figure
+              img(src='@/assets/curso/temas/tema1/img-94.svg', alt='')
+          .col.mb-3
+            p.mb-0 El mapeo comunitario es una herramienta versátil y puede servir para muchos propósitos diferentes.
         p El primer paso para la realización del mapeo comunitario es la definición del propósito. Para ello, se deben contestar las siguientes preguntas: 
         ul.lista-ul--color
           li.d-flex.align-items-start
@@ -948,9 +957,9 @@
       .col-lg-12.col-12
         .cajon.cajon.C02.px-4.py-4.mb-4
           .row.justify-content-center
-            .col-lg-2.col-4.mb-lg-0.mb-4
+            .col-lg-2.col-4.mb-lg-0.mb-4.d-none.d-lg-block
               figure(data-aos="fade-down")
-                img(src='@/assets/curso/temas/tema1/img-72.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema1/img-72.svg', alt='')
             .col-lg-10.col-12
               ul.lista-ul--color
                 li.d-flex.align-items-start
@@ -996,35 +1005,38 @@
     p.mb-4 Para finalizar lo relacionado con el mapeo comunitario, es importante saber que la herramienta de mapeo comunitario debe permitir:
 
     .row.justify-content-center.mb-0
-      .col-lg-5.col-10.mb-4.mb-lg-0(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema1/img-73.png', alt='Imagen decorativa')
-      .col-lg-5       
-        ul.lista-ul--color
-          li.d-flex.align-items-start
-            <i class="fa-solid fa-circle-user bg-color-3"></i>
-            | Identificar los recursos naturales, y recursos de la comunidad.
-          li.d-flex.align-items-start
-            <i class="fa-solid fa-circle-user bg-color-3"></i>
-            | Identificar los problemas, riesgos, vulnerabilidades y amenazas. 
-          li.d-flex.align-items-start
-            <i class="fa-solid fa-circle-user bg-color-3"></i>
-            | Determinar la ubicación de la infraestructura existente. 
-          li.d-flex.align-items-start
-            <i class="fa-solid fa-circle-user bg-color-3"></i>
-            | Intercambiar información entre técnicos y comunitarios. 
-          li.d-flex.align-items-start
-            <i class="fa-solid fa-circle-user bg-color-3"></i>
-            | Verificar la información.  
-          li.d-flex.align-items-start
-            <i class="fa-solid fa-circle-user bg-color-3"></i>
-            | Identificar las necesidades.
-          li.d-flex.align-items-start
-            <i class="fa-solid fa-circle-user bg-color-3"></i>
-            | Identificar la existencia de lugares de intervenciones.
-          li.d-flex.align-items-start
-            <i class="fa-solid fa-circle-user bg-color-3"></i>
-            | Realizar el seguimiento de acciones realizadas.
+      .col-lg-10.col-12
+        .cajon.cajon.C03.px-4.py-4.mb-4
+          .row.justify-content-center
+            .col-lg-6.col-4.mb-lg-0.mb-4.d-none.d-lg-block
+              figure(data-aos="fade-down")
+                img(src='@/assets/curso/temas/tema1/img-73.png', alt='')
+            .col-lg-6.col-12
+              ul.lista-ul--color.mb-0
+                li.d-flex.align-items-start
+                  <i class="fa-solid fa-circle-user bg-color-3"></i>
+                  | Identificar los recursos naturales, y recursos de la comunidad.
+                li.d-flex.align-items-start
+                  <i class="fa-solid fa-circle-user bg-color-3"></i>
+                  | Identificar los problemas, riesgos, vulnerabilidades y amenazas. 
+                li.d-flex.align-items-start
+                  <i class="fa-solid fa-circle-user bg-color-3"></i>
+                  | Determinar la ubicación de la infraestructura existente. 
+                li.d-flex.align-items-start
+                  <i class="fa-solid fa-circle-user bg-color-3"></i>
+                  | Intercambiar información entre técnicos y comunitarios. 
+                li.d-flex.align-items-start
+                  <i class="fa-solid fa-circle-user bg-color-3"></i>
+                  | Verificar la información.  
+                li.d-flex.align-items-start
+                  <i class="fa-solid fa-circle-user bg-color-3"></i>
+                  | Identificar las necesidades.
+                li.d-flex.align-items-start
+                  <i class="fa-solid fa-circle-user bg-color-3"></i>
+                  | Identificar la existencia de lugares de intervenciones.
+                li.d-flex.align-items-start
+                  <i class="fa-solid fa-circle-user bg-color-3"></i>
+                  | Realizar el seguimiento de acciones realizadas.
 
     p.mb-4 Para finalizar esta temática y tener mayor claridad al respecto, en el siguiente video se presenta el mapeo comunitario como una herramienta participativa que permite a las comunidades representar gráficamente su territorio, identificando desigualdades, riesgos, recursos y dinámicas espaciales. Asimismo, se explica el proceso para elaborar el mapa comunitario, sus características y principales usos:  
     
@@ -1138,18 +1150,18 @@
 
     p.mb-4 El análisis participativo es un método que pone en práctica los métodos y las herramientas mencionadas previamente. En él se involucra a las comunidades en la investigación y comprensión de sus propios desafíos, necesidades y recursos. A diferencia de un análisis convencional, donde un experto externo recopila y evalúa los datos, en este enfoque la comunidad es la principal investigadora. Los miembros de la comunidad, junto con facilitadores externos, analizan su propia situación, identifican las causas de sus problemas y definen las posibles soluciones desde su perspectiva (Gomà, 2007).
 
-    .row.no-gutters.align-items-center.mb-4.style___box_1.m-0(data-aos="zoom-in")
-      .col-xl-auto.px-0
+    .row.no-gutters.align-items-center.mb-4.style___box_1.style___box_1--img-left.m-0(data-aos="zoom-in")
+      .col-xl-auto.px-0.col-img-box-left
         figure.d-none.d-xl-block
           img.img-hero(src='@/assets/curso/temas/tema1/img-75.png', alt='').m-auto
-      .col-xl.px-0
+      .col-xl.px-0.col-text-box-right
         .d-flex.align-items-start
-          img.icon-inline.d-none.d-lg-block.me-3(src='@/assets/curso/temas/tema1/img-76.svg' alt="Imagen decorativa")
+          img.icon-inline.d-none.d-lg-block.me-3(src='@/assets/curso/temas/tema1/img-76.svg' alt="")
         p.mb-0 Este proceso busca empoderar a las personas al validar sus conocimientos y experiencias. Al participar activamente, la comunidad no solo genera información más rica y contextualizada, sino que también fortalece su capacidad para la toma de decisiones y la acción colectiva. El análisis participativo es, en esencia, un proceso de aprendizaje mutuo y empoderamiento que promueve la autogestión y la sostenibilidad de los proyectos, ya que las soluciones propuestas son diseñadas y apropiadas por quienes se verán directamente beneficiados por ellas. 
 
     p.mb-4 El proceso se lleva a cabo por medio de las siguientes fases en dicho orden: 
 
-    .bg-c2.px-md-5.px-4.mb-0
+    .tarjeta--BG02.px-md-5.px-4.mb-4
       .tarjeta.BGIMG01.mb-4
         .p-4.p-lg-5
           SlyderA(tipo="b")
@@ -1190,7 +1202,7 @@
                   img(src='@/assets/curso/temas/tema1/img-81.png' style="width: 500px" ,alt='').m-auto
 
       .row.justify-content-center.mb-4(data-aos="flip-up")
-        .col-lg-12.col-12
+        .col-lg-10.col-12
           p El análisis participativo es una herramienta fundamental en el proceso de la Vigilancia Basada en Comunidad. Este proceso es realizado por los miembros de la comunidad, agentes comunitarios y personal de salud e instituciones que son parte de un territorio, con el fin de cooperar con la identificación, análisis y movilización social, frente a las situaciones de interés en salud pública que se presentan en estos (Geilfus, 2002). Para esto, la comunidad se vale de las Redes de Vigilancia Epidemiológica Basada en Comunidad (REVCOM), siendo esta la encargada de emitir las señales al Sistema de Alerta Temprana (SAT), para iniciar la gestión del riesgo colectivo e individual de estas. Con la participación activa de la comunidad se favorece la protección de la salud, así como, influir en la toma de decisiones y ejercer control social de las acciones que se desarrollan en los territorios. Estas acciones pueden realizarse en espacios como COVECOM, comités locales, mesas de trabajo, en los que se comparte la presentación de las situaciones de salud, las actividades realizadas con la comunidad, así como la respuesta institucional a estas. 
 
 
