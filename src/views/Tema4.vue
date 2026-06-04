@@ -459,36 +459,12 @@
           p.mb-0 Con base en lo expuesto la vigilancia en salud pública es esencial para anticipar y gestionar riesgos, garantizando la protección de la salud desde el nivel local hasta el nacional (Instituto Nacional de Salud, 2023).
 
         p Para finalizar esta temática de vigilancia en salud pública y reforzar los conceptos relacionados con la estrategia de Vigilancia Basada en Comunidad (VBC), se plantea el siguiente video. En él se explica la importancia de esta estrategia y cómo se articula con el Sistema Nacional de Vigilancia en Salud Pública, contribuyendo al fortalecimiento de la detección y la respuesta temprana frente a situaciones de interés en salud en los territorios: 
-
+        
     .row.justify-content-center.align-items-center           
       .col-lg-12
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/Wmf1wvogk0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </template>
 

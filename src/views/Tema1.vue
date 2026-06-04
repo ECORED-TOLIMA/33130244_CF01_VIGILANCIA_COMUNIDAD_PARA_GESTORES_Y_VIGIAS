@@ -614,9 +614,9 @@
             figure
               img(src="@/assets/curso/temas/tema1/img-55.png", alt="")
           .crd_hover_txt--body
-            h5.t1.mb-3 Gobierno Federal, 2024
-            h5.t2.mb-2 Gobierno Federal, 2024
-            p Aplicar dinámicas grupales, entrevista, mapas y técnicas visuales para identificar problemas y oportunidades.
+            h5.t1.mb-3 Diagnóstico participativo
+            h5.t2.mb-2 Diagnóstico participativo
+            p Aplicar dinámicas grupales, entrevista, mapas y técnicas visuales para identificar problemas y oportunidades (Gobierno Federal, 2024).
       .col-xl-4.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")(@mouseover="mostrarIndicador = true")
           .indicador--hover(v-if="mostrarIndicador")
@@ -624,9 +624,9 @@
             figure
               img(src="@/assets/curso/temas/tema1/img-56.png", alt="")
           .crd_hover_txt--body
-            h5.t1.mb-3 Ministerio del Interior - Ecuador, 2024
-            h5.t2.mb-2 Ministerio del Interior - Ecuador, 2024
-            p Sistematizar resultados y validar el consenso grupal.
+            h5.t1.mb-3 Sistematización consensuada
+            h5.t2.mb-2 Sistematización consensuada
+            p Sistematizar resultados y validar el consenso grupal (Ministerio del Interior - Ecuador, 2024).
       .col-xl-4.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")(@mouseover="mostrarIndicador = true")
           .indicador--hover(v-if="mostrarIndicador")
@@ -634,9 +634,9 @@
             figure
               img(src="@/assets/curso/temas/tema1/img-57.png", alt="")
           .crd_hover_txt--body
-            h5.t1.mb-3 Ministerio del Interior - Ecuador, 2024
-            h5.t2.mb-2 Ministerio del Interior - Ecuador, 2024
-            p Su relevancia está en que promueve decisiones informadas, respeto por la diversidad de voces y apropiación de las acciones colectivas.
+            h5.t1.mb-3 Participación informada
+            h5.t2.mb-2 Participación informada
+            p Promover decisiones informadas, respeto por la diversidad de voces y apropiación de las acciones colectivas (Ministerio del Interior - Ecuador, 2024).
 
     p.mb-4 Dentro de las herramientas participativas están: 
 
@@ -770,7 +770,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img-68.png', alt='')
 
-    p.mb-4 Basado en lo descrito de las anteriores herramientas, a continuación, encontrará un video explicativo que aborda la importancia del diagnóstico participativo y presenta las principales herramientas para el análisis participativo. Además, se destaca el papel fundamental de la cosmogonía y las prácticas culturales en el trabajo de salud comunitaria:  
+    p.mb-4 Basado en lo descrito de las anteriores herramientas, a continuación, encontrará un video explicativo que aborda la importancia del diagnóstico participativo y presenta las principales herramientas para el análisis participativo. Además, se destaca el papel fundamental de la cosmogonía y las prácticas culturales en el trabajo de salud comunitaria:
 
     .row.justify-content-center.align-items-center.mb-4           
       .col-lg-12
@@ -1001,8 +1001,8 @@
                 span Descargar
                 i.fas.fa-file-download
 
-    p.mb-4 Para finalizar lo relacionado con el mapeo comunitario, es importante saber que la herramienta de mapeo comunitario debe permitir:
-
+    p.mb-4 Para finalizar lo relacionado con el mapeo comunitario, es importante saber que la herramienta de mapeo comunitario debe permitir: 
+    
     .row.justify-content-center.mb-0
       .col-lg-10.col-12
         .cajon.cajon.C03.px-4.py-4.mb-4
@@ -1037,7 +1037,7 @@
                   <i class="fa-solid fa-circle-user bg-color-3"></i>
                   | Realizar el seguimiento de acciones realizadas.
 
-    p.mb-4 Para finalizar esta temática y tener mayor claridad al respecto, en el siguiente video se presenta el mapeo comunitario como una herramienta participativa que permite a las comunidades representar gráficamente su territorio, identificando desigualdades, riesgos, recursos y dinámicas espaciales. Asimismo, se explica el proceso para elaborar el mapa comunitario, sus características y principales usos:  
+    p.mb-4 Para finalizar esta temática y tener mayor claridad al respecto, en el siguiente video se presenta el mapeo comunitario como una herramienta participativa que permite a las comunidades representar gráficamente su territorio, identificando desigualdades, riesgos, recursos y dinámicas espaciales. Asimismo, se explica el proceso para elaborar el mapa comunitario, sus características y principales usos: 
     
     .row.justify-content-center.align-items-center.mb-4           
       .col-lg-12
