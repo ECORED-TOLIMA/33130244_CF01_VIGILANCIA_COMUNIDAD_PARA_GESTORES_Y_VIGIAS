@@ -776,7 +776,7 @@
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/boCSv-WP7Vc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/e20jEKAPlao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.justify-content-center.mb-4
       .col-lg-10(data-aos="fade-right")
